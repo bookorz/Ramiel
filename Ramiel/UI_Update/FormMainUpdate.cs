@@ -467,23 +467,8 @@ namespace Ramiel.UI_Update
                 {
                     W.SelectionStart = W.TextLength;
                     W.SelectionLength = 0;
-                    if (msg.ToUpper().Contains("Finished"))
-                    {
-                        W.SelectionColor = Color.Green;
-                    }
-                    else if (msg.ToUpper().Contains("RECEIVE"))
-                    {
-                        W.SelectionColor = Color.Blue;
-                    }
-                    else if (msg.ToUpper().Contains("CMD") || msg.ToUpper().Contains("GET") || msg.ToUpper().Contains("SET"))
-                    {
-                        W.SelectionColor = Color.Coral;
-                    }
-                    else if (msg.ToUpper().Contains("MCR"))
-                    {
-                        W.SelectionColor = Color.Coral;
-                    }
-                    else if (msg.ToUpper().Contains("Alarm_Happen"))
+                    
+                    if (msg.Contains("Alarm_Happen")|| msg.Contains("error"))
                     {
                         W.SelectionColor = Color.Red;
                     }
@@ -561,7 +546,33 @@ namespace Ramiel.UI_Update
                 }
             }
         }
+        public static void Update_IO_Table(string key, string val)
+        {
+            Form form = Application.OpenForms["FormMain"];
+            Control signal = form.Controls.Find(key, true).FirstOrDefault() as Label;
+            if (form == null)
+                return;
+            
+            if (signal == null)
+                return;
 
+            if (signal.InvokeRequired)
+            {
+                ClearMsg ph = new ClearMsg(Update_IO_Table);
+                signal.BeginInvoke(ph, key, val);
+            }
+            else
+            {
+                if (val.Equals("0"))
+                {
+                    signal.ForeColor = Color.GreenYellow;
+                }
+                else
+                {
+                    signal.ForeColor = Color.Black;
+                }
+            }
+        }
         internal static void updateFoupPresenceByFoups()
         {
             string[] positions = new string[] { "tbPresRobot","tbPresELPT1","tbPresELPT2","tbPresILPT1","tbPresILPT2",

@@ -3,6 +3,7 @@ using log4net.Config;
 using Ramiel.UI_Update;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
@@ -64,6 +65,8 @@ namespace Ramiel
             CstRobot_Destination_cbx.DataSource = new BindingSource(Position, null);
             CstRobot_Destination_cbx.DisplayMember = "Key";
             CstRobot_Destination_cbx.ValueMember = "Value";
+    
+         
             ThreadPool.QueueUserWorkItem(new WaitCallback(CCLINKAutoRefresh), NodeManagement.Get("CSTROBOT"));
         }
         public void On_Alarm_Happen(AlarmManagement.Alarm Alarm)
@@ -108,7 +111,26 @@ namespace Ramiel
 
         public void On_Event_Trigger(Node Node, CommandReturnMessage Msg)
         {
-
+            switch (Node.Type.ToUpper())
+            {
+                case "LOADPORT":
+                    switch (Msg.Command)
+                    {
+                        case "STS__":
+                            if (Msg.Value.Equals("R-Present,1"))
+                            {
+                                Node.Foup_Presence = true;
+                                Node.Foup_Placement = true;
+                            }
+                            else if (Msg.Value.Equals("R-Present,0"))
+                            {
+                                Node.Foup_Presence = false;
+                                Node.Foup_Placement = false;
+                            }
+                            break;
+                    }
+                    break;
+            }
         }
 
         public void On_Job_Location_Changed(Job Job)
@@ -171,22 +193,22 @@ namespace Ramiel
 
         private void SMIF1_Stage_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Stage_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Home_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Home_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_SetSpeed_btn_Click(object sender, EventArgs e)
@@ -194,7 +216,7 @@ namespace Ramiel
             int speed = 0;
             if (int.TryParse(SMIF1_Speed_cbx.Text, out speed))
             {
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", speed == 100 ? "00" : speed == 0 ? "10" : speed.ToString() } });
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", speed == 100 ? "00" : speed == 0 ? "10" : speed.ToString() } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -207,7 +229,7 @@ namespace Ramiel
             int speed = 0;
             if (int.TryParse(SMIF2_Speed_cbx.Text, out speed))
             {
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", speed == 100 ? "00" : speed == 0 ? "10" : speed.ToString() } });
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", speed == 100 ? "00" : speed == 0 ? "10" : speed.ToString() } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -220,7 +242,7 @@ namespace Ramiel
             int slot = 0;
             if (int.TryParse(SMIF1_Slot_cbx.Text, out slot))
             {
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SLOT, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", slot.ToString() } });
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SLOT, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", slot.ToString() } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -233,7 +255,7 @@ namespace Ramiel
             int slot = 0;
             if (int.TryParse(SMIF2_Slot_cbx.Text, out slot))
             {
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SLOT, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", slot.ToString() } });
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SLOT, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", slot.ToString() } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -243,71 +265,71 @@ namespace Ramiel
 
         private void SMIF1_TwkUp_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
         private void SMIF2_TwkUp_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_TwkDn_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKDN, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKDN, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_TwkDn_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKDN, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKDN, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_ReMap_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RE_MAPPING, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RE_MAPPING, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_ReMap_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RE_MAPPING, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RE_MAPPING, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Clamp_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_CLAMP, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_CLAMP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Clamp_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_CLAMP, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_CLAMP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_UnClamp_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNCLAMP, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNCLAMP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_UnClamp_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNCLAMP, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNCLAMP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Org_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_ORGSH, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_ORGSH, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Org_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_ORGSH, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_ORGSH, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Reset_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RESET, new Dictionary<string, string>() { { "@Target", "SMIF1" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RESET, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Reset_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RESET, new Dictionary<string, string>() { { "@Target", "SMIF2" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RESET, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void CstRobot_Switch_btn_Click(object sender, EventArgs e)
@@ -321,7 +343,7 @@ namespace Ramiel
         {
             if (!CstRobot_Source_cbx.SelectedValue.ToString().Equals(""))
             {
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GETWAIT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Source_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } });
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GETWAIT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Source_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -333,7 +355,7 @@ namespace Ramiel
         {
             if (!CstRobot_Source_cbx.SelectedValue.ToString().Equals(""))
             {
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Source_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } });
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Source_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -342,16 +364,16 @@ namespace Ramiel
         }
         private void CstRobot_Reset_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_RESET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_RESET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" } }, Guid.NewGuid().ToString());
         }
         private void CstRobot_Org_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_ORGSH, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_ORGSH, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
         }
 
         private void CstRobot_Home_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_SHOME, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } });
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_SHOME, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
         }
 
 
@@ -360,7 +382,7 @@ namespace Ramiel
         {
             if (!CstRobot_Destination_cbx.SelectedValue.ToString().Equals(""))
             {
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUTWAIT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Destination_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } });
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUTWAIT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Destination_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -372,7 +394,7 @@ namespace Ramiel
         {
             if (!CstRobot_Destination_cbx.SelectedValue.ToString().Equals(""))
             {
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Destination_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } });
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Destination_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -402,6 +424,7 @@ namespace Ramiel
             //SpinWait.SpinUntil(() => Target.GetController().GetStatus().Equals("Connected"), 9999999);
             McProtocolTcp PLC = new McProtocolTcp("192.168.3.39", 2000);
             PLC.Open();
+           
             byte[] result = new byte[512];
             int[] WResult = new int[32];
 
@@ -473,7 +496,7 @@ namespace Ramiel
 
                             string error = new String(errAry.Reverse().ToArray());
                             error = Convert.ToInt32(error, 2).ToString("X");
-                            this.On_Alarm_Happen(new AlarmManagement.Alarm(Target, error));
+                            this.On_Alarm_Happen( AlarmManagement.NewAlarm(Target, error,""));
                         }
                         Target.SetIO("INPUT_OLD", Target.GetIO("INPUT"));
 
@@ -583,6 +606,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_1", "Presence");
                             }
+                            if(Pos== Presence.Shelf_1_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_1_1", Target.GetIO("PRESENCE")[Presence.Shelf_1_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_1_2", Target.GetIO("PRESENCE")[Presence.Shelf_1_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_2_1:
                         case Presence.Shelf_2_2:
@@ -597,6 +628,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_2", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_2_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_2_1", Target.GetIO("PRESENCE")[Presence.Shelf_2_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_2_2", Target.GetIO("PRESENCE")[Presence.Shelf_2_2].ToString());
                             }
                             break;
                         case Presence.Shelf_3_1:
@@ -613,6 +652,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_3", "Presence");
                             }
+                            if (Pos == Presence.Shelf_3_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_3_1", Target.GetIO("PRESENCE")[Presence.Shelf_3_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_3_2", Target.GetIO("PRESENCE")[Presence.Shelf_3_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_4_1:
                         case Presence.Shelf_4_2:
@@ -627,6 +674,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_4", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_4_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_4_1", Target.GetIO("PRESENCE")[Presence.Shelf_4_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_4_2", Target.GetIO("PRESENCE")[Presence.Shelf_4_2].ToString());
                             }
                             break;
                         case Presence.Shelf_5_1:
@@ -643,6 +698,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_5", "Presence");
                             }
+                            if (Pos == Presence.Shelf_5_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_5_1", Target.GetIO("PRESENCE")[Presence.Shelf_5_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_5_2", Target.GetIO("PRESENCE")[Presence.Shelf_5_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_6_1:
                         case Presence.Shelf_6_2:
@@ -657,6 +720,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_6", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_6_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_6_1", Target.GetIO("PRESENCE")[Presence.Shelf_6_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_6_2", Target.GetIO("PRESENCE")[Presence.Shelf_6_2].ToString());
                             }
                             break;
                         case Presence.Shelf_7_1:
@@ -673,6 +744,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_7", "Presence");
                             }
+                            if (Pos == Presence.Shelf_7_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_7_1", Target.GetIO("PRESENCE")[Presence.Shelf_7_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_7_2", Target.GetIO("PRESENCE")[Presence.Shelf_7_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_8_1:
                         case Presence.Shelf_8_2:
@@ -687,6 +766,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_8", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_8_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_8_1", Target.GetIO("PRESENCE")[Presence.Shelf_8_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_8_2", Target.GetIO("PRESENCE")[Presence.Shelf_8_2].ToString());
                             }
                             break;
                         case Presence.Shelf_9_1:
@@ -703,6 +790,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_9", "Presence");
                             }
+                            if (Pos == Presence.Shelf_9_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_9_1", Target.GetIO("PRESENCE")[Presence.Shelf_9_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_9_2", Target.GetIO("PRESENCE")[Presence.Shelf_9_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_10_1:
                         case Presence.Shelf_10_2:
@@ -717,6 +812,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_10", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_10_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_10_1", Target.GetIO("PRESENCE")[Presence.Shelf_10_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_10_2", Target.GetIO("PRESENCE")[Presence.Shelf_10_2].ToString());
                             }
                             break;
                         case Presence.Shelf_11_1:
@@ -733,6 +836,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_11", "Presence");
                             }
+                            if (Pos == Presence.Shelf_11_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_11_1", Target.GetIO("PRESENCE")[Presence.Shelf_11_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_11_2", Target.GetIO("PRESENCE")[Presence.Shelf_11_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_12_1:
                         case Presence.Shelf_12_2:
@@ -747,6 +858,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_12", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_12_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_12_1", Target.GetIO("PRESENCE")[Presence.Shelf_12_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_12_2", Target.GetIO("PRESENCE")[Presence.Shelf_12_2].ToString());
                             }
                             break;
                         case Presence.Shelf_13_1:
@@ -763,6 +882,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_13", "Presence");
                             }
+                            if (Pos == Presence.Shelf_13_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_13_1", Target.GetIO("PRESENCE")[Presence.Shelf_13_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_13_2", Target.GetIO("PRESENCE")[Presence.Shelf_13_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_14_1:
                         case Presence.Shelf_14_2:
@@ -777,6 +904,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_14", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_14_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_14_1", Target.GetIO("PRESENCE")[Presence.Shelf_14_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_14_2", Target.GetIO("PRESENCE")[Presence.Shelf_14_2].ToString());
                             }
                             break;
 
@@ -794,6 +929,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_15", "Presence");
                             }
+                            if (Pos == Presence.Shelf_15_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_15_1", Target.GetIO("PRESENCE")[Presence.Shelf_15_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_15_2", Target.GetIO("PRESENCE")[Presence.Shelf_15_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_16_1:
                         case Presence.Shelf_16_2:
@@ -808,6 +951,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_16", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_16_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_16_1", Target.GetIO("PRESENCE")[Presence.Shelf_16_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_16_2", Target.GetIO("PRESENCE")[Presence.Shelf_16_2].ToString());
                             }
                             break;
                         case Presence.Shelf_17_1:
@@ -824,6 +975,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_17", "Presence");
                             }
+                            if (Pos == Presence.Shelf_17_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_17_1", Target.GetIO("PRESENCE")[Presence.Shelf_17_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_17_2", Target.GetIO("PRESENCE")[Presence.Shelf_17_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_18_1:
                         case Presence.Shelf_18_2:
@@ -838,6 +997,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_18", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_18_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_18_1", Target.GetIO("PRESENCE")[Presence.Shelf_18_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_18_2", Target.GetIO("PRESENCE")[Presence.Shelf_18_2].ToString());
                             }
                             break;
                         case Presence.Shelf_19_1:
@@ -854,6 +1021,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_19", "Presence");
                             }
+                            if (Pos == Presence.Shelf_19_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_19_1", Target.GetIO("PRESENCE")[Presence.Shelf_19_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_19_2", Target.GetIO("PRESENCE")[Presence.Shelf_19_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_20_1:
                         case Presence.Shelf_20_2:
@@ -869,6 +1044,14 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_20", "Presence");
                             }
+                            if (Pos == Presence.Shelf_20_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_20_1", Target.GetIO("PRESENCE")[Presence.Shelf_20_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_20_2", Target.GetIO("PRESENCE")[Presence.Shelf_20_2].ToString());
+                            }
                             break;
                         case Presence.Shelf_21_1:
                         case Presence.Shelf_21_2:
@@ -883,6 +1066,14 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO("Shelf_21", "Presence");
+                            }
+                            if (Pos == Presence.Shelf_21_1)
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_21_1", Target.GetIO("PRESENCE")[Presence.Shelf_21_1].ToString());
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO_Table("Shelf_21_2", Target.GetIO("PRESENCE")[Presence.Shelf_21_2].ToString());
                             }
                             break;
                         case Presence.CstRobot_1:
@@ -916,56 +1107,144 @@ namespace Ramiel
             ThreadPool.QueueUserWorkItem(new WaitCallback(AutoRun));
         }
         string speed = "";
+        string CurrentSmif = "23";
         private void AutoRun(object input)
         {
-
+            CurrentSmif = "23";
             IsRun = true;
             while (IsRun)
             {
-                if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }).Promise())
-                {
-                    IsRun = false;
-                    return;
-                }
+                #region test1
 
-                if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", "22" }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
-                {
-                    IsRun = false;
-                    return;
-                }
 
-                if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", "1" }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
-                {
-                    IsRun = false;
-                    return;
-                }
+                //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }).Promise())
+                //{
+                //    IsRun = false;
+                //    return;
+                //}
+
+                //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", "22" }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                //{
+                //    IsRun = false;
+                //    return;
+                //}
+
+                //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", "1" }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                //{
+                //    IsRun = false;
+                //    return;
+                //}
+                //for (int i = 0; i < 20; i++)
+                //{
+                //    if (i == 8)
+                //    {
+                //        continue;
+                //    }
+                //    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + (i == 9 ? 8 : i)).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                //    {
+                //        IsRun = false;
+                //        return;
+                //    }
+
+                //    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (2 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                //    {
+                //        IsRun = false;
+                //        return;
+                //    }
+
+
+
+                //}
+                //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", "21" }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                //{
+                //    IsRun = false;
+                //    return;
+                //}
+
+                //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", "1" }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                //{
+                //    IsRun = false;
+                //    return;
+                //}
+                //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }).Promise())
+                //{
+                //    IsRun = false;
+                //    return;
+                //}
+                #endregion
+
+                #region test2
+
+
+
+                Stopwatch sw = new Stopwatch();
+
+
+                //耗時巨大的程式碼  
+
+                
+
                 for (int i = 0; i < 21; i++)
+                //for (int i = 0; i < 2; i++)
                 {
-                    if (i == 8)
+                    CurrentSmif = CurrentSmif.Equals("23") ? "22" : "23";
+                    if (CurrentSmif.Equals("22") && Skip[22])
                     {
-                        continue;
+                        CurrentSmif = "23";
                     }
-                    if (!IsRun||!TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + (i==9?8:i)).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                    if (CurrentSmif.Equals("23") && Skip[23])
+                    {
+                        CurrentSmif = "22";
+                    }
+
+                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22")?"SMIF1":"SMIF2" } }).Promise())
+                    {
+                        IsRun = false;
+                        return;
+                    }
+                    sw.Reset();
+                    sw.Start();
+
+                    //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", ((i % 2 == 0) ? "22" : "23") }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CurrentSmif }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+
+                    {
+                        IsRun = false;
+                        return;
+                    }
+                    if (!Skip[i + 1])
+                    {
+                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                        {
+                            IsRun = false;
+                            return;
+                        }
+
+                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                        {
+                            IsRun = false;
+                            return;
+                        }
+                    }
+                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CurrentSmif }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
                     {
                         IsRun = false;
                         return;
                     }
 
-                    if (!IsRun||!TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (2 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                    sw.Stop();
+                    TimeSpan ts2 = sw.Elapsed;
+                    UI_Update.FormMainUpdate.LogUpdate((CurrentSmif) + " -> " + "Shelf_" + (1 + i).ToString() + " -> " + CurrentSmif + " Transfer time:" + ts2.TotalSeconds.ToString());
+
+                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22") ? "SMIF1" : "SMIF2" } }).Promise())
                     {
                         IsRun = false;
                         return;
                     }
-
-                    
-
                 }
 
-                if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }).Promise())
-                {
-                    IsRun = false;
-                    return;
-                }
+
+                #endregion
             }
         }
 
@@ -974,75 +1253,7 @@ namespace Ramiel
             IsRun = false;
         }
 
-        class Input
-        {
-            public const int CST_In_Press = 2;
-            public const int CST_Out_Press = 3;
-            public const int Tx_Pause_Front_Press = 4;
-
-        }
-        class Output
-        {
-            public const int SignalTower_Red = 128;
-            public const int SignalTower_Yellow = 129;
-            public const int SignalTower_Green = 130;
-            public const int SignalTower_Blue = 131;
-            public const int SignalTower_Buzz1 = 132;
-            public const int SignalTower_Buzz2 = 133;
-            public const int Pod1_Lock = 138;
-            public const int Pod2_Lock = 139;
-            public const int CST_In = 140;
-            public const int CST_Out = 141;
-            public const int Tx_Pause_Front = 142;
-            public const int Tx_Pause_Rear = 143;
-        }
-        class Presence
-        {
-            public const int Shelf_1_1 = 0;
-            public const int Shelf_1_2 = 1;
-            public const int Shelf_2_1 = 2;
-            public const int Shelf_2_2 = 3;
-            public const int Shelf_3_1 = 4;
-            public const int Shelf_3_2 = 5;
-            public const int Shelf_4_1 = 6;
-            public const int Shelf_4_2 = 7;
-            public const int Shelf_5_1 = 8;
-            public const int Shelf_5_2 = 9;
-            public const int Shelf_6_1 = 10;
-            public const int Shelf_6_2 = 11;
-            public const int Shelf_7_1 = 12;
-            public const int Shelf_7_2 = 13;
-            public const int Shelf_8_1 = 14;
-            public const int Shelf_8_2 = 15;
-            public const int Shelf_9_1 = 16;
-            public const int Shelf_9_2 = 17;
-            public const int Shelf_10_1 = 18;
-            public const int Shelf_10_2 = 19;
-            public const int Shelf_11_1 = 20;
-            public const int Shelf_11_2 = 21;
-            public const int Shelf_12_1 = 22;
-            public const int Shelf_12_2 = 23;
-            public const int Shelf_13_1 = 32;
-            public const int Shelf_13_2 = 33;
-            public const int Shelf_14_1 = 34;
-            public const int Shelf_14_2 = 35;
-            public const int Shelf_15_1 = 36;
-            public const int Shelf_15_2 = 37;
-            public const int Shelf_16_1 = 38;
-            public const int Shelf_16_2 = 39;
-            public const int Shelf_17_1 = 40;
-            public const int Shelf_17_2 = 41;
-            public const int Shelf_18_1 = 24;
-            public const int Shelf_18_2 = 25;
-            public const int Shelf_19_1 = 26;
-            public const int Shelf_19_2 = 27;
-            public const int Shelf_20_1 = 28;
-            public const int Shelf_20_2 = 29;
-            public const int Shelf_21_1 = 30;
-            public const int Shelf_21_2 = 31;
-            public const int CstRobot_1 = 64;
-            public const int CstRobot_2 = 65;
-        }
+        
 
         private void SignalTower_Red_Click(object sender, EventArgs e)
         {
@@ -1121,8 +1332,154 @@ namespace Ramiel
 
         }
 
+        private void gbCmdArea_Enter(object sender, EventArgs e)
+        {
 
+        }
+        bool[] Skip = new bool[25];
+        private void Shelf_MouseClick(object sender, MouseEventArgs e)
+        {
+            int ShelfNo = Convert.ToInt32(((TextBox)sender).Text.Replace("SHELF_",""));
 
+            Skip[ShelfNo] = !Skip[ShelfNo];
+            if (Skip[ShelfNo])
+            {
+                ((TextBox)sender).BackColor = System.Drawing.Color.Black;
+            }
+            else
+            {
+                ((TextBox)sender).BackColor = System.Drawing.Color.White;
+            }
 
+        }
+
+        private void Smif_1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Skip[22] = !Skip[22];
+            if (Skip[22])
+            {
+                ((TextBox)sender).BackColor = System.Drawing.Color.Black;
+            }
+            else
+            {
+                ((TextBox)sender).BackColor = System.Drawing.Color.White;
+            }
+        }
+
+        private void Smif_2_MouseClick(object sender, MouseEventArgs e)
+        {
+            Skip[23] = !Skip[23];
+            if (Skip[23])
+            {
+                ((TextBox)sender).BackColor = System.Drawing.Color.Black;
+            }
+            else
+            {
+                ((TextBox)sender).BackColor = System.Drawing.Color.White;
+            }
+        }
+
+        private void tabMode_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabMode.SelectedIndex == 1)
+            {
+               
+                NodeManagement.Get("CSTROBOT") .SetIO("INPUT_OLD", new byte[512]);
+            }
+        }
+
+        private void SMIF1_Lift_btn_Click(object sender, EventArgs e)
+        {
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
+        }
+
+        private void SMIF1_UnLift_btn_Click(object sender, EventArgs e)
+        {
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNLIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
+        }
+
+        private void SMIF2_Lift_btn_Click(object sender, EventArgs e)
+        {
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
+        }
+
+        private void UnLift_Click(object sender, EventArgs e)
+        {
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNLIFT, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
+        }
+    }
+    public class Input
+    {
+        private const int StationNo = 5;
+        private const int Offset = (StationNo - 1) * 32;
+        public const int CST_In_Press = 2 + Offset;
+        public const int CST_Out_Press = 3 + Offset;
+        public const int Tx_Pause_Front_Press = 4 + Offset;
+
+    }
+    class Output
+    {
+        private const int StationNo = 7;
+        private const int Offset =  (StationNo - 1) * 32;
+        public const int SignalTower_Red = 0+ Offset;
+        public const int SignalTower_Yellow = 1 + Offset;
+        public const int SignalTower_Green = 2 + Offset;
+        public const int SignalTower_Blue = 3 + Offset;
+        public const int SignalTower_Buzz1 = 4 + Offset;
+        public const int SignalTower_Buzz2 = 5 + Offset;
+        public const int Pod1_Lock = 10 + Offset;
+        public const int Pod2_Lock = 11 + Offset;
+        public const int CST_In = 12 + Offset;
+        public const int CST_Out = 13 + Offset;
+        public const int Tx_Pause_Front = 14 + Offset;
+        public const int Tx_Pause_Rear = 15 + Offset;
+    }
+    class Presence
+    {
+        private const int Offset = 0;
+        public const int Shelf_1_1 = 0+Offset;
+        public const int Shelf_1_2 = 1 + Offset;
+        public const int Shelf_2_1 = 2 + Offset;
+        public const int Shelf_2_2 = 3 + Offset;
+        public const int Shelf_3_1 = 4 + Offset;
+        public const int Shelf_3_2 = 5 + Offset;
+        public const int Shelf_4_1 = 6 + Offset;
+        public const int Shelf_4_2 = 7 + Offset;
+        public const int Shelf_5_1 = 8 + Offset;
+        public const int Shelf_5_2 = 9 + Offset;
+        public const int Shelf_6_1 = 10 + Offset;
+        public const int Shelf_6_2 = 11 + Offset;
+        public const int Shelf_7_1 = 12 + Offset;
+        public const int Shelf_7_2 = 13 + Offset;
+        public const int Shelf_8_1 = 14 + Offset;
+        public const int Shelf_8_2 = 15 + Offset;
+        public const int Shelf_9_1 = 16 + Offset;
+        public const int Shelf_9_2 = 17 + Offset;
+        public const int Shelf_10_1 = 18 + Offset;
+        public const int Shelf_10_2 = 19 + Offset;
+        public const int Shelf_11_1 = 20 + Offset;
+        public const int Shelf_11_2 = 21 + Offset;
+        public const int Shelf_12_1 = 22 + Offset;
+        public const int Shelf_12_2 = 23 + Offset;
+        public const int Shelf_13_1 = 32 + Offset;
+        public const int Shelf_13_2 = 33 + Offset;
+        public const int Shelf_14_1 = 34 + Offset;
+        public const int Shelf_14_2 = 35 + Offset;
+        public const int Shelf_15_1 = 36 + Offset;
+        public const int Shelf_15_2 = 37 + Offset;
+        public const int Shelf_16_1 = 38 + Offset;
+        public const int Shelf_16_2 = 39 + Offset;
+        public const int Shelf_17_1 = 40 + Offset;
+        public const int Shelf_17_2 = 41 + Offset;
+        public const int Shelf_18_1 = 24 + Offset;
+        public const int Shelf_18_2 = 25 + Offset;
+        public const int Shelf_19_1 = 26 + Offset;
+        public const int Shelf_19_2 = 27 + Offset;
+        public const int Shelf_20_1 = 28 + Offset;
+        public const int Shelf_20_2 = 29 + Offset;
+        public const int Shelf_21_1 = 30 + Offset;
+        public const int Shelf_21_2 = 31 + Offset;
+        public const int CstRobot_1 = 64 + Offset;
+        public const int CstRobot_2 = 65 + Offset;
     }
 }

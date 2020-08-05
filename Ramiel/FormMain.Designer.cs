@@ -59,9 +59,9 @@
             this.Shelf_1 = new System.Windows.Forms.TextBox();
             this.Shelf_4 = new System.Windows.Forms.TextBox();
             this.Shelf_7 = new System.Windows.Forms.TextBox();
-            this.tbPresELPT1 = new System.Windows.Forms.TextBox();
+            this.Smif_1 = new System.Windows.Forms.TextBox();
             this.CstRobot = new System.Windows.Forms.TextBox();
-            this.tbPresELPT2 = new System.Windows.Forms.TextBox();
+            this.Smif_2 = new System.Windows.Forms.TextBox();
             this.Shelf_10 = new System.Windows.Forms.TextBox();
             this.hint = new System.Windows.Forms.ToolTip(this.components);
             this.tbCounter = new System.Windows.Forms.TextBox();
@@ -69,12 +69,97 @@
             this.rtbMsg = new System.Windows.Forms.RichTextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.btnClearMsg = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.tabVersion = new System.Windows.Forms.TabPage();
             this.pnlIO = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Shelf_1_1 = new System.Windows.Forms.Label();
+            this.Shelf_1_2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.Shelf_2_1 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.Shelf_2_2 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.Shelf_3_1 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.Shelf_3_2 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.Shelf_4_1 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.Shelf_4_2 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.Shelf_5_1 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.Shelf_5_2 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.Shelf_6_1 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.Shelf_6_2 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.Shelf_7_1 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.Shelf_7_2 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.Shelf_8_1 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.Shelf_8_2 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.Shelf_9_1 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.Shelf_9_2 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.Shelf_10_1 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.Shelf_10_2 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.Shelf_11_1 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.Shelf_11_2 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.Shelf_12_1 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.Shelf_12_2 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.Shelf_13_1 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.Shelf_13_2 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.Shelf_14_1 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.Shelf_21_2 = new System.Windows.Forms.Label();
+            this.Shelf_14_2 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.Shelf_21_1 = new System.Windows.Forms.Label();
+            this.Shelf_15_1 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.Shelf_20_2 = new System.Windows.Forms.Label();
+            this.Shelf_15_2 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.Shelf_20_1 = new System.Windows.Forms.Label();
+            this.Shelf_16_1 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.Shelf_19_2 = new System.Windows.Forms.Label();
+            this.Shelf_16_2 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.Shelf_19_1 = new System.Windows.Forms.Label();
+            this.Shelf_17_1 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.Shelf_18_2 = new System.Windows.Forms.Label();
+            this.Shelf_17_2 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.Shelf_18_1 = new System.Windows.Forms.Label();
             this.tabIO = new System.Windows.Forms.TabPage();
             this.CstRobot_Source_Get_btn = new System.Windows.Forms.Button();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.SMIF1_UnLift_btn = new System.Windows.Forms.Button();
+            this.SMIF1_Lift_btn = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.SMIF1_Speed_cbx = new System.Windows.Forms.ComboBox();
             this.SMIF1_SetSpeed_btn = new System.Windows.Forms.Button();
@@ -91,23 +176,38 @@
             this.SMIF1_Clamp_btn = new System.Windows.Forms.Button();
             this.SMIF1_TwkDn_btn = new System.Windows.Forms.Button();
             this.SMIF1_ReMap_btn = new System.Windows.Forms.Button();
-            this.tabCmd = new System.Windows.Forms.TabPage();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.CycleStop_btn = new System.Windows.Forms.Button();
+            this.tabMode = new System.Windows.Forms.TabControl();
+            this.tabStocker = new System.Windows.Forms.TabPage();
             this.gbCmdArea = new System.Windows.Forms.GroupBox();
+            this.CycleStop_btn = new System.Windows.Forms.Button();
             this.AutoRunSpeed_cbx = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnReset = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tbTimes = new System.Windows.Forms.TextBox();
             this.btnAutoRun = new System.Windows.Forms.Button();
-            this.tabMode = new System.Windows.Forms.TabControl();
-            this.tabStocker = new System.Windows.Forms.TabPage();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.Tx_Pause_Front_Press = new System.Windows.Forms.Button();
+            this.CST_Out_Press = new System.Windows.Forms.Button();
+            this.CST_In_Press = new System.Windows.Forms.Button();
+            this.Tx_Pause_Front = new System.Windows.Forms.Button();
+            this.CST_Out = new System.Windows.Forms.Button();
+            this.CST_In = new System.Windows.Forms.Button();
+            this.Pod2_Lock = new System.Windows.Forms.Button();
+            this.Pod1_Lock = new System.Windows.Forms.Button();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.SignalTower_Buzz2 = new System.Windows.Forms.Button();
+            this.SignalTower_Buzz1 = new System.Windows.Forms.Button();
+            this.SignalTower_Blue = new System.Windows.Forms.Button();
+            this.SignalTower_Green = new System.Windows.Forms.Button();
+            this.SignalTower_Yellow = new System.Windows.Forms.Button();
+            this.SignalTower_Red = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.UnLift = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.SMIF2_Speed_cbx = new System.Windows.Forms.ComboBox();
             this.SMIF2_SetSpeed_btn = new System.Windows.Forms.Button();
+            this.SMIF2_Lift_btn = new System.Windows.Forms.Button();
             this.SMIF2_TwkUp_btn = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.SMIF2_Stage_btn = new System.Windows.Forms.Button();
@@ -127,37 +227,21 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox48 = new System.Windows.Forms.GroupBox();
             this.CstRobot_Source_cbx = new System.Windows.Forms.ComboBox();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.SignalTower_Red = new System.Windows.Forms.Button();
-            this.SignalTower_Yellow = new System.Windows.Forms.Button();
-            this.SignalTower_Green = new System.Windows.Forms.Button();
-            this.SignalTower_Blue = new System.Windows.Forms.Button();
-            this.SignalTower_Buzz1 = new System.Windows.Forms.Button();
-            this.SignalTower_Buzz2 = new System.Windows.Forms.Button();
-            this.Pod1_Lock = new System.Windows.Forms.Button();
-            this.Pod2_Lock = new System.Windows.Forms.Button();
-            this.CST_Out = new System.Windows.Forms.Button();
-            this.CST_In = new System.Windows.Forms.Button();
-            this.Tx_Pause_Rear = new System.Windows.Forms.Button();
-            this.Tx_Pause_Front = new System.Windows.Forms.Button();
-            this.CST_In_Press = new System.Windows.Forms.Button();
-            this.CST_Out_Press = new System.Windows.Forms.Button();
-            this.Tx_Pause_Front_Press = new System.Windows.Forms.Button();
             this.groupBox49.SuspendLayout();
             this.groupBox47.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            this.tabVersion.SuspendLayout();
+            this.pnlIO.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.tabIO.SuspendLayout();
             this.groupBox17.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.tabCmd.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.gbCmdArea.SuspendLayout();
             this.tabMode.SuspendLayout();
             this.tabStocker.SuspendLayout();
+            this.gbCmdArea.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.groupBox11.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox9.SuspendLayout();
@@ -165,8 +249,6 @@
             this.groupBox46.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox48.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.groupBox12.SuspendLayout();
             this.SuspendLayout();
             // 
             // CstRobot_Source_GetWait_btn
@@ -199,7 +281,7 @@
             this.CstRobot_Reset_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CstRobot_Reset_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CstRobot_Reset_btn.ForeColor = System.Drawing.Color.Black;
-            this.CstRobot_Reset_btn.Location = new System.Drawing.Point(6, 208);
+            this.CstRobot_Reset_btn.Location = new System.Drawing.Point(81, 204);
             this.CstRobot_Reset_btn.Name = "CstRobot_Reset_btn";
             this.CstRobot_Reset_btn.Size = new System.Drawing.Size(71, 39);
             this.CstRobot_Reset_btn.TabIndex = 29;
@@ -256,14 +338,15 @@
             // 
             // CstRobot_Org_btn
             // 
+            this.CstRobot_Org_btn.BackColor = System.Drawing.Color.Coral;
             this.CstRobot_Org_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CstRobot_Org_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CstRobot_Org_btn.Location = new System.Drawing.Point(84, 208);
+            this.CstRobot_Org_btn.Location = new System.Drawing.Point(6, 204);
             this.CstRobot_Org_btn.Name = "CstRobot_Org_btn";
             this.CstRobot_Org_btn.Size = new System.Drawing.Size(71, 39);
             this.CstRobot_Org_btn.TabIndex = 19;
-            this.CstRobot_Org_btn.Text = "Org";
-            this.CstRobot_Org_btn.UseVisualStyleBackColor = true;
+            this.CstRobot_Org_btn.Text = "ORG";
+            this.CstRobot_Org_btn.UseVisualStyleBackColor = false;
             this.CstRobot_Org_btn.Click += new System.EventHandler(this.CstRobot_Org_btn_Click);
             // 
             // CstRobot_Home_btn
@@ -274,7 +357,7 @@
             this.CstRobot_Home_btn.Name = "CstRobot_Home_btn";
             this.CstRobot_Home_btn.Size = new System.Drawing.Size(71, 39);
             this.CstRobot_Home_btn.TabIndex = 19;
-            this.CstRobot_Home_btn.Text = "Home";
+            this.CstRobot_Home_btn.Text = "SHome";
             this.CstRobot_Home_btn.UseVisualStyleBackColor = true;
             this.CstRobot_Home_btn.Click += new System.EventHandler(this.CstRobot_Home_btn_Click);
             // 
@@ -300,9 +383,9 @@
             this.groupBox47.Controls.Add(this.Shelf_1);
             this.groupBox47.Controls.Add(this.Shelf_4);
             this.groupBox47.Controls.Add(this.Shelf_7);
-            this.groupBox47.Controls.Add(this.tbPresELPT1);
+            this.groupBox47.Controls.Add(this.Smif_1);
             this.groupBox47.Controls.Add(this.CstRobot);
-            this.groupBox47.Controls.Add(this.tbPresELPT2);
+            this.groupBox47.Controls.Add(this.Smif_2);
             this.groupBox47.Controls.Add(this.Shelf_10);
             this.groupBox47.Location = new System.Drawing.Point(6, 318);
             this.groupBox47.Name = "groupBox47";
@@ -315,100 +398,109 @@
             // 
             this.Shelf_15.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_15.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_15.Location = new System.Drawing.Point(312, 117);
+            this.Shelf_15.Location = new System.Drawing.Point(330, 117);
             this.Shelf_15.Name = "Shelf_15";
             this.Shelf_15.Size = new System.Drawing.Size(48, 25);
             this.Shelf_15.TabIndex = 100;
             this.Shelf_15.Text = "15";
             this.Shelf_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_18
             // 
             this.Shelf_18.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_18.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_18.Location = new System.Drawing.Point(312, 87);
+            this.Shelf_18.Location = new System.Drawing.Point(330, 87);
             this.Shelf_18.Name = "Shelf_18";
             this.Shelf_18.Size = new System.Drawing.Size(48, 25);
             this.Shelf_18.TabIndex = 99;
             this.Shelf_18.Text = "18";
             this.Shelf_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_21
             // 
             this.Shelf_21.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_21.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_21.Location = new System.Drawing.Point(312, 57);
+            this.Shelf_21.Location = new System.Drawing.Point(330, 57);
             this.Shelf_21.Name = "Shelf_21";
             this.Shelf_21.Size = new System.Drawing.Size(48, 25);
             this.Shelf_21.TabIndex = 98;
             this.Shelf_21.Text = "21";
             this.Shelf_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_14
             // 
             this.Shelf_14.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_14.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_14.Location = new System.Drawing.Point(258, 117);
+            this.Shelf_14.Location = new System.Drawing.Point(276, 117);
             this.Shelf_14.Name = "Shelf_14";
             this.Shelf_14.Size = new System.Drawing.Size(48, 25);
             this.Shelf_14.TabIndex = 96;
             this.Shelf_14.Text = "14";
             this.Shelf_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_17
             // 
             this.Shelf_17.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_17.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_17.Location = new System.Drawing.Point(258, 87);
+            this.Shelf_17.Location = new System.Drawing.Point(276, 87);
             this.Shelf_17.Name = "Shelf_17";
             this.Shelf_17.Size = new System.Drawing.Size(48, 25);
             this.Shelf_17.TabIndex = 95;
             this.Shelf_17.Text = "17";
             this.Shelf_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_20
             // 
             this.Shelf_20.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_20.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_20.Location = new System.Drawing.Point(258, 57);
+            this.Shelf_20.Location = new System.Drawing.Point(276, 57);
             this.Shelf_20.Name = "Shelf_20";
             this.Shelf_20.Size = new System.Drawing.Size(48, 25);
             this.Shelf_20.TabIndex = 94;
             this.Shelf_20.Text = "20";
             this.Shelf_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_13
             // 
             this.Shelf_13.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_13.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_13.Location = new System.Drawing.Point(204, 117);
+            this.Shelf_13.Location = new System.Drawing.Point(222, 117);
             this.Shelf_13.Name = "Shelf_13";
             this.Shelf_13.Size = new System.Drawing.Size(48, 25);
             this.Shelf_13.TabIndex = 92;
             this.Shelf_13.Text = "13";
             this.Shelf_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_16
             // 
             this.Shelf_16.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_16.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_16.Location = new System.Drawing.Point(204, 87);
+            this.Shelf_16.Location = new System.Drawing.Point(222, 87);
             this.Shelf_16.Name = "Shelf_16";
             this.Shelf_16.Size = new System.Drawing.Size(48, 25);
             this.Shelf_16.TabIndex = 91;
             this.Shelf_16.Text = "16";
             this.Shelf_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_19
             // 
             this.Shelf_19.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Shelf_19.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Shelf_19.Location = new System.Drawing.Point(204, 57);
+            this.Shelf_19.Location = new System.Drawing.Point(222, 57);
             this.Shelf_19.Name = "Shelf_19";
             this.Shelf_19.Size = new System.Drawing.Size(48, 25);
             this.Shelf_19.TabIndex = 90;
             this.Shelf_19.Text = "19";
             this.Shelf_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_3
             // 
@@ -420,6 +512,7 @@
             this.Shelf_3.TabIndex = 88;
             this.Shelf_3.Text = "3";
             this.Shelf_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_6
             // 
@@ -431,6 +524,7 @@
             this.Shelf_6.TabIndex = 87;
             this.Shelf_6.Text = "6";
             this.Shelf_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_9
             // 
@@ -442,6 +536,7 @@
             this.Shelf_9.TabIndex = 86;
             this.Shelf_9.Text = "9";
             this.Shelf_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_12
             // 
@@ -453,6 +548,7 @@
             this.Shelf_12.TabIndex = 85;
             this.Shelf_12.Text = "12";
             this.Shelf_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_2
             // 
@@ -464,6 +560,7 @@
             this.Shelf_2.TabIndex = 84;
             this.Shelf_2.Text = "2";
             this.Shelf_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_5
             // 
@@ -475,6 +572,7 @@
             this.Shelf_5.TabIndex = 83;
             this.Shelf_5.Text = "5";
             this.Shelf_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_8
             // 
@@ -486,6 +584,7 @@
             this.Shelf_8.TabIndex = 82;
             this.Shelf_8.Text = "8";
             this.Shelf_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_11
             // 
@@ -497,6 +596,7 @@
             this.Shelf_11.TabIndex = 81;
             this.Shelf_11.Text = "11";
             this.Shelf_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_1
             // 
@@ -508,6 +608,7 @@
             this.Shelf_1.TabIndex = 78;
             this.Shelf_1.Text = "1";
             this.Shelf_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_4
             // 
@@ -519,6 +620,7 @@
             this.Shelf_4.TabIndex = 77;
             this.Shelf_4.Text = "4";
             this.Shelf_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // Shelf_7
             // 
@@ -530,18 +632,19 @@
             this.Shelf_7.TabIndex = 76;
             this.Shelf_7.Text = "7";
             this.Shelf_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
-            // tbPresELPT1
+            // Smif_1
             // 
-            this.tbPresELPT1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPresELPT1.ForeColor = System.Drawing.Color.DarkRed;
-            this.tbPresELPT1.Location = new System.Drawing.Point(262, 25);
-            this.tbPresELPT1.Name = "tbPresELPT1";
-            this.tbPresELPT1.Size = new System.Drawing.Size(70, 26);
-            this.tbPresELPT1.TabIndex = 74;
-            this.tbPresELPT1.Text = "SMIF_1";
-            this.tbPresELPT1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tbPresELPT1.Visible = false;
+            this.Smif_1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Smif_1.ForeColor = System.Drawing.Color.DarkRed;
+            this.Smif_1.Location = new System.Drawing.Point(262, 25);
+            this.Smif_1.Name = "Smif_1";
+            this.Smif_1.Size = new System.Drawing.Size(70, 26);
+            this.Smif_1.TabIndex = 74;
+            this.Smif_1.Text = "SMIF_1";
+            this.Smif_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Smif_1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Smif_1_MouseClick);
             // 
             // CstRobot
             // 
@@ -554,17 +657,17 @@
             this.CstRobot.Text = "Robot";
             this.CstRobot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // tbPresELPT2
+            // Smif_2
             // 
-            this.tbPresELPT2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPresELPT2.ForeColor = System.Drawing.Color.DarkRed;
-            this.tbPresELPT2.Location = new System.Drawing.Point(338, 25);
-            this.tbPresELPT2.Name = "tbPresELPT2";
-            this.tbPresELPT2.Size = new System.Drawing.Size(70, 26);
-            this.tbPresELPT2.TabIndex = 74;
-            this.tbPresELPT2.Text = "SMIF_2";
-            this.tbPresELPT2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tbPresELPT2.Visible = false;
+            this.Smif_2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Smif_2.ForeColor = System.Drawing.Color.DarkRed;
+            this.Smif_2.Location = new System.Drawing.Point(338, 25);
+            this.Smif_2.Name = "Smif_2";
+            this.Smif_2.Size = new System.Drawing.Size(70, 26);
+            this.Smif_2.TabIndex = 74;
+            this.Smif_2.Text = "SMIF_2";
+            this.Smif_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Smif_2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Smif_2_MouseClick);
             // 
             // Shelf_10
             // 
@@ -576,6 +679,7 @@
             this.Shelf_10.TabIndex = 74;
             this.Shelf_10.Text = "10";
             this.Shelf_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Shelf_10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
             // hint
             // 
@@ -587,7 +691,7 @@
             // tbCounter
             // 
             this.tbCounter.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCounter.Location = new System.Drawing.Point(116, 41);
+            this.tbCounter.Location = new System.Drawing.Point(116, 33);
             this.tbCounter.Name = "tbCounter";
             this.tbCounter.ReadOnly = true;
             this.tbCounter.Size = new System.Drawing.Size(74, 30);
@@ -646,34 +750,947 @@
             this.btnClearMsg.Text = "Clear Message";
             this.btnClearMsg.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox1.Location = new System.Drawing.Point(3, 3);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(959, 595);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "2020/07/15 \n    1.0.1 : Initial version";
-            this.richTextBox1.WordWrap = false;
-            // 
-            // tabVersion
-            // 
-            this.tabVersion.Controls.Add(this.richTextBox1);
-            this.tabVersion.Location = new System.Drawing.Point(4, 33);
-            this.tabVersion.Name = "tabVersion";
-            this.tabVersion.Size = new System.Drawing.Size(987, 655);
-            this.tabVersion.TabIndex = 12;
-            this.tabVersion.Text = "Version";
-            this.tabVersion.UseVisualStyleBackColor = true;
-            // 
             // pnlIO
             // 
             this.pnlIO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlIO.Controls.Add(this.groupBox2);
             this.pnlIO.Location = new System.Drawing.Point(3, 3);
             this.pnlIO.Name = "pnlIO";
             this.pnlIO.Size = new System.Drawing.Size(981, 677);
             this.pnlIO.TabIndex = 0;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.Shelf_1_1);
+            this.groupBox2.Controls.Add(this.Shelf_1_2);
+            this.groupBox2.Controls.Add(this.label10);
+            this.groupBox2.Controls.Add(this.Shelf_2_1);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.Shelf_2_2);
+            this.groupBox2.Controls.Add(this.label20);
+            this.groupBox2.Controls.Add(this.Shelf_3_1);
+            this.groupBox2.Controls.Add(this.label18);
+            this.groupBox2.Controls.Add(this.Shelf_3_2);
+            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.Shelf_4_1);
+            this.groupBox2.Controls.Add(this.label14);
+            this.groupBox2.Controls.Add(this.Shelf_4_2);
+            this.groupBox2.Controls.Add(this.label28);
+            this.groupBox2.Controls.Add(this.Shelf_5_1);
+            this.groupBox2.Controls.Add(this.label26);
+            this.groupBox2.Controls.Add(this.Shelf_5_2);
+            this.groupBox2.Controls.Add(this.label24);
+            this.groupBox2.Controls.Add(this.Shelf_6_1);
+            this.groupBox2.Controls.Add(this.label22);
+            this.groupBox2.Controls.Add(this.Shelf_6_2);
+            this.groupBox2.Controls.Add(this.label52);
+            this.groupBox2.Controls.Add(this.Shelf_7_1);
+            this.groupBox2.Controls.Add(this.label50);
+            this.groupBox2.Controls.Add(this.Shelf_7_2);
+            this.groupBox2.Controls.Add(this.label48);
+            this.groupBox2.Controls.Add(this.Shelf_8_1);
+            this.groupBox2.Controls.Add(this.label46);
+            this.groupBox2.Controls.Add(this.Shelf_8_2);
+            this.groupBox2.Controls.Add(this.label44);
+            this.groupBox2.Controls.Add(this.Shelf_9_1);
+            this.groupBox2.Controls.Add(this.label42);
+            this.groupBox2.Controls.Add(this.Shelf_9_2);
+            this.groupBox2.Controls.Add(this.label40);
+            this.groupBox2.Controls.Add(this.Shelf_10_1);
+            this.groupBox2.Controls.Add(this.label38);
+            this.groupBox2.Controls.Add(this.Shelf_10_2);
+            this.groupBox2.Controls.Add(this.label36);
+            this.groupBox2.Controls.Add(this.Shelf_11_1);
+            this.groupBox2.Controls.Add(this.label34);
+            this.groupBox2.Controls.Add(this.Shelf_11_2);
+            this.groupBox2.Controls.Add(this.label32);
+            this.groupBox2.Controls.Add(this.Shelf_12_1);
+            this.groupBox2.Controls.Add(this.label30);
+            this.groupBox2.Controls.Add(this.Shelf_12_2);
+            this.groupBox2.Controls.Add(this.label62);
+            this.groupBox2.Controls.Add(this.Shelf_13_1);
+            this.groupBox2.Controls.Add(this.label60);
+            this.groupBox2.Controls.Add(this.Shelf_13_2);
+            this.groupBox2.Controls.Add(this.label58);
+            this.groupBox2.Controls.Add(this.Shelf_14_1);
+            this.groupBox2.Controls.Add(this.label56);
+            this.groupBox2.Controls.Add(this.Shelf_21_2);
+            this.groupBox2.Controls.Add(this.Shelf_14_2);
+            this.groupBox2.Controls.Add(this.label66);
+            this.groupBox2.Controls.Add(this.label54);
+            this.groupBox2.Controls.Add(this.Shelf_21_1);
+            this.groupBox2.Controls.Add(this.Shelf_15_1);
+            this.groupBox2.Controls.Add(this.label68);
+            this.groupBox2.Controls.Add(this.label64);
+            this.groupBox2.Controls.Add(this.Shelf_20_2);
+            this.groupBox2.Controls.Add(this.Shelf_15_2);
+            this.groupBox2.Controls.Add(this.label70);
+            this.groupBox2.Controls.Add(this.label88);
+            this.groupBox2.Controls.Add(this.Shelf_20_1);
+            this.groupBox2.Controls.Add(this.Shelf_16_1);
+            this.groupBox2.Controls.Add(this.label72);
+            this.groupBox2.Controls.Add(this.label86);
+            this.groupBox2.Controls.Add(this.Shelf_19_2);
+            this.groupBox2.Controls.Add(this.Shelf_16_2);
+            this.groupBox2.Controls.Add(this.label74);
+            this.groupBox2.Controls.Add(this.label84);
+            this.groupBox2.Controls.Add(this.Shelf_19_1);
+            this.groupBox2.Controls.Add(this.Shelf_17_1);
+            this.groupBox2.Controls.Add(this.label76);
+            this.groupBox2.Controls.Add(this.label82);
+            this.groupBox2.Controls.Add(this.Shelf_18_2);
+            this.groupBox2.Controls.Add(this.Shelf_17_2);
+            this.groupBox2.Controls.Add(this.label78);
+            this.groupBox2.Controls.Add(this.label80);
+            this.groupBox2.Controls.Add(this.Shelf_18_1);
+            this.groupBox2.Location = new System.Drawing.Point(13, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(302, 642);
+            this.groupBox2.TabIndex = 138;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Stocker";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(43, 50);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(96, 26);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Shelf_1_2";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(43, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 26);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Shelf_1_1";
+            // 
+            // Shelf_1_1
+            // 
+            this.Shelf_1_1.AutoSize = true;
+            this.Shelf_1_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_1_1.Location = new System.Drawing.Point(20, 27);
+            this.Shelf_1_1.Name = "Shelf_1_1";
+            this.Shelf_1_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_1_1.TabIndex = 1;
+            this.Shelf_1_1.Text = "■";
+            // 
+            // Shelf_1_2
+            // 
+            this.Shelf_1_2.AutoSize = true;
+            this.Shelf_1_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_1_2.Location = new System.Drawing.Point(20, 48);
+            this.Shelf_1_2.Name = "Shelf_1_2";
+            this.Shelf_1_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_1_2.TabIndex = 3;
+            this.Shelf_1_2.Text = "■";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(43, 71);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(96, 26);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "Shelf_2_1";
+            // 
+            // Shelf_2_1
+            // 
+            this.Shelf_2_1.AutoSize = true;
+            this.Shelf_2_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_2_1.Location = new System.Drawing.Point(20, 69);
+            this.Shelf_2_1.Name = "Shelf_2_1";
+            this.Shelf_2_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_2_1.TabIndex = 5;
+            this.Shelf_2_1.Text = "■";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(43, 92);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(96, 26);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "Shelf_2_2";
+            // 
+            // Shelf_2_2
+            // 
+            this.Shelf_2_2.AutoSize = true;
+            this.Shelf_2_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_2_2.Location = new System.Drawing.Point(20, 90);
+            this.Shelf_2_2.Name = "Shelf_2_2";
+            this.Shelf_2_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_2_2.TabIndex = 7;
+            this.Shelf_2_2.Text = "■";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(43, 113);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(96, 26);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "Shelf_3_1";
+            // 
+            // Shelf_3_1
+            // 
+            this.Shelf_3_1.AutoSize = true;
+            this.Shelf_3_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_3_1.Location = new System.Drawing.Point(20, 111);
+            this.Shelf_3_1.Name = "Shelf_3_1";
+            this.Shelf_3_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_3_1.TabIndex = 9;
+            this.Shelf_3_1.Text = "■";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(43, 134);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(96, 26);
+            this.label18.TabIndex = 10;
+            this.label18.Text = "Shelf_3_2";
+            // 
+            // Shelf_3_2
+            // 
+            this.Shelf_3_2.AutoSize = true;
+            this.Shelf_3_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_3_2.Location = new System.Drawing.Point(20, 132);
+            this.Shelf_3_2.Name = "Shelf_3_2";
+            this.Shelf_3_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_3_2.TabIndex = 11;
+            this.Shelf_3_2.Text = "■";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(43, 155);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(96, 26);
+            this.label16.TabIndex = 12;
+            this.label16.Text = "Shelf_4_1";
+            // 
+            // Shelf_4_1
+            // 
+            this.Shelf_4_1.AutoSize = true;
+            this.Shelf_4_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_4_1.Location = new System.Drawing.Point(20, 153);
+            this.Shelf_4_1.Name = "Shelf_4_1";
+            this.Shelf_4_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_4_1.TabIndex = 13;
+            this.Shelf_4_1.Text = "■";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(43, 176);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(96, 26);
+            this.label14.TabIndex = 14;
+            this.label14.Text = "Shelf_4_2";
+            // 
+            // Shelf_4_2
+            // 
+            this.Shelf_4_2.AutoSize = true;
+            this.Shelf_4_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_4_2.Location = new System.Drawing.Point(20, 174);
+            this.Shelf_4_2.Name = "Shelf_4_2";
+            this.Shelf_4_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_4_2.TabIndex = 15;
+            this.Shelf_4_2.Text = "■";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(43, 197);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(96, 26);
+            this.label28.TabIndex = 16;
+            this.label28.Text = "Shelf_5_1";
+            // 
+            // Shelf_5_1
+            // 
+            this.Shelf_5_1.AutoSize = true;
+            this.Shelf_5_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_5_1.Location = new System.Drawing.Point(20, 195);
+            this.Shelf_5_1.Name = "Shelf_5_1";
+            this.Shelf_5_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_5_1.TabIndex = 17;
+            this.Shelf_5_1.Text = "■";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(43, 218);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(96, 26);
+            this.label26.TabIndex = 18;
+            this.label26.Text = "Shelf_5_2";
+            // 
+            // Shelf_5_2
+            // 
+            this.Shelf_5_2.AutoSize = true;
+            this.Shelf_5_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_5_2.Location = new System.Drawing.Point(20, 216);
+            this.Shelf_5_2.Name = "Shelf_5_2";
+            this.Shelf_5_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_5_2.TabIndex = 19;
+            this.Shelf_5_2.Text = "■";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(43, 239);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(96, 26);
+            this.label24.TabIndex = 20;
+            this.label24.Text = "Shelf_6_1";
+            // 
+            // Shelf_6_1
+            // 
+            this.Shelf_6_1.AutoSize = true;
+            this.Shelf_6_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_6_1.Location = new System.Drawing.Point(20, 237);
+            this.Shelf_6_1.Name = "Shelf_6_1";
+            this.Shelf_6_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_6_1.TabIndex = 21;
+            this.Shelf_6_1.Text = "■";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(43, 260);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(96, 26);
+            this.label22.TabIndex = 22;
+            this.label22.Text = "Shelf_6_2";
+            // 
+            // Shelf_6_2
+            // 
+            this.Shelf_6_2.AutoSize = true;
+            this.Shelf_6_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_6_2.Location = new System.Drawing.Point(20, 258);
+            this.Shelf_6_2.Name = "Shelf_6_2";
+            this.Shelf_6_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_6_2.TabIndex = 23;
+            this.Shelf_6_2.Text = "■";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Location = new System.Drawing.Point(43, 281);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(96, 26);
+            this.label52.TabIndex = 24;
+            this.label52.Text = "Shelf_7_1";
+            // 
+            // Shelf_7_1
+            // 
+            this.Shelf_7_1.AutoSize = true;
+            this.Shelf_7_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_7_1.Location = new System.Drawing.Point(20, 279);
+            this.Shelf_7_1.Name = "Shelf_7_1";
+            this.Shelf_7_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_7_1.TabIndex = 25;
+            this.Shelf_7_1.Text = "■";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Location = new System.Drawing.Point(43, 302);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(96, 26);
+            this.label50.TabIndex = 26;
+            this.label50.Text = "Shelf_7_2";
+            // 
+            // Shelf_7_2
+            // 
+            this.Shelf_7_2.AutoSize = true;
+            this.Shelf_7_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_7_2.Location = new System.Drawing.Point(20, 300);
+            this.Shelf_7_2.Name = "Shelf_7_2";
+            this.Shelf_7_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_7_2.TabIndex = 27;
+            this.Shelf_7_2.Text = "■";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Location = new System.Drawing.Point(43, 323);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(96, 26);
+            this.label48.TabIndex = 28;
+            this.label48.Text = "Shelf_8_1";
+            // 
+            // Shelf_8_1
+            // 
+            this.Shelf_8_1.AutoSize = true;
+            this.Shelf_8_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_8_1.Location = new System.Drawing.Point(20, 321);
+            this.Shelf_8_1.Name = "Shelf_8_1";
+            this.Shelf_8_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_8_1.TabIndex = 29;
+            this.Shelf_8_1.Text = "■";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(43, 344);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(96, 26);
+            this.label46.TabIndex = 30;
+            this.label46.Text = "Shelf_8_2";
+            // 
+            // Shelf_8_2
+            // 
+            this.Shelf_8_2.AutoSize = true;
+            this.Shelf_8_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_8_2.Location = new System.Drawing.Point(20, 342);
+            this.Shelf_8_2.Name = "Shelf_8_2";
+            this.Shelf_8_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_8_2.TabIndex = 31;
+            this.Shelf_8_2.Text = "■";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(43, 365);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(96, 26);
+            this.label44.TabIndex = 32;
+            this.label44.Text = "Shelf_9_1";
+            // 
+            // Shelf_9_1
+            // 
+            this.Shelf_9_1.AutoSize = true;
+            this.Shelf_9_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_9_1.Location = new System.Drawing.Point(20, 363);
+            this.Shelf_9_1.Name = "Shelf_9_1";
+            this.Shelf_9_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_9_1.TabIndex = 33;
+            this.Shelf_9_1.Text = "■";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(43, 386);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(96, 26);
+            this.label42.TabIndex = 34;
+            this.label42.Text = "Shelf_9_2";
+            // 
+            // Shelf_9_2
+            // 
+            this.Shelf_9_2.AutoSize = true;
+            this.Shelf_9_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_9_2.Location = new System.Drawing.Point(20, 384);
+            this.Shelf_9_2.Name = "Shelf_9_2";
+            this.Shelf_9_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_9_2.TabIndex = 35;
+            this.Shelf_9_2.Text = "■";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(43, 407);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(107, 26);
+            this.label40.TabIndex = 36;
+            this.label40.Text = "Shelf_10_1";
+            // 
+            // Shelf_10_1
+            // 
+            this.Shelf_10_1.AutoSize = true;
+            this.Shelf_10_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_10_1.Location = new System.Drawing.Point(20, 405);
+            this.Shelf_10_1.Name = "Shelf_10_1";
+            this.Shelf_10_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_10_1.TabIndex = 37;
+            this.Shelf_10_1.Text = "■";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(43, 428);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(107, 26);
+            this.label38.TabIndex = 38;
+            this.label38.Text = "Shelf_10_2";
+            // 
+            // Shelf_10_2
+            // 
+            this.Shelf_10_2.AutoSize = true;
+            this.Shelf_10_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_10_2.Location = new System.Drawing.Point(20, 426);
+            this.Shelf_10_2.Name = "Shelf_10_2";
+            this.Shelf_10_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_10_2.TabIndex = 39;
+            this.Shelf_10_2.Text = "■";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(43, 449);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(107, 26);
+            this.label36.TabIndex = 40;
+            this.label36.Text = "Shelf_11_1";
+            // 
+            // Shelf_11_1
+            // 
+            this.Shelf_11_1.AutoSize = true;
+            this.Shelf_11_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_11_1.Location = new System.Drawing.Point(20, 447);
+            this.Shelf_11_1.Name = "Shelf_11_1";
+            this.Shelf_11_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_11_1.TabIndex = 41;
+            this.Shelf_11_1.Text = "■";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(43, 470);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(107, 26);
+            this.label34.TabIndex = 42;
+            this.label34.Text = "Shelf_11_2";
+            // 
+            // Shelf_11_2
+            // 
+            this.Shelf_11_2.AutoSize = true;
+            this.Shelf_11_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_11_2.Location = new System.Drawing.Point(20, 468);
+            this.Shelf_11_2.Name = "Shelf_11_2";
+            this.Shelf_11_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_11_2.TabIndex = 43;
+            this.Shelf_11_2.Text = "■";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(43, 491);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(107, 26);
+            this.label32.TabIndex = 44;
+            this.label32.Text = "Shelf_12_1";
+            // 
+            // Shelf_12_1
+            // 
+            this.Shelf_12_1.AutoSize = true;
+            this.Shelf_12_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_12_1.Location = new System.Drawing.Point(20, 489);
+            this.Shelf_12_1.Name = "Shelf_12_1";
+            this.Shelf_12_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_12_1.TabIndex = 45;
+            this.Shelf_12_1.Text = "■";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(43, 512);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(107, 26);
+            this.label30.TabIndex = 46;
+            this.label30.Text = "Shelf_12_2";
+            // 
+            // Shelf_12_2
+            // 
+            this.Shelf_12_2.AutoSize = true;
+            this.Shelf_12_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_12_2.Location = new System.Drawing.Point(20, 510);
+            this.Shelf_12_2.Name = "Shelf_12_2";
+            this.Shelf_12_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_12_2.TabIndex = 47;
+            this.Shelf_12_2.Text = "■";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.Location = new System.Drawing.Point(43, 533);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(107, 26);
+            this.label62.TabIndex = 48;
+            this.label62.Text = "Shelf_13_1";
+            // 
+            // Shelf_13_1
+            // 
+            this.Shelf_13_1.AutoSize = true;
+            this.Shelf_13_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_13_1.Location = new System.Drawing.Point(20, 531);
+            this.Shelf_13_1.Name = "Shelf_13_1";
+            this.Shelf_13_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_13_1.TabIndex = 49;
+            this.Shelf_13_1.Text = "■";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Location = new System.Drawing.Point(43, 554);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(107, 26);
+            this.label60.TabIndex = 50;
+            this.label60.Text = "Shelf_13_2";
+            // 
+            // Shelf_13_2
+            // 
+            this.Shelf_13_2.AutoSize = true;
+            this.Shelf_13_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_13_2.Location = new System.Drawing.Point(20, 552);
+            this.Shelf_13_2.Name = "Shelf_13_2";
+            this.Shelf_13_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_13_2.TabIndex = 51;
+            this.Shelf_13_2.Text = "■";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(43, 575);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(107, 26);
+            this.label58.TabIndex = 52;
+            this.label58.Text = "Shelf_14_1";
+            // 
+            // Shelf_14_1
+            // 
+            this.Shelf_14_1.AutoSize = true;
+            this.Shelf_14_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_14_1.Location = new System.Drawing.Point(20, 573);
+            this.Shelf_14_1.Name = "Shelf_14_1";
+            this.Shelf_14_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_14_1.TabIndex = 53;
+            this.Shelf_14_1.Text = "■";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(43, 596);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(107, 26);
+            this.label56.TabIndex = 54;
+            this.label56.Text = "Shelf_14_2";
+            // 
+            // Shelf_21_2
+            // 
+            this.Shelf_21_2.AutoSize = true;
+            this.Shelf_21_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_21_2.Location = new System.Drawing.Point(153, 300);
+            this.Shelf_21_2.Name = "Shelf_21_2";
+            this.Shelf_21_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_21_2.TabIndex = 83;
+            this.Shelf_21_2.Text = "■";
+            // 
+            // Shelf_14_2
+            // 
+            this.Shelf_14_2.AutoSize = true;
+            this.Shelf_14_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_14_2.Location = new System.Drawing.Point(20, 594);
+            this.Shelf_14_2.Name = "Shelf_14_2";
+            this.Shelf_14_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_14_2.TabIndex = 55;
+            this.Shelf_14_2.Text = "■";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.Location = new System.Drawing.Point(176, 302);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(107, 26);
+            this.label66.TabIndex = 82;
+            this.label66.Text = "Shelf_21_2";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(176, 29);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(107, 26);
+            this.label54.TabIndex = 56;
+            this.label54.Text = "Shelf_15_1";
+            // 
+            // Shelf_21_1
+            // 
+            this.Shelf_21_1.AutoSize = true;
+            this.Shelf_21_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_21_1.Location = new System.Drawing.Point(153, 279);
+            this.Shelf_21_1.Name = "Shelf_21_1";
+            this.Shelf_21_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_21_1.TabIndex = 81;
+            this.Shelf_21_1.Text = "■";
+            // 
+            // Shelf_15_1
+            // 
+            this.Shelf_15_1.AutoSize = true;
+            this.Shelf_15_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_15_1.Location = new System.Drawing.Point(153, 27);
+            this.Shelf_15_1.Name = "Shelf_15_1";
+            this.Shelf_15_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_15_1.TabIndex = 57;
+            this.Shelf_15_1.Text = "■";
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.Location = new System.Drawing.Point(176, 281);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(107, 26);
+            this.label68.TabIndex = 80;
+            this.label68.Text = "Shelf_21_1";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Location = new System.Drawing.Point(176, 50);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(107, 26);
+            this.label64.TabIndex = 58;
+            this.label64.Text = "Shelf_15_2";
+            // 
+            // Shelf_20_2
+            // 
+            this.Shelf_20_2.AutoSize = true;
+            this.Shelf_20_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_20_2.Location = new System.Drawing.Point(153, 258);
+            this.Shelf_20_2.Name = "Shelf_20_2";
+            this.Shelf_20_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_20_2.TabIndex = 79;
+            this.Shelf_20_2.Text = "■";
+            // 
+            // Shelf_15_2
+            // 
+            this.Shelf_15_2.AutoSize = true;
+            this.Shelf_15_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_15_2.Location = new System.Drawing.Point(153, 48);
+            this.Shelf_15_2.Name = "Shelf_15_2";
+            this.Shelf_15_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_15_2.TabIndex = 59;
+            this.Shelf_15_2.Text = "■";
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.Location = new System.Drawing.Point(176, 260);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(107, 26);
+            this.label70.TabIndex = 78;
+            this.label70.Text = "Shelf_20_2";
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.Location = new System.Drawing.Point(176, 71);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(107, 26);
+            this.label88.TabIndex = 60;
+            this.label88.Text = "Shelf_16_1";
+            // 
+            // Shelf_20_1
+            // 
+            this.Shelf_20_1.AutoSize = true;
+            this.Shelf_20_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_20_1.Location = new System.Drawing.Point(153, 237);
+            this.Shelf_20_1.Name = "Shelf_20_1";
+            this.Shelf_20_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_20_1.TabIndex = 77;
+            this.Shelf_20_1.Text = "■";
+            // 
+            // Shelf_16_1
+            // 
+            this.Shelf_16_1.AutoSize = true;
+            this.Shelf_16_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_16_1.Location = new System.Drawing.Point(153, 69);
+            this.Shelf_16_1.Name = "Shelf_16_1";
+            this.Shelf_16_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_16_1.TabIndex = 61;
+            this.Shelf_16_1.Text = "■";
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label72.Location = new System.Drawing.Point(176, 239);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(107, 26);
+            this.label72.TabIndex = 76;
+            this.label72.Text = "Shelf_20_1";
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.Location = new System.Drawing.Point(176, 92);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(107, 26);
+            this.label86.TabIndex = 62;
+            this.label86.Text = "Shelf_16_2";
+            // 
+            // Shelf_19_2
+            // 
+            this.Shelf_19_2.AutoSize = true;
+            this.Shelf_19_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_19_2.Location = new System.Drawing.Point(153, 216);
+            this.Shelf_19_2.Name = "Shelf_19_2";
+            this.Shelf_19_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_19_2.TabIndex = 75;
+            this.Shelf_19_2.Text = "■";
+            // 
+            // Shelf_16_2
+            // 
+            this.Shelf_16_2.AutoSize = true;
+            this.Shelf_16_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_16_2.Location = new System.Drawing.Point(153, 90);
+            this.Shelf_16_2.Name = "Shelf_16_2";
+            this.Shelf_16_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_16_2.TabIndex = 63;
+            this.Shelf_16_2.Text = "■";
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label74.Location = new System.Drawing.Point(176, 218);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(107, 26);
+            this.label74.TabIndex = 74;
+            this.label74.Text = "Shelf_19_2";
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.Location = new System.Drawing.Point(176, 113);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(107, 26);
+            this.label84.TabIndex = 64;
+            this.label84.Text = "Shelf_17_1";
+            // 
+            // Shelf_19_1
+            // 
+            this.Shelf_19_1.AutoSize = true;
+            this.Shelf_19_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_19_1.Location = new System.Drawing.Point(153, 195);
+            this.Shelf_19_1.Name = "Shelf_19_1";
+            this.Shelf_19_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_19_1.TabIndex = 73;
+            this.Shelf_19_1.Text = "■";
+            // 
+            // Shelf_17_1
+            // 
+            this.Shelf_17_1.AutoSize = true;
+            this.Shelf_17_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_17_1.Location = new System.Drawing.Point(153, 111);
+            this.Shelf_17_1.Name = "Shelf_17_1";
+            this.Shelf_17_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_17_1.TabIndex = 65;
+            this.Shelf_17_1.Text = "■";
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.Location = new System.Drawing.Point(176, 197);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(107, 26);
+            this.label76.TabIndex = 72;
+            this.label76.Text = "Shelf_19_1";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.Location = new System.Drawing.Point(176, 134);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(107, 26);
+            this.label82.TabIndex = 66;
+            this.label82.Text = "Shelf_17_2";
+            // 
+            // Shelf_18_2
+            // 
+            this.Shelf_18_2.AutoSize = true;
+            this.Shelf_18_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_18_2.Location = new System.Drawing.Point(153, 174);
+            this.Shelf_18_2.Name = "Shelf_18_2";
+            this.Shelf_18_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_18_2.TabIndex = 71;
+            this.Shelf_18_2.Text = "■";
+            // 
+            // Shelf_17_2
+            // 
+            this.Shelf_17_2.AutoSize = true;
+            this.Shelf_17_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_17_2.Location = new System.Drawing.Point(153, 132);
+            this.Shelf_17_2.Name = "Shelf_17_2";
+            this.Shelf_17_2.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_17_2.TabIndex = 67;
+            this.Shelf_17_2.Text = "■";
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.Location = new System.Drawing.Point(176, 176);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(107, 26);
+            this.label78.TabIndex = 70;
+            this.label78.Text = "Shelf_18_2";
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.Location = new System.Drawing.Point(176, 155);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(107, 26);
+            this.label80.TabIndex = 68;
+            this.label80.Text = "Shelf_18_1";
+            // 
+            // Shelf_18_1
+            // 
+            this.Shelf_18_1.AutoSize = true;
+            this.Shelf_18_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Shelf_18_1.Location = new System.Drawing.Point(153, 153);
+            this.Shelf_18_1.Name = "Shelf_18_1";
+            this.Shelf_18_1.Size = new System.Drawing.Size(29, 29);
+            this.Shelf_18_1.TabIndex = 69;
+            this.Shelf_18_1.Text = "■";
             // 
             // tabIO
             // 
@@ -682,7 +1699,7 @@
             this.tabIO.Name = "tabIO";
             this.tabIO.Size = new System.Drawing.Size(987, 655);
             this.tabIO.TabIndex = 8;
-            this.tabIO.Text = " I/O Check";
+            this.tabIO.Text = "Shelf Presence";
             this.tabIO.UseVisualStyleBackColor = true;
             // 
             // CstRobot_Source_Get_btn
@@ -699,6 +1716,8 @@
             // 
             // groupBox17
             // 
+            this.groupBox17.Controls.Add(this.SMIF1_UnLift_btn);
+            this.groupBox17.Controls.Add(this.SMIF1_Lift_btn);
             this.groupBox17.Controls.Add(this.groupBox5);
             this.groupBox17.Controls.Add(this.SMIF1_TwkUp_btn);
             this.groupBox17.Controls.Add(this.groupBox4);
@@ -709,12 +1728,36 @@
             this.groupBox17.Controls.Add(this.SMIF1_Clamp_btn);
             this.groupBox17.Controls.Add(this.SMIF1_TwkDn_btn);
             this.groupBox17.Controls.Add(this.SMIF1_ReMap_btn);
-            this.groupBox17.Location = new System.Drawing.Point(3, 3);
+            this.groupBox17.Location = new System.Drawing.Point(3, 2);
             this.groupBox17.Name = "groupBox17";
             this.groupBox17.Size = new System.Drawing.Size(529, 160);
             this.groupBox17.TabIndex = 17;
             this.groupBox17.TabStop = false;
             this.groupBox17.Text = "SMIF_1";
+            // 
+            // SMIF1_UnLift_btn
+            // 
+            this.SMIF1_UnLift_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SMIF1_UnLift_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SMIF1_UnLift_btn.Location = new System.Drawing.Point(430, 71);
+            this.SMIF1_UnLift_btn.Name = "SMIF1_UnLift_btn";
+            this.SMIF1_UnLift_btn.Size = new System.Drawing.Size(72, 33);
+            this.SMIF1_UnLift_btn.TabIndex = 82;
+            this.SMIF1_UnLift_btn.Text = "UnLift";
+            this.SMIF1_UnLift_btn.UseVisualStyleBackColor = true;
+            this.SMIF1_UnLift_btn.Click += new System.EventHandler(this.SMIF1_UnLift_btn_Click);
+            // 
+            // SMIF1_Lift_btn
+            // 
+            this.SMIF1_Lift_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SMIF1_Lift_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SMIF1_Lift_btn.Location = new System.Drawing.Point(430, 32);
+            this.SMIF1_Lift_btn.Name = "SMIF1_Lift_btn";
+            this.SMIF1_Lift_btn.Size = new System.Drawing.Size(72, 33);
+            this.SMIF1_Lift_btn.TabIndex = 81;
+            this.SMIF1_Lift_btn.Text = "Lift";
+            this.SMIF1_Lift_btn.UseVisualStyleBackColor = true;
+            this.SMIF1_Lift_btn.Click += new System.EventHandler(this.SMIF1_Lift_btn_Click);
             // 
             // groupBox5
             // 
@@ -779,7 +1822,7 @@
             this.groupBox4.Controls.Add(this.SMIF1_Home_btn);
             this.groupBox4.Location = new System.Drawing.Point(6, 17);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(80, 137);
+            this.groupBox4.Size = new System.Drawing.Size(80, 130);
             this.groupBox4.TabIndex = 80;
             this.groupBox4.TabStop = false;
             // 
@@ -787,7 +1830,7 @@
             // 
             this.SMIF1_Stage_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SMIF1_Stage_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SMIF1_Stage_btn.Location = new System.Drawing.Point(6, 33);
+            this.SMIF1_Stage_btn.Location = new System.Drawing.Point(6, 28);
             this.SMIF1_Stage_btn.Name = "SMIF1_Stage_btn";
             this.SMIF1_Stage_btn.Size = new System.Drawing.Size(67, 33);
             this.SMIF1_Stage_btn.TabIndex = 30;
@@ -799,7 +1842,7 @@
             // 
             this.SMIF1_Home_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SMIF1_Home_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SMIF1_Home_btn.Location = new System.Drawing.Point(7, 80);
+            this.SMIF1_Home_btn.Location = new System.Drawing.Point(7, 75);
             this.SMIF1_Home_btn.Name = "SMIF1_Home_btn";
             this.SMIF1_Home_btn.Size = new System.Drawing.Size(67, 33);
             this.SMIF1_Home_btn.TabIndex = 31;
@@ -873,9 +1916,9 @@
             this.SMIF1_Reset_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SMIF1_Reset_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SMIF1_Reset_btn.ForeColor = System.Drawing.Color.Black;
-            this.SMIF1_Reset_btn.Location = new System.Drawing.Point(430, 29);
+            this.SMIF1_Reset_btn.Location = new System.Drawing.Point(430, 110);
             this.SMIF1_Reset_btn.Name = "SMIF1_Reset_btn";
-            this.SMIF1_Reset_btn.Size = new System.Drawing.Size(87, 39);
+            this.SMIF1_Reset_btn.Size = new System.Drawing.Size(72, 33);
             this.SMIF1_Reset_btn.TabIndex = 29;
             this.SMIF1_Reset_btn.Text = "Reset";
             this.SMIF1_Reset_btn.UseVisualStyleBackColor = false;
@@ -895,14 +1938,15 @@
             // 
             // SMIF1_Org_btn
             // 
+            this.SMIF1_Org_btn.BackColor = System.Drawing.Color.Coral;
             this.SMIF1_Org_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SMIF1_Org_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SMIF1_Org_btn.Location = new System.Drawing.Point(430, 71);
+            this.SMIF1_Org_btn.Location = new System.Drawing.Point(357, 110);
             this.SMIF1_Org_btn.Name = "SMIF1_Org_btn";
             this.SMIF1_Org_btn.Size = new System.Drawing.Size(72, 33);
             this.SMIF1_Org_btn.TabIndex = 19;
-            this.SMIF1_Org_btn.Text = "Org";
-            this.SMIF1_Org_btn.UseVisualStyleBackColor = true;
+            this.SMIF1_Org_btn.Text = "ORG";
+            this.SMIF1_Org_btn.UseVisualStyleBackColor = false;
             this.SMIF1_Org_btn.Click += new System.EventHandler(this.SMIF1_Org_btn_Click);
             // 
             // SMIF1_Clamp_btn
@@ -941,30 +1985,53 @@
             this.SMIF1_ReMap_btn.UseVisualStyleBackColor = true;
             this.SMIF1_ReMap_btn.Click += new System.EventHandler(this.SMIF1_ReMap_btn_Click);
             // 
-            // tabCmd
+            // tabMode
             // 
-            this.tabCmd.BackColor = System.Drawing.SystemColors.Control;
-            this.tabCmd.Controls.Add(this.groupBox2);
-            this.tabCmd.Controls.Add(this.gbCmdArea);
-            this.tabCmd.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabCmd.Location = new System.Drawing.Point(4, 33);
-            this.tabCmd.Name = "tabCmd";
-            this.tabCmd.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCmd.Size = new System.Drawing.Size(987, 655);
-            this.tabCmd.TabIndex = 0;
-            this.tabCmd.Text = "Auto Test Mode";
+            this.tabMode.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.tabMode.Appearance = System.Windows.Forms.TabAppearance.Buttons;
+            this.tabMode.Controls.Add(this.tabStocker);
+            this.tabMode.Controls.Add(this.tabIO);
+            this.tabMode.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabMode.Location = new System.Drawing.Point(12, 12);
+            this.tabMode.Name = "tabMode";
+            this.tabMode.SelectedIndex = 0;
+            this.tabMode.Size = new System.Drawing.Size(995, 692);
+            this.tabMode.TabIndex = 24;
+            this.tabMode.SelectedIndexChanged += new System.EventHandler(this.tabMode_SelectedIndexChanged);
             // 
-            // groupBox2
+            // tabStocker
             // 
-            this.groupBox2.Controls.Add(this.CycleStop_btn);
-            this.groupBox2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.Navy;
-            this.groupBox2.Location = new System.Drawing.Point(6, 140);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(304, 98);
-            this.groupBox2.TabIndex = 30;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Stop";
+            this.tabStocker.Controls.Add(this.gbCmdArea);
+            this.tabStocker.Controls.Add(this.groupBox12);
+            this.tabStocker.Controls.Add(this.groupBox11);
+            this.tabStocker.Controls.Add(this.groupBox7);
+            this.tabStocker.Controls.Add(this.groupBox46);
+            this.tabStocker.Controls.Add(this.groupBox17);
+            this.tabStocker.Location = new System.Drawing.Point(4, 33);
+            this.tabStocker.Name = "tabStocker";
+            this.tabStocker.Size = new System.Drawing.Size(987, 655);
+            this.tabStocker.TabIndex = 4;
+            this.tabStocker.Text = " Stocker Command";
+            this.tabStocker.UseVisualStyleBackColor = true;
+            this.tabStocker.Click += new System.EventHandler(this.tabStocker_Click);
+            // 
+            // gbCmdArea
+            // 
+            this.gbCmdArea.Controls.Add(this.CycleStop_btn);
+            this.gbCmdArea.Controls.Add(this.AutoRunSpeed_cbx);
+            this.gbCmdArea.Controls.Add(this.label5);
+            this.gbCmdArea.Controls.Add(this.label6);
+            this.gbCmdArea.Controls.Add(this.label4);
+            this.gbCmdArea.Controls.Add(this.tbTimes);
+            this.gbCmdArea.Controls.Add(this.btnAutoRun);
+            this.gbCmdArea.Controls.Add(this.tbCounter);
+            this.gbCmdArea.Location = new System.Drawing.Point(3, 321);
+            this.gbCmdArea.Name = "gbCmdArea";
+            this.gbCmdArea.Size = new System.Drawing.Size(529, 155);
+            this.gbCmdArea.TabIndex = 103;
+            this.gbCmdArea.TabStop = false;
+            this.gbCmdArea.Text = "Control Area";
+            this.gbCmdArea.Enter += new System.EventHandler(this.gbCmdArea_Enter);
             // 
             // CycleStop_btn
             // 
@@ -972,30 +2039,13 @@
             this.CycleStop_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CycleStop_btn.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CycleStop_btn.ForeColor = System.Drawing.Color.White;
-            this.CycleStop_btn.Location = new System.Drawing.Point(88, 36);
+            this.CycleStop_btn.Location = new System.Drawing.Point(376, 97);
             this.CycleStop_btn.Name = "CycleStop_btn";
             this.CycleStop_btn.Size = new System.Drawing.Size(114, 39);
             this.CycleStop_btn.TabIndex = 21;
             this.CycleStop_btn.Text = "Cycle Stop";
             this.CycleStop_btn.UseVisualStyleBackColor = false;
             this.CycleStop_btn.Click += new System.EventHandler(this.CycleStop_btn_Click);
-            // 
-            // gbCmdArea
-            // 
-            this.gbCmdArea.Controls.Add(this.AutoRunSpeed_cbx);
-            this.gbCmdArea.Controls.Add(this.label5);
-            this.gbCmdArea.Controls.Add(this.btnReset);
-            this.gbCmdArea.Controls.Add(this.label6);
-            this.gbCmdArea.Controls.Add(this.label4);
-            this.gbCmdArea.Controls.Add(this.tbTimes);
-            this.gbCmdArea.Controls.Add(this.btnAutoRun);
-            this.gbCmdArea.Controls.Add(this.tbCounter);
-            this.gbCmdArea.Location = new System.Drawing.Point(6, 18);
-            this.gbCmdArea.Name = "gbCmdArea";
-            this.gbCmdArea.Size = new System.Drawing.Size(893, 103);
-            this.gbCmdArea.TabIndex = 16;
-            this.gbCmdArea.TabStop = false;
-            this.gbCmdArea.Text = "Control Area";
             // 
             // AutoRunSpeed_cbx
             // 
@@ -1011,9 +2061,9 @@
             "80",
             "90",
             "100"});
-            this.AutoRunSpeed_cbx.Location = new System.Drawing.Point(464, 44);
+            this.AutoRunSpeed_cbx.Location = new System.Drawing.Point(116, 115);
             this.AutoRunSpeed_cbx.Name = "AutoRunSpeed_cbx";
-            this.AutoRunSpeed_cbx.Size = new System.Drawing.Size(87, 26);
+            this.AutoRunSpeed_cbx.Size = new System.Drawing.Size(74, 29);
             this.AutoRunSpeed_cbx.TabIndex = 83;
             this.AutoRunSpeed_cbx.Text = "20";
             // 
@@ -1021,30 +2071,17 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(410, 46);
+            this.label5.Location = new System.Drawing.Point(62, 117);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 19);
             this.label5.TabIndex = 82;
             this.label5.Text = "Speed";
             // 
-            // btnReset
-            // 
-            this.btnReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnReset.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReset.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.ForeColor = System.Drawing.Color.White;
-            this.btnReset.Location = new System.Drawing.Point(623, 35);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(114, 39);
-            this.btnReset.TabIndex = 29;
-            this.btnReset.Text = "1.Reset All";
-            this.btnReset.UseVisualStyleBackColor = false;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(213, 46);
+            this.label6.Location = new System.Drawing.Point(19, 80);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 19);
             this.label6.TabIndex = 29;
@@ -1054,7 +2091,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 46);
+            this.label4.Location = new System.Drawing.Point(19, 38);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 19);
             this.label4.TabIndex = 29;
@@ -1063,7 +2100,7 @@
             // tbTimes
             // 
             this.tbTimes.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTimes.Location = new System.Drawing.Point(310, 41);
+            this.tbTimes.Location = new System.Drawing.Point(116, 75);
             this.tbTimes.Name = "tbTimes";
             this.tbTimes.Size = new System.Drawing.Size(74, 30);
             this.tbTimes.TabIndex = 26;
@@ -1076,47 +2113,206 @@
             this.btnAutoRun.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAutoRun.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAutoRun.ForeColor = System.Drawing.Color.White;
-            this.btnAutoRun.Location = new System.Drawing.Point(755, 35);
+            this.btnAutoRun.Location = new System.Drawing.Point(376, 27);
             this.btnAutoRun.Name = "btnAutoRun";
             this.btnAutoRun.Size = new System.Drawing.Size(114, 39);
             this.btnAutoRun.TabIndex = 20;
-            this.btnAutoRun.Text = "2. Auto Run";
+            this.btnAutoRun.Text = "Auto Run";
             this.btnAutoRun.UseVisualStyleBackColor = false;
             this.btnAutoRun.Click += new System.EventHandler(this.btnAutoRun_Click);
             // 
-            // tabMode
+            // groupBox12
             // 
-            this.tabMode.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.tabMode.Appearance = System.Windows.Forms.TabAppearance.Buttons;
-            this.tabMode.Controls.Add(this.tabCmd);
-            this.tabMode.Controls.Add(this.tabStocker);
-            this.tabMode.Controls.Add(this.tabIO);
-            this.tabMode.Controls.Add(this.tabVersion);
-            this.tabMode.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabMode.Location = new System.Drawing.Point(12, 12);
-            this.tabMode.Name = "tabMode";
-            this.tabMode.SelectedIndex = 0;
-            this.tabMode.Size = new System.Drawing.Size(995, 692);
-            this.tabMode.TabIndex = 24;
+            this.groupBox12.Controls.Add(this.Tx_Pause_Front_Press);
+            this.groupBox12.Controls.Add(this.CST_Out_Press);
+            this.groupBox12.Controls.Add(this.CST_In_Press);
+            this.groupBox12.Controls.Add(this.Tx_Pause_Front);
+            this.groupBox12.Controls.Add(this.CST_Out);
+            this.groupBox12.Controls.Add(this.CST_In);
+            this.groupBox12.Controls.Add(this.Pod2_Lock);
+            this.groupBox12.Controls.Add(this.Pod1_Lock);
+            this.groupBox12.Location = new System.Drawing.Point(538, 562);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(427, 89);
+            this.groupBox12.TabIndex = 102;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Switch LED";
             // 
-            // tabStocker
+            // Tx_Pause_Front_Press
             // 
-            this.tabStocker.Controls.Add(this.groupBox12);
-            this.tabStocker.Controls.Add(this.groupBox11);
-            this.tabStocker.Controls.Add(this.groupBox7);
-            this.tabStocker.Controls.Add(this.groupBox46);
-            this.tabStocker.Controls.Add(this.groupBox17);
-            this.tabStocker.Location = new System.Drawing.Point(4, 33);
-            this.tabStocker.Name = "tabStocker";
-            this.tabStocker.Size = new System.Drawing.Size(987, 655);
-            this.tabStocker.TabIndex = 4;
-            this.tabStocker.Text = " Stocker Command";
-            this.tabStocker.UseVisualStyleBackColor = true;
-            this.tabStocker.Click += new System.EventHandler(this.tabStocker_Click);
+            this.Tx_Pause_Front_Press.BackColor = System.Drawing.Color.White;
+            this.Tx_Pause_Front_Press.Location = new System.Drawing.Point(281, 22);
+            this.Tx_Pause_Front_Press.Name = "Tx_Pause_Front_Press";
+            this.Tx_Pause_Front_Press.Size = new System.Drawing.Size(27, 28);
+            this.Tx_Pause_Front_Press.TabIndex = 111;
+            this.Tx_Pause_Front_Press.UseVisualStyleBackColor = false;
+            // 
+            // CST_Out_Press
+            // 
+            this.CST_Out_Press.BackColor = System.Drawing.Color.White;
+            this.CST_Out_Press.Location = new System.Drawing.Point(172, 56);
+            this.CST_Out_Press.Name = "CST_Out_Press";
+            this.CST_Out_Press.Size = new System.Drawing.Size(27, 28);
+            this.CST_Out_Press.TabIndex = 110;
+            this.CST_Out_Press.UseVisualStyleBackColor = false;
+            // 
+            // CST_In_Press
+            // 
+            this.CST_In_Press.BackColor = System.Drawing.Color.White;
+            this.CST_In_Press.Location = new System.Drawing.Point(172, 22);
+            this.CST_In_Press.Name = "CST_In_Press";
+            this.CST_In_Press.Size = new System.Drawing.Size(27, 28);
+            this.CST_In_Press.TabIndex = 109;
+            this.CST_In_Press.UseVisualStyleBackColor = false;
+            // 
+            // Tx_Pause_Front
+            // 
+            this.Tx_Pause_Front.BackColor = System.Drawing.Color.White;
+            this.Tx_Pause_Front.Location = new System.Drawing.Point(202, 22);
+            this.Tx_Pause_Front.Name = "Tx_Pause_Front";
+            this.Tx_Pause_Front.Size = new System.Drawing.Size(106, 28);
+            this.Tx_Pause_Front.TabIndex = 107;
+            this.Tx_Pause_Front.Text = "TX PAUSE";
+            this.Tx_Pause_Front.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Tx_Pause_Front.UseVisualStyleBackColor = false;
+            this.Tx_Pause_Front.Click += new System.EventHandler(this.Tx_Pause_Front_Click);
+            // 
+            // CST_Out
+            // 
+            this.CST_Out.BackColor = System.Drawing.Color.White;
+            this.CST_Out.Location = new System.Drawing.Point(108, 56);
+            this.CST_Out.Name = "CST_Out";
+            this.CST_Out.Size = new System.Drawing.Size(91, 28);
+            this.CST_Out.TabIndex = 106;
+            this.CST_Out.Text = "CR OUT";
+            this.CST_Out.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.CST_Out.UseVisualStyleBackColor = false;
+            this.CST_Out.Click += new System.EventHandler(this.CST_Out_Click);
+            // 
+            // CST_In
+            // 
+            this.CST_In.BackColor = System.Drawing.Color.White;
+            this.CST_In.Location = new System.Drawing.Point(108, 22);
+            this.CST_In.Name = "CST_In";
+            this.CST_In.Size = new System.Drawing.Size(91, 28);
+            this.CST_In.TabIndex = 105;
+            this.CST_In.Text = "CR IN";
+            this.CST_In.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.CST_In.UseVisualStyleBackColor = false;
+            this.CST_In.Click += new System.EventHandler(this.CST_In_Click);
+            // 
+            // Pod2_Lock
+            // 
+            this.Pod2_Lock.BackColor = System.Drawing.Color.White;
+            this.Pod2_Lock.Location = new System.Drawing.Point(6, 56);
+            this.Pod2_Lock.Name = "Pod2_Lock";
+            this.Pod2_Lock.Size = new System.Drawing.Size(99, 28);
+            this.Pod2_Lock.TabIndex = 104;
+            this.Pod2_Lock.Text = "POD2 LOCK";
+            this.Pod2_Lock.UseVisualStyleBackColor = false;
+            this.Pod2_Lock.Click += new System.EventHandler(this.Pod2_Lock_Click);
+            // 
+            // Pod1_Lock
+            // 
+            this.Pod1_Lock.BackColor = System.Drawing.Color.White;
+            this.Pod1_Lock.Location = new System.Drawing.Point(6, 22);
+            this.Pod1_Lock.Name = "Pod1_Lock";
+            this.Pod1_Lock.Size = new System.Drawing.Size(99, 28);
+            this.Pod1_Lock.TabIndex = 103;
+            this.Pod1_Lock.Text = "POD1 LOCK";
+            this.Pod1_Lock.UseVisualStyleBackColor = false;
+            this.Pod1_Lock.Click += new System.EventHandler(this.Pod1_Lock_Click);
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.SignalTower_Buzz2);
+            this.groupBox11.Controls.Add(this.SignalTower_Buzz1);
+            this.groupBox11.Controls.Add(this.SignalTower_Blue);
+            this.groupBox11.Controls.Add(this.SignalTower_Green);
+            this.groupBox11.Controls.Add(this.SignalTower_Yellow);
+            this.groupBox11.Controls.Add(this.SignalTower_Red);
+            this.groupBox11.Location = new System.Drawing.Point(538, 482);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(427, 78);
+            this.groupBox11.TabIndex = 101;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Signal Tower";
+            // 
+            // SignalTower_Buzz2
+            // 
+            this.SignalTower_Buzz2.BackColor = System.Drawing.Color.White;
+            this.SignalTower_Buzz2.Location = new System.Drawing.Point(340, 30);
+            this.SignalTower_Buzz2.Name = "SignalTower_Buzz2";
+            this.SignalTower_Buzz2.Size = new System.Drawing.Size(62, 32);
+            this.SignalTower_Buzz2.TabIndex = 5;
+            this.SignalTower_Buzz2.Text = "Buzz2";
+            this.SignalTower_Buzz2.UseVisualStyleBackColor = false;
+            this.SignalTower_Buzz2.Click += new System.EventHandler(this.SignalTower_Buzz2_Click);
+            // 
+            // SignalTower_Buzz1
+            // 
+            this.SignalTower_Buzz1.BackColor = System.Drawing.Color.White;
+            this.SignalTower_Buzz1.Location = new System.Drawing.Point(277, 30);
+            this.SignalTower_Buzz1.Name = "SignalTower_Buzz1";
+            this.SignalTower_Buzz1.Size = new System.Drawing.Size(62, 32);
+            this.SignalTower_Buzz1.TabIndex = 4;
+            this.SignalTower_Buzz1.Text = "Buzz1";
+            this.SignalTower_Buzz1.UseVisualStyleBackColor = false;
+            this.SignalTower_Buzz1.Click += new System.EventHandler(this.SignalTower_Buzz1_Click);
+            // 
+            // SignalTower_Blue
+            // 
+            this.SignalTower_Blue.BackColor = System.Drawing.Color.White;
+            this.SignalTower_Blue.ForeColor = System.Drawing.Color.Blue;
+            this.SignalTower_Blue.Location = new System.Drawing.Point(213, 30);
+            this.SignalTower_Blue.Name = "SignalTower_Blue";
+            this.SignalTower_Blue.Size = new System.Drawing.Size(62, 32);
+            this.SignalTower_Blue.TabIndex = 3;
+            this.SignalTower_Blue.Text = "Blue";
+            this.SignalTower_Blue.UseVisualStyleBackColor = false;
+            this.SignalTower_Blue.Click += new System.EventHandler(this.SignalTower_Blue_Click);
+            // 
+            // SignalTower_Green
+            // 
+            this.SignalTower_Green.BackColor = System.Drawing.Color.White;
+            this.SignalTower_Green.ForeColor = System.Drawing.Color.Green;
+            this.SignalTower_Green.Location = new System.Drawing.Point(150, 30);
+            this.SignalTower_Green.Name = "SignalTower_Green";
+            this.SignalTower_Green.Size = new System.Drawing.Size(62, 32);
+            this.SignalTower_Green.TabIndex = 2;
+            this.SignalTower_Green.Text = "Green";
+            this.SignalTower_Green.UseVisualStyleBackColor = false;
+            this.SignalTower_Green.Click += new System.EventHandler(this.SignalTower_Green_Click);
+            // 
+            // SignalTower_Yellow
+            // 
+            this.SignalTower_Yellow.BackColor = System.Drawing.Color.White;
+            this.SignalTower_Yellow.ForeColor = System.Drawing.Color.Orange;
+            this.SignalTower_Yellow.Location = new System.Drawing.Point(87, 30);
+            this.SignalTower_Yellow.Name = "SignalTower_Yellow";
+            this.SignalTower_Yellow.Size = new System.Drawing.Size(62, 32);
+            this.SignalTower_Yellow.TabIndex = 1;
+            this.SignalTower_Yellow.Text = "Yellow";
+            this.SignalTower_Yellow.UseVisualStyleBackColor = false;
+            this.SignalTower_Yellow.Click += new System.EventHandler(this.SignalTower_Yellow_Click);
+            // 
+            // SignalTower_Red
+            // 
+            this.SignalTower_Red.BackColor = System.Drawing.Color.White;
+            this.SignalTower_Red.ForeColor = System.Drawing.Color.Red;
+            this.SignalTower_Red.Location = new System.Drawing.Point(24, 30);
+            this.SignalTower_Red.Name = "SignalTower_Red";
+            this.SignalTower_Red.Size = new System.Drawing.Size(62, 32);
+            this.SignalTower_Red.TabIndex = 0;
+            this.SignalTower_Red.Text = "Red";
+            this.SignalTower_Red.UseVisualStyleBackColor = false;
+            this.SignalTower_Red.Click += new System.EventHandler(this.SignalTower_Red_Click);
             // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.UnLift);
             this.groupBox7.Controls.Add(this.groupBox8);
+            this.groupBox7.Controls.Add(this.SMIF2_Lift_btn);
             this.groupBox7.Controls.Add(this.SMIF2_TwkUp_btn);
             this.groupBox7.Controls.Add(this.groupBox9);
             this.groupBox7.Controls.Add(this.groupBox10);
@@ -1126,12 +2322,24 @@
             this.groupBox7.Controls.Add(this.SMIF2_Clamp_btn);
             this.groupBox7.Controls.Add(this.SMIF2_TwkDn_btn);
             this.groupBox7.Controls.Add(this.SMIF2_ReMap_btn);
-            this.groupBox7.Location = new System.Drawing.Point(3, 171);
+            this.groupBox7.Location = new System.Drawing.Point(3, 162);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(529, 160);
             this.groupBox7.TabIndex = 81;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "SMIF_2";
+            // 
+            // UnLift
+            // 
+            this.UnLift.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UnLift.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UnLift.Location = new System.Drawing.Point(430, 71);
+            this.UnLift.Name = "UnLift";
+            this.UnLift.Size = new System.Drawing.Size(72, 33);
+            this.UnLift.TabIndex = 84;
+            this.UnLift.Text = "UnLift";
+            this.UnLift.UseVisualStyleBackColor = true;
+            this.UnLift.Click += new System.EventHandler(this.UnLift_Click);
             // 
             // groupBox8
             // 
@@ -1178,6 +2386,18 @@
             this.SMIF2_SetSpeed_btn.UseVisualStyleBackColor = true;
             this.SMIF2_SetSpeed_btn.Click += new System.EventHandler(this.SMIF2_SetSpeed_btn_Click);
             // 
+            // SMIF2_Lift_btn
+            // 
+            this.SMIF2_Lift_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SMIF2_Lift_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SMIF2_Lift_btn.Location = new System.Drawing.Point(430, 32);
+            this.SMIF2_Lift_btn.Name = "SMIF2_Lift_btn";
+            this.SMIF2_Lift_btn.Size = new System.Drawing.Size(72, 33);
+            this.SMIF2_Lift_btn.TabIndex = 83;
+            this.SMIF2_Lift_btn.Text = "Lift";
+            this.SMIF2_Lift_btn.UseVisualStyleBackColor = true;
+            this.SMIF2_Lift_btn.Click += new System.EventHandler(this.SMIF2_Lift_btn_Click);
+            // 
             // SMIF2_TwkUp_btn
             // 
             this.SMIF2_TwkUp_btn.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -1196,7 +2416,7 @@
             this.groupBox9.Controls.Add(this.SMIF2_Home_btn);
             this.groupBox9.Location = new System.Drawing.Point(6, 17);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(80, 137);
+            this.groupBox9.Size = new System.Drawing.Size(80, 130);
             this.groupBox9.TabIndex = 80;
             this.groupBox9.TabStop = false;
             // 
@@ -1204,7 +2424,7 @@
             // 
             this.SMIF2_Stage_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SMIF2_Stage_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SMIF2_Stage_btn.Location = new System.Drawing.Point(6, 33);
+            this.SMIF2_Stage_btn.Location = new System.Drawing.Point(6, 28);
             this.SMIF2_Stage_btn.Name = "SMIF2_Stage_btn";
             this.SMIF2_Stage_btn.Size = new System.Drawing.Size(67, 33);
             this.SMIF2_Stage_btn.TabIndex = 30;
@@ -1216,7 +2436,7 @@
             // 
             this.SMIF2_Home_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SMIF2_Home_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SMIF2_Home_btn.Location = new System.Drawing.Point(7, 80);
+            this.SMIF2_Home_btn.Location = new System.Drawing.Point(7, 75);
             this.SMIF2_Home_btn.Name = "SMIF2_Home_btn";
             this.SMIF2_Home_btn.Size = new System.Drawing.Size(67, 33);
             this.SMIF2_Home_btn.TabIndex = 31;
@@ -1290,9 +2510,9 @@
             this.SMIF2_Reset_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SMIF2_Reset_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SMIF2_Reset_btn.ForeColor = System.Drawing.Color.Black;
-            this.SMIF2_Reset_btn.Location = new System.Drawing.Point(430, 29);
+            this.SMIF2_Reset_btn.Location = new System.Drawing.Point(430, 110);
             this.SMIF2_Reset_btn.Name = "SMIF2_Reset_btn";
-            this.SMIF2_Reset_btn.Size = new System.Drawing.Size(87, 39);
+            this.SMIF2_Reset_btn.Size = new System.Drawing.Size(72, 33);
             this.SMIF2_Reset_btn.TabIndex = 29;
             this.SMIF2_Reset_btn.Text = "Reset";
             this.SMIF2_Reset_btn.UseVisualStyleBackColor = false;
@@ -1312,14 +2532,15 @@
             // 
             // SMIF2_Org_btn
             // 
+            this.SMIF2_Org_btn.BackColor = System.Drawing.Color.Coral;
             this.SMIF2_Org_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SMIF2_Org_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SMIF2_Org_btn.Location = new System.Drawing.Point(430, 71);
+            this.SMIF2_Org_btn.Location = new System.Drawing.Point(357, 110);
             this.SMIF2_Org_btn.Name = "SMIF2_Org_btn";
             this.SMIF2_Org_btn.Size = new System.Drawing.Size(72, 33);
             this.SMIF2_Org_btn.TabIndex = 19;
-            this.SMIF2_Org_btn.Text = "Org";
-            this.SMIF2_Org_btn.UseVisualStyleBackColor = true;
+            this.SMIF2_Org_btn.Text = "ORG";
+            this.SMIF2_Org_btn.UseVisualStyleBackColor = false;
             this.SMIF2_Org_btn.Click += new System.EventHandler(this.SMIF2_Org_btn_Click);
             // 
             // SMIF2_Clamp_btn
@@ -1438,201 +2659,6 @@
             this.CstRobot_Source_cbx.Size = new System.Drawing.Size(127, 30);
             this.CstRobot_Source_cbx.TabIndex = 78;
             // 
-            // groupBox11
-            // 
-            this.groupBox11.Controls.Add(this.SignalTower_Buzz2);
-            this.groupBox11.Controls.Add(this.SignalTower_Buzz1);
-            this.groupBox11.Controls.Add(this.SignalTower_Blue);
-            this.groupBox11.Controls.Add(this.SignalTower_Green);
-            this.groupBox11.Controls.Add(this.SignalTower_Yellow);
-            this.groupBox11.Controls.Add(this.SignalTower_Red);
-            this.groupBox11.Location = new System.Drawing.Point(538, 482);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(427, 78);
-            this.groupBox11.TabIndex = 101;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Signal Tower";
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.Controls.Add(this.Tx_Pause_Front_Press);
-            this.groupBox12.Controls.Add(this.CST_Out_Press);
-            this.groupBox12.Controls.Add(this.CST_In_Press);
-            this.groupBox12.Controls.Add(this.Tx_Pause_Rear);
-            this.groupBox12.Controls.Add(this.Tx_Pause_Front);
-            this.groupBox12.Controls.Add(this.CST_Out);
-            this.groupBox12.Controls.Add(this.CST_In);
-            this.groupBox12.Controls.Add(this.Pod2_Lock);
-            this.groupBox12.Controls.Add(this.Pod1_Lock);
-            this.groupBox12.Location = new System.Drawing.Point(538, 562);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(427, 89);
-            this.groupBox12.TabIndex = 102;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Switch LED";
-            // 
-            // SignalTower_Red
-            // 
-            this.SignalTower_Red.BackColor = System.Drawing.Color.White;
-            this.SignalTower_Red.Location = new System.Drawing.Point(24, 30);
-            this.SignalTower_Red.Name = "SignalTower_Red";
-            this.SignalTower_Red.Size = new System.Drawing.Size(62, 32);
-            this.SignalTower_Red.TabIndex = 0;
-            this.SignalTower_Red.Text = "Red";
-            this.SignalTower_Red.UseVisualStyleBackColor = false;
-            this.SignalTower_Red.Click += new System.EventHandler(this.SignalTower_Red_Click);
-            // 
-            // SignalTower_Yellow
-            // 
-            this.SignalTower_Yellow.BackColor = System.Drawing.Color.White;
-            this.SignalTower_Yellow.Location = new System.Drawing.Point(87, 30);
-            this.SignalTower_Yellow.Name = "SignalTower_Yellow";
-            this.SignalTower_Yellow.Size = new System.Drawing.Size(62, 32);
-            this.SignalTower_Yellow.TabIndex = 1;
-            this.SignalTower_Yellow.Text = "Yellow";
-            this.SignalTower_Yellow.UseVisualStyleBackColor = false;
-            this.SignalTower_Yellow.Click += new System.EventHandler(this.SignalTower_Yellow_Click);
-            // 
-            // SignalTower_Green
-            // 
-            this.SignalTower_Green.BackColor = System.Drawing.Color.White;
-            this.SignalTower_Green.Location = new System.Drawing.Point(150, 30);
-            this.SignalTower_Green.Name = "SignalTower_Green";
-            this.SignalTower_Green.Size = new System.Drawing.Size(62, 32);
-            this.SignalTower_Green.TabIndex = 2;
-            this.SignalTower_Green.Text = "Green";
-            this.SignalTower_Green.UseVisualStyleBackColor = false;
-            this.SignalTower_Green.Click += new System.EventHandler(this.SignalTower_Green_Click);
-            // 
-            // SignalTower_Blue
-            // 
-            this.SignalTower_Blue.BackColor = System.Drawing.Color.White;
-            this.SignalTower_Blue.Location = new System.Drawing.Point(213, 30);
-            this.SignalTower_Blue.Name = "SignalTower_Blue";
-            this.SignalTower_Blue.Size = new System.Drawing.Size(62, 32);
-            this.SignalTower_Blue.TabIndex = 3;
-            this.SignalTower_Blue.Text = "Blue";
-            this.SignalTower_Blue.UseVisualStyleBackColor = false;
-            this.SignalTower_Blue.Click += new System.EventHandler(this.SignalTower_Blue_Click);
-            // 
-            // SignalTower_Buzz1
-            // 
-            this.SignalTower_Buzz1.BackColor = System.Drawing.Color.White;
-            this.SignalTower_Buzz1.Location = new System.Drawing.Point(277, 30);
-            this.SignalTower_Buzz1.Name = "SignalTower_Buzz1";
-            this.SignalTower_Buzz1.Size = new System.Drawing.Size(62, 32);
-            this.SignalTower_Buzz1.TabIndex = 4;
-            this.SignalTower_Buzz1.Text = "Buzz1";
-            this.SignalTower_Buzz1.UseVisualStyleBackColor = false;
-            this.SignalTower_Buzz1.Click += new System.EventHandler(this.SignalTower_Buzz1_Click);
-            // 
-            // SignalTower_Buzz2
-            // 
-            this.SignalTower_Buzz2.BackColor = System.Drawing.Color.White;
-            this.SignalTower_Buzz2.Location = new System.Drawing.Point(340, 30);
-            this.SignalTower_Buzz2.Name = "SignalTower_Buzz2";
-            this.SignalTower_Buzz2.Size = new System.Drawing.Size(62, 32);
-            this.SignalTower_Buzz2.TabIndex = 5;
-            this.SignalTower_Buzz2.Text = "Buzz2";
-            this.SignalTower_Buzz2.UseVisualStyleBackColor = false;
-            this.SignalTower_Buzz2.Click += new System.EventHandler(this.SignalTower_Buzz2_Click);
-            // 
-            // Pod1_Lock
-            // 
-            this.Pod1_Lock.BackColor = System.Drawing.Color.White;
-            this.Pod1_Lock.Location = new System.Drawing.Point(6, 22);
-            this.Pod1_Lock.Name = "Pod1_Lock";
-            this.Pod1_Lock.Size = new System.Drawing.Size(99, 28);
-            this.Pod1_Lock.TabIndex = 103;
-            this.Pod1_Lock.Text = "Pod1_Lock";
-            this.Pod1_Lock.UseVisualStyleBackColor = false;
-            this.Pod1_Lock.Click += new System.EventHandler(this.Pod1_Lock_Click);
-            // 
-            // Pod2_Lock
-            // 
-            this.Pod2_Lock.BackColor = System.Drawing.Color.White;
-            this.Pod2_Lock.Location = new System.Drawing.Point(6, 56);
-            this.Pod2_Lock.Name = "Pod2_Lock";
-            this.Pod2_Lock.Size = new System.Drawing.Size(99, 28);
-            this.Pod2_Lock.TabIndex = 104;
-            this.Pod2_Lock.Text = "Pod2_Lock";
-            this.Pod2_Lock.UseVisualStyleBackColor = false;
-            this.Pod2_Lock.Click += new System.EventHandler(this.Pod2_Lock_Click);
-            // 
-            // CST_Out
-            // 
-            this.CST_Out.BackColor = System.Drawing.Color.White;
-            this.CST_Out.Location = new System.Drawing.Point(108, 56);
-            this.CST_Out.Name = "CST_Out";
-            this.CST_Out.Size = new System.Drawing.Size(83, 28);
-            this.CST_Out.TabIndex = 106;
-            this.CST_Out.Text = "CST_OUT";
-            this.CST_Out.UseVisualStyleBackColor = false;
-            this.CST_Out.Click += new System.EventHandler(this.CST_Out_Click);
-            // 
-            // CST_In
-            // 
-            this.CST_In.BackColor = System.Drawing.Color.White;
-            this.CST_In.Location = new System.Drawing.Point(108, 22);
-            this.CST_In.Name = "CST_In";
-            this.CST_In.Size = new System.Drawing.Size(83, 28);
-            this.CST_In.TabIndex = 105;
-            this.CST_In.Text = "CST_IN";
-            this.CST_In.UseVisualStyleBackColor = false;
-            this.CST_In.Click += new System.EventHandler(this.CST_In_Click);
-            // 
-            // Tx_Pause_Rear
-            // 
-            this.Tx_Pause_Rear.BackColor = System.Drawing.Color.White;
-            this.Tx_Pause_Rear.Location = new System.Drawing.Point(252, 56);
-            this.Tx_Pause_Rear.Name = "Tx_Pause_Rear";
-            this.Tx_Pause_Rear.Size = new System.Drawing.Size(103, 28);
-            this.Tx_Pause_Rear.TabIndex = 108;
-            this.Tx_Pause_Rear.Text = "Tx_Pause_R";
-            this.Tx_Pause_Rear.UseVisualStyleBackColor = false;
-            this.Tx_Pause_Rear.Click += new System.EventHandler(this.Tx_Pause_Rear_Click);
-            // 
-            // Tx_Pause_Front
-            // 
-            this.Tx_Pause_Front.BackColor = System.Drawing.Color.White;
-            this.Tx_Pause_Front.Location = new System.Drawing.Point(252, 22);
-            this.Tx_Pause_Front.Name = "Tx_Pause_Front";
-            this.Tx_Pause_Front.Size = new System.Drawing.Size(103, 28);
-            this.Tx_Pause_Front.TabIndex = 107;
-            this.Tx_Pause_Front.Text = "Tx_Pause_F";
-            this.Tx_Pause_Front.UseVisualStyleBackColor = false;
-            this.Tx_Pause_Front.Click += new System.EventHandler(this.Tx_Pause_Front_Click);
-            // 
-            // CST_In_Press
-            // 
-            this.CST_In_Press.BackColor = System.Drawing.Color.White;
-            this.CST_In_Press.Location = new System.Drawing.Point(192, 22);
-            this.CST_In_Press.Name = "CST_In_Press";
-            this.CST_In_Press.Size = new System.Drawing.Size(55, 28);
-            this.CST_In_Press.TabIndex = 109;
-            this.CST_In_Press.Text = "Press";
-            this.CST_In_Press.UseVisualStyleBackColor = false;
-            // 
-            // CST_Out_Press
-            // 
-            this.CST_Out_Press.BackColor = System.Drawing.Color.White;
-            this.CST_Out_Press.Location = new System.Drawing.Point(192, 56);
-            this.CST_Out_Press.Name = "CST_Out_Press";
-            this.CST_Out_Press.Size = new System.Drawing.Size(55, 28);
-            this.CST_Out_Press.TabIndex = 110;
-            this.CST_Out_Press.Text = "Press";
-            this.CST_Out_Press.UseVisualStyleBackColor = false;
-            // 
-            // Tx_Pause_Front_Press
-            // 
-            this.Tx_Pause_Front_Press.BackColor = System.Drawing.Color.White;
-            this.Tx_Pause_Front_Press.Location = new System.Drawing.Point(356, 22);
-            this.Tx_Pause_Front_Press.Name = "Tx_Pause_Front_Press";
-            this.Tx_Pause_Front_Press.Size = new System.Drawing.Size(55, 28);
-            this.Tx_Pause_Front_Press.TabIndex = 111;
-            this.Tx_Pause_Front_Press.Text = "Press";
-            this.Tx_Pause_Front_Press.UseVisualStyleBackColor = false;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1641,25 +2667,27 @@
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.tabMode);
             this.Name = "FormMain";
-            this.Text = "Form1";
+            this.Text = "200mm Oven Tester";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBox49.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);
             this.groupBox47.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            this.tabVersion.ResumeLayout(false);
+            this.pnlIO.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.tabIO.ResumeLayout(false);
             this.groupBox17.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
-            this.tabCmd.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.gbCmdArea.ResumeLayout(false);
-            this.gbCmdArea.PerformLayout();
             this.tabMode.ResumeLayout(false);
             this.tabStocker.ResumeLayout(false);
+            this.gbCmdArea.ResumeLayout(false);
+            this.gbCmdArea.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
             this.groupBox9.ResumeLayout(false);
@@ -1668,8 +2696,6 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox48.ResumeLayout(false);
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox12.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1685,18 +2711,15 @@
         private System.Windows.Forms.Button CstRobot_Org_btn;
         private System.Windows.Forms.Button CstRobot_Home_btn;
         private System.Windows.Forms.GroupBox groupBox47;
-        private System.Windows.Forms.TextBox tbPresELPT1;
+        private System.Windows.Forms.TextBox Smif_1;
         private System.Windows.Forms.TextBox CstRobot;
-        private System.Windows.Forms.TextBox tbPresELPT2;
+        private System.Windows.Forms.TextBox Smif_2;
         private System.Windows.Forms.TextBox Shelf_10;
         private System.Windows.Forms.ToolTip hint;
-        private System.Windows.Forms.TextBox tbCounter;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.RichTextBox rtbMsg;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Button btnClearMsg;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TabPage tabVersion;
         private System.Windows.Forms.Panel pnlIO;
         private System.Windows.Forms.TabPage tabIO;
         private System.Windows.Forms.Button CstRobot_Source_Get_btn;
@@ -1705,21 +2728,12 @@
         private System.Windows.Forms.Button SMIF1_Clamp_btn;
         private System.Windows.Forms.Button SMIF1_Reset_btn;
         private System.Windows.Forms.Button SMIF1_UnClamp_btn;
-        private System.Windows.Forms.TabPage tabCmd;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox tbTimes;
-        private System.Windows.Forms.GroupBox gbCmdArea;
-        private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.Button btnAutoRun;
         private System.Windows.Forms.TabControl tabMode;
         private System.Windows.Forms.TabPage tabStocker;
         private System.Windows.Forms.GroupBox groupBox46;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox48;
         private System.Windows.Forms.ComboBox CstRobot_Source_cbx;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button CycleStop_btn;
         private System.Windows.Forms.Button SMIF1_TwkUp_btn;
         private System.Windows.Forms.Button SMIF1_Home_btn;
         private System.Windows.Forms.Button SMIF1_Stage_btn;
@@ -1752,7 +2766,6 @@
         private System.Windows.Forms.Button SMIF1_MoveTo_btn;
         private System.Windows.Forms.Button SMIF1_ReMap_btn;
         private System.Windows.Forms.Button SMIF1_TwkDn_btn;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.ComboBox SMIF2_Speed_cbx;
@@ -1772,7 +2785,6 @@
         private System.Windows.Forms.Button SMIF2_ReMap_btn;
         private System.Windows.Forms.ComboBox CstRobot_Speed_cbx;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox AutoRunSpeed_cbx;
         private System.Windows.Forms.GroupBox groupBox12;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.Button SignalTower_Buzz2;
@@ -1783,13 +2795,110 @@
         private System.Windows.Forms.Button SignalTower_Red;
         private System.Windows.Forms.Button Pod2_Lock;
         private System.Windows.Forms.Button Pod1_Lock;
-        private System.Windows.Forms.Button Tx_Pause_Rear;
         private System.Windows.Forms.Button Tx_Pause_Front;
         private System.Windows.Forms.Button CST_Out;
         private System.Windows.Forms.Button CST_In;
         private System.Windows.Forms.Button Tx_Pause_Front_Press;
         private System.Windows.Forms.Button CST_Out_Press;
         private System.Windows.Forms.Button CST_In_Press;
+        private System.Windows.Forms.GroupBox gbCmdArea;
+        private System.Windows.Forms.ComboBox AutoRunSpeed_cbx;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tbTimes;
+        private System.Windows.Forms.Button btnAutoRun;
+        private System.Windows.Forms.TextBox tbCounter;
+        private System.Windows.Forms.Button CycleStop_btn;
+        private System.Windows.Forms.Label Shelf_21_2;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label Shelf_21_1;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label Shelf_20_2;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.Label Shelf_20_1;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Label Shelf_19_2;
+        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.Label Shelf_19_1;
+        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.Label Shelf_18_2;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.Label Shelf_18_1;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label Shelf_17_2;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.Label Shelf_17_1;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.Label Shelf_16_2;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.Label Shelf_16_1;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label Shelf_15_2;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label Shelf_15_1;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label Shelf_14_2;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label Shelf_14_1;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label Shelf_13_2;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label Shelf_13_1;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label Shelf_12_2;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label Shelf_12_1;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label Shelf_11_2;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label Shelf_11_1;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label Shelf_10_2;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label Shelf_10_1;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label Shelf_9_2;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label Shelf_9_1;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label Shelf_8_2;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label Shelf_8_1;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label Shelf_7_2;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label Shelf_7_1;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label Shelf_6_2;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label Shelf_6_1;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label Shelf_5_2;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label Shelf_5_1;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label Shelf_4_2;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label Shelf_4_1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label Shelf_3_2;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label Shelf_3_1;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label Shelf_2_2;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label Shelf_2_1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label Shelf_1_2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label Shelf_1_1;
+        private System.Windows.Forms.Button SMIF1_UnLift_btn;
+        private System.Windows.Forms.Button SMIF1_Lift_btn;
+        private System.Windows.Forms.Button UnLift;
+        private System.Windows.Forms.Button SMIF2_Lift_btn;
     }
 }
 
