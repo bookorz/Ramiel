@@ -44,6 +44,11 @@ namespace Ramiel
             {"BUFFER_1", "24"},
             {"BUFFER_2", "25"},
         };
+        Dictionary<string, string> ModeList = new Dictionary<string, string>
+        {
+            {"Normal", "0"},
+            {"Dry", "1"}
+        };
 
         string Mode = "0";
         bool IsRun = false;
@@ -66,7 +71,12 @@ namespace Ramiel
             CstRobot_Destination_cbx.DisplayMember = "Key";
             CstRobot_Destination_cbx.ValueMember = "Value";
     
-         
+            Mode_cb.DataSource= new BindingSource(ModeList, null);
+            Mode_cb.DisplayMember = "Key";
+            Mode_cb.ValueMember = "Value";
+            Mode_cb.SelectedIndex = 0;
+            Mode = "0";
+
             ThreadPool.QueueUserWorkItem(new WaitCallback(CCLINKAutoRefresh), NodeManagement.Get("CSTROBOT"));
         }
         public void On_Alarm_Happen(AlarmManagement.Alarm Alarm)
@@ -86,7 +96,25 @@ namespace Ramiel
 
         public void On_Command_Finished(Node Node, Transaction Txn, CommandReturnMessage Msg)
         {
-
+            
+            switch (Node.Type)
+            {
+                case "LOADPORT":
+                    switch (Txn.Method)
+                    {
+                        case Transaction.Command.LoadPortType.ReadStatus:
+                            if (Node.Status["POS"].Equals("3") && Node.Status["LPS"].Equals("TRUE") && Node.Status["LLS"].Equals("TRUE"))
+                            {
+                                FormMainUpdate.Update_IO(Node.Name, "Placement");
+                            }
+                            else
+                            {
+                                FormMainUpdate.Update_IO(Node.Name, "N/A");
+                            }
+                            break;
+                    }
+                    break;
+            }
         }
 
         public void On_Command_TimeOut(Node Node, Transaction Txn)
@@ -175,7 +203,7 @@ namespace Ramiel
 
         public void On_TaskJob_Aborted(TaskFlowManagement.CurrentProcessTask Task)
         {
-
+            FormMainUpdate.SetFormEnable("FormMain", true);
         }
 
         public void On_TaskJob_Ack(TaskFlowManagement.CurrentProcessTask Task)
@@ -185,7 +213,10 @@ namespace Ramiel
 
         public void On_TaskJob_Finished(TaskFlowManagement.CurrentProcessTask Task)
         {
-
+            if (!Task.IsSubTask)
+            {
+                FormMainUpdate.SetFormEnable("FormMain",true);
+            }
         }
 
 
@@ -193,21 +224,25 @@ namespace Ramiel
 
         private void SMIF1_Stage_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Stage_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Home_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Home_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
@@ -216,6 +251,7 @@ namespace Ramiel
             int speed = 0;
             if (int.TryParse(SMIF1_Speed_cbx.Text, out speed))
             {
+                FormMainUpdate.SetFormEnable("FormMain", false);
                 TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", speed == 100 ? "00" : speed == 0 ? "10" : speed.ToString() } }, Guid.NewGuid().ToString());
             }
             else
@@ -229,6 +265,7 @@ namespace Ramiel
             int speed = 0;
             if (int.TryParse(SMIF2_Speed_cbx.Text, out speed))
             {
+                FormMainUpdate.SetFormEnable("FormMain", false);
                 TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", speed == 100 ? "00" : speed == 0 ? "10" : speed.ToString() } }, Guid.NewGuid().ToString());
             }
             else
@@ -242,6 +279,7 @@ namespace Ramiel
             int slot = 0;
             if (int.TryParse(SMIF1_Slot_cbx.Text, out slot))
             {
+                FormMainUpdate.SetFormEnable("FormMain", false);
                 TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SLOT, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", slot.ToString() } }, Guid.NewGuid().ToString());
             }
             else
@@ -255,6 +293,7 @@ namespace Ramiel
             int slot = 0;
             if (int.TryParse(SMIF2_Slot_cbx.Text, out slot))
             {
+                FormMainUpdate.SetFormEnable("FormMain", false);
                 TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SLOT, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", slot.ToString() } }, Guid.NewGuid().ToString());
             }
             else
@@ -265,70 +304,84 @@ namespace Ramiel
 
         private void SMIF1_TwkUp_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
         private void SMIF2_TwkUp_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_TwkDn_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKDN, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_TwkDn_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKDN, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_ReMap_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RE_MAPPING, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_ReMap_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RE_MAPPING, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Clamp_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_CLAMP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Clamp_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_CLAMP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_UnClamp_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNCLAMP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_UnClamp_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNCLAMP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Org_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_ORGSH, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Org_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_ORGSH, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Reset_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RESET, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Reset_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RESET, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
@@ -341,8 +394,13 @@ namespace Ramiel
 
         private void CstRobot_Source_GetWait_btn_Click(object sender, EventArgs e)
         {
+            if (!checkDryMode())
+            {
+                return;
+            }
             if (!CstRobot_Source_cbx.SelectedValue.ToString().Equals(""))
             {
+                FormMainUpdate.SetFormEnable("FormMain", false);
                 TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GETWAIT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Source_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
             }
             else
@@ -353,8 +411,13 @@ namespace Ramiel
 
         private void CstRobot_Source_Get_btn_Click(object sender, EventArgs e)
         {
+            if (!checkDryMode())
+            {
+                return;
+            }
             if (!CstRobot_Source_cbx.SelectedValue.ToString().Equals(""))
             {
+                FormMainUpdate.SetFormEnable("FormMain", false);
                 TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Source_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
             }
             else
@@ -364,15 +427,18 @@ namespace Ramiel
         }
         private void CstRobot_Reset_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_RESET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" } }, Guid.NewGuid().ToString());
         }
         private void CstRobot_Org_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_ORGSH, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
         }
 
         private void CstRobot_Home_btn_Click(object sender, EventArgs e)
         {
+            FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_SHOME, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
         }
 
@@ -380,8 +446,13 @@ namespace Ramiel
 
         private void CstRobot_Source_PutWait_btn_Click(object sender, EventArgs e)
         {
+            if (!checkDryMode())
+            {
+                return;
+            }
             if (!CstRobot_Destination_cbx.SelectedValue.ToString().Equals(""))
             {
+                FormMainUpdate.SetFormEnable("FormMain", false);
                 TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUTWAIT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Destination_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
             }
             else
@@ -392,8 +463,13 @@ namespace Ramiel
 
         private void CstRobot_Source_Put_btn_Click(object sender, EventArgs e)
         {
+            if (!checkDryMode())
+            {
+                return;
+            }
             if (!CstRobot_Destination_cbx.SelectedValue.ToString().Equals(""))
             {
+                FormMainUpdate.SetFormEnable("FormMain", false);
                 TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Destination_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
             }
             else
@@ -544,6 +620,9 @@ namespace Ramiel
                             break;
                         case Input.Tx_Pause_Front_Press:
                             FormMainUpdate.Update_IO("Tx_Pause_Front_Press", Val == 1 ? "Placement" : "N/A");
+                            break;
+                        case Input.Tx_Pause_Rear_Press:
+                            FormMainUpdate.Update_IO("Tx_Pause_Rear_Press", Val == 1 ? "Placement" : "N/A");
                             break;
                     }
                     break;
@@ -1103,17 +1182,33 @@ namespace Ramiel
                 MessageBox.Show("Already running!");
                 return;
             }
+            RepeatCnt = Convert.ToInt64(tbTimes.Text);
             speed = AutoRunSpeed_cbx.Text;
             ThreadPool.QueueUserWorkItem(new WaitCallback(AutoRun));
         }
+        long CurrntCnt = 0;
+        long RepeatCnt = 0;
         string speed = "";
         string CurrentSmif = "23";
         private void AutoRun(object input)
         {
             CurrentSmif = "23";
             IsRun = true;
+            int sp = 0;
+            if (int.TryParse(AutoRunSpeed_cbx.Text, out sp))
+            {
+                
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString());
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString());
+
+            }
+            
             while (IsRun)
             {
+                if (CurrntCnt >= RepeatCnt)
+                {
+                    break;
+                }
                 #region test1
 
 
@@ -1175,7 +1270,7 @@ namespace Ramiel
 
                 #region test2
 
-
+                
 
                 Stopwatch sw = new Stopwatch();
 
@@ -1245,6 +1340,8 @@ namespace Ramiel
 
 
                 #endregion
+                CurrntCnt++;
+                FormMainUpdate.CounterUpdate(CurrntCnt.ToString());
             }
         }
 
@@ -1390,24 +1487,56 @@ namespace Ramiel
 
         private void SMIF1_Lift_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
+            FormMainUpdate.SetFormEnable("FormMain", false);
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" },{ "@Value","1"} }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_UnLift_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNLIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
+            FormMainUpdate.SetFormEnable("FormMain", false);
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNLIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", "0" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Lift_btn_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
+            FormMainUpdate.SetFormEnable("FormMain", false);
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", "1" } }, Guid.NewGuid().ToString());
         }
 
         private void UnLift_Click(object sender, EventArgs e)
         {
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNLIFT, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
+            FormMainUpdate.SetFormEnable("FormMain", false);
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNLIFT, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", "0" } }, Guid.NewGuid().ToString());
+        }
+
+        private void Test_btn_Click(object sender, EventArgs e)
+        {
+            
+            FormMainUpdate.SetFormEnable("FormMain", false);
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_READ_STATUS, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
+        }
+        private bool checkDryMode()
+        {
+            if (Mode.Equals("0"))
+                return true;
+
+            DialogResult dialogResult = MessageBox.Show("目前 Robot 不在 Normal Mode，\n確定要執行?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
+            if (dialogResult == DialogResult.Yes)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private void Mode_cb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Mode = Mode_cb.SelectedValue.ToString();
         }
     }
+
     public class Input
     {
         private const int StationNo = 5;
@@ -1415,6 +1544,8 @@ namespace Ramiel
         public const int CST_In_Press = 2 + Offset;
         public const int CST_Out_Press = 3 + Offset;
         public const int Tx_Pause_Front_Press = 4 + Offset;
+        public const int Tx_Pause_Rear_Press = 5 + Offset;
+
 
     }
     class Output

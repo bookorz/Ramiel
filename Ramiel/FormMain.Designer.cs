@@ -59,15 +59,16 @@
             this.Shelf_1 = new System.Windows.Forms.TextBox();
             this.Shelf_4 = new System.Windows.Forms.TextBox();
             this.Shelf_7 = new System.Windows.Forms.TextBox();
-            this.Smif_1 = new System.Windows.Forms.TextBox();
+            this.SMIF1 = new System.Windows.Forms.TextBox();
             this.CstRobot = new System.Windows.Forms.TextBox();
-            this.Smif_2 = new System.Windows.Forms.TextBox();
+            this.SMIF2 = new System.Windows.Forms.TextBox();
             this.Shelf_10 = new System.Windows.Forms.TextBox();
             this.hint = new System.Windows.Forms.ToolTip(this.components);
             this.tbCounter = new System.Windows.Forms.TextBox();
             this.lblStatus = new System.Windows.Forms.Label();
             this.rtbMsg = new System.Windows.Forms.RichTextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.Test_btn = new System.Windows.Forms.Button();
             this.btnClearMsg = new System.Windows.Forms.Button();
             this.pnlIO = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -179,6 +180,8 @@
             this.tabMode = new System.Windows.Forms.TabControl();
             this.tabStocker = new System.Windows.Forms.TabPage();
             this.gbCmdArea = new System.Windows.Forms.GroupBox();
+            this.Mode_cb = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.CycleStop_btn = new System.Windows.Forms.Button();
             this.AutoRunSpeed_cbx = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -187,6 +190,8 @@
             this.tbTimes = new System.Windows.Forms.TextBox();
             this.btnAutoRun = new System.Windows.Forms.Button();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.Tx_Pause_Rear_Press = new System.Windows.Forms.Button();
+            this.Tx_Pause_Rear = new System.Windows.Forms.Button();
             this.Tx_Pause_Front_Press = new System.Windows.Forms.Button();
             this.CST_Out_Press = new System.Windows.Forms.Button();
             this.CST_In_Press = new System.Windows.Forms.Button();
@@ -383,9 +388,9 @@
             this.groupBox47.Controls.Add(this.Shelf_1);
             this.groupBox47.Controls.Add(this.Shelf_4);
             this.groupBox47.Controls.Add(this.Shelf_7);
-            this.groupBox47.Controls.Add(this.Smif_1);
+            this.groupBox47.Controls.Add(this.SMIF1);
             this.groupBox47.Controls.Add(this.CstRobot);
-            this.groupBox47.Controls.Add(this.Smif_2);
+            this.groupBox47.Controls.Add(this.SMIF2);
             this.groupBox47.Controls.Add(this.Shelf_10);
             this.groupBox47.Location = new System.Drawing.Point(6, 318);
             this.groupBox47.Name = "groupBox47";
@@ -634,17 +639,17 @@
             this.Shelf_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Shelf_7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Shelf_MouseClick);
             // 
-            // Smif_1
+            // SMIF1
             // 
-            this.Smif_1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Smif_1.ForeColor = System.Drawing.Color.DarkRed;
-            this.Smif_1.Location = new System.Drawing.Point(262, 25);
-            this.Smif_1.Name = "Smif_1";
-            this.Smif_1.Size = new System.Drawing.Size(70, 26);
-            this.Smif_1.TabIndex = 74;
-            this.Smif_1.Text = "SMIF_1";
-            this.Smif_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Smif_1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Smif_1_MouseClick);
+            this.SMIF1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SMIF1.ForeColor = System.Drawing.Color.DarkRed;
+            this.SMIF1.Location = new System.Drawing.Point(262, 25);
+            this.SMIF1.Name = "SMIF1";
+            this.SMIF1.Size = new System.Drawing.Size(70, 26);
+            this.SMIF1.TabIndex = 74;
+            this.SMIF1.Text = "SMIF_1";
+            this.SMIF1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SMIF1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Smif_1_MouseClick);
             // 
             // CstRobot
             // 
@@ -657,17 +662,17 @@
             this.CstRobot.Text = "Robot";
             this.CstRobot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Smif_2
+            // SMIF2
             // 
-            this.Smif_2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Smif_2.ForeColor = System.Drawing.Color.DarkRed;
-            this.Smif_2.Location = new System.Drawing.Point(338, 25);
-            this.Smif_2.Name = "Smif_2";
-            this.Smif_2.Size = new System.Drawing.Size(70, 26);
-            this.Smif_2.TabIndex = 74;
-            this.Smif_2.Text = "SMIF_2";
-            this.Smif_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Smif_2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Smif_2_MouseClick);
+            this.SMIF2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SMIF2.ForeColor = System.Drawing.Color.DarkRed;
+            this.SMIF2.Location = new System.Drawing.Point(338, 25);
+            this.SMIF2.Name = "SMIF2";
+            this.SMIF2.Size = new System.Drawing.Size(70, 26);
+            this.SMIF2.TabIndex = 74;
+            this.SMIF2.Text = "SMIF_2";
+            this.SMIF2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SMIF2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Smif_2_MouseClick);
             // 
             // Shelf_10
             // 
@@ -728,6 +733,7 @@
             this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox6.Controls.Add(this.Test_btn);
             this.groupBox6.Controls.Add(this.lblStatus);
             this.groupBox6.Controls.Add(this.rtbMsg);
             this.groupBox6.Controls.Add(this.btnClearMsg);
@@ -737,6 +743,19 @@
             this.groupBox6.TabIndex = 23;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Message Area";
+            // 
+            // Test_btn
+            // 
+            this.Test_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Test_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Test_btn.Location = new System.Drawing.Point(228, 650);
+            this.Test_btn.Name = "Test_btn";
+            this.Test_btn.Size = new System.Drawing.Size(67, 33);
+            this.Test_btn.TabIndex = 104;
+            this.Test_btn.Text = "Test";
+            this.Test_btn.UseVisualStyleBackColor = true;
+            this.Test_btn.Visible = false;
+            this.Test_btn.Click += new System.EventHandler(this.Test_btn_Click);
             // 
             // btnClearMsg
             // 
@@ -2017,6 +2036,8 @@
             // 
             // gbCmdArea
             // 
+            this.gbCmdArea.Controls.Add(this.Mode_cb);
+            this.gbCmdArea.Controls.Add(this.label2);
             this.gbCmdArea.Controls.Add(this.CycleStop_btn);
             this.gbCmdArea.Controls.Add(this.AutoRunSpeed_cbx);
             this.gbCmdArea.Controls.Add(this.label5);
@@ -2032,6 +2053,25 @@
             this.gbCmdArea.TabStop = false;
             this.gbCmdArea.Text = "Control Area";
             this.gbCmdArea.Enter += new System.EventHandler(this.gbCmdArea_Enter);
+            // 
+            // Mode_cb
+            // 
+            this.Mode_cb.FormattingEnabled = true;
+            this.Mode_cb.Location = new System.Drawing.Point(271, 36);
+            this.Mode_cb.Name = "Mode_cb";
+            this.Mode_cb.Size = new System.Drawing.Size(74, 29);
+            this.Mode_cb.TabIndex = 87;
+            this.Mode_cb.SelectedIndexChanged += new System.EventHandler(this.Mode_cb_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(217, 38);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 19);
+            this.label2.TabIndex = 86;
+            this.label2.Text = "Mode";
             // 
             // CycleStop_btn
             // 
@@ -2123,6 +2163,8 @@
             // 
             // groupBox12
             // 
+            this.groupBox12.Controls.Add(this.Tx_Pause_Rear_Press);
+            this.groupBox12.Controls.Add(this.Tx_Pause_Rear);
             this.groupBox12.Controls.Add(this.Tx_Pause_Front_Press);
             this.groupBox12.Controls.Add(this.CST_Out_Press);
             this.groupBox12.Controls.Add(this.CST_In_Press);
@@ -2138,10 +2180,31 @@
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Switch LED";
             // 
+            // Tx_Pause_Rear_Press
+            // 
+            this.Tx_Pause_Rear_Press.BackColor = System.Drawing.Color.White;
+            this.Tx_Pause_Rear_Press.Location = new System.Drawing.Point(302, 56);
+            this.Tx_Pause_Rear_Press.Name = "Tx_Pause_Rear_Press";
+            this.Tx_Pause_Rear_Press.Size = new System.Drawing.Size(27, 28);
+            this.Tx_Pause_Rear_Press.TabIndex = 113;
+            this.Tx_Pause_Rear_Press.UseVisualStyleBackColor = false;
+            // 
+            // Tx_Pause_Rear
+            // 
+            this.Tx_Pause_Rear.BackColor = System.Drawing.Color.White;
+            this.Tx_Pause_Rear.Location = new System.Drawing.Point(202, 56);
+            this.Tx_Pause_Rear.Name = "Tx_Pause_Rear";
+            this.Tx_Pause_Rear.Size = new System.Drawing.Size(128, 28);
+            this.Tx_Pause_Rear.TabIndex = 112;
+            this.Tx_Pause_Rear.Text = "TX PAUSE R";
+            this.Tx_Pause_Rear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Tx_Pause_Rear.UseVisualStyleBackColor = false;
+            this.Tx_Pause_Rear.Click += new System.EventHandler(this.Tx_Pause_Rear_Click);
+            // 
             // Tx_Pause_Front_Press
             // 
             this.Tx_Pause_Front_Press.BackColor = System.Drawing.Color.White;
-            this.Tx_Pause_Front_Press.Location = new System.Drawing.Point(281, 22);
+            this.Tx_Pause_Front_Press.Location = new System.Drawing.Point(302, 22);
             this.Tx_Pause_Front_Press.Name = "Tx_Pause_Front_Press";
             this.Tx_Pause_Front_Press.Size = new System.Drawing.Size(27, 28);
             this.Tx_Pause_Front_Press.TabIndex = 111;
@@ -2170,9 +2233,9 @@
             this.Tx_Pause_Front.BackColor = System.Drawing.Color.White;
             this.Tx_Pause_Front.Location = new System.Drawing.Point(202, 22);
             this.Tx_Pause_Front.Name = "Tx_Pause_Front";
-            this.Tx_Pause_Front.Size = new System.Drawing.Size(106, 28);
+            this.Tx_Pause_Front.Size = new System.Drawing.Size(128, 28);
             this.Tx_Pause_Front.TabIndex = 107;
-            this.Tx_Pause_Front.Text = "TX PAUSE";
+            this.Tx_Pause_Front.Text = "TX PAUSE F";
             this.Tx_Pause_Front.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Tx_Pause_Front.UseVisualStyleBackColor = false;
             this.Tx_Pause_Front.Click += new System.EventHandler(this.Tx_Pause_Front_Click);
@@ -2711,9 +2774,9 @@
         private System.Windows.Forms.Button CstRobot_Org_btn;
         private System.Windows.Forms.Button CstRobot_Home_btn;
         private System.Windows.Forms.GroupBox groupBox47;
-        private System.Windows.Forms.TextBox Smif_1;
+        private System.Windows.Forms.TextBox SMIF1;
         private System.Windows.Forms.TextBox CstRobot;
-        private System.Windows.Forms.TextBox Smif_2;
+        private System.Windows.Forms.TextBox SMIF2;
         private System.Windows.Forms.TextBox Shelf_10;
         private System.Windows.Forms.ToolTip hint;
         private System.Windows.Forms.Label lblStatus;
@@ -2899,6 +2962,11 @@
         private System.Windows.Forms.Button SMIF1_Lift_btn;
         private System.Windows.Forms.Button UnLift;
         private System.Windows.Forms.Button SMIF2_Lift_btn;
+        private System.Windows.Forms.Button Tx_Pause_Rear_Press;
+        private System.Windows.Forms.Button Tx_Pause_Rear;
+        private System.Windows.Forms.Button Test_btn;
+        private System.Windows.Forms.ComboBox Mode_cb;
+        private System.Windows.Forms.Label label2;
     }
 }
 
