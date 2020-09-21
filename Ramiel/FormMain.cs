@@ -70,18 +70,20 @@ namespace Ramiel
             CstRobot_Destination_cbx.DataSource = new BindingSource(Position, null);
             CstRobot_Destination_cbx.DisplayMember = "Key";
             CstRobot_Destination_cbx.ValueMember = "Value";
-    
-            Mode_cb.DataSource= new BindingSource(ModeList, null);
+
+            Mode_cb.DataSource = new BindingSource(ModeList, null);
             Mode_cb.DisplayMember = "Key";
             Mode_cb.ValueMember = "Value";
             Mode_cb.SelectedIndex = 0;
             Mode = "0";
 
-            ThreadPool.QueueUserWorkItem(new WaitCallback(CCLINKAutoRefresh), NodeManagement.Get("CSTROBOT"));
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(CCLINKAutoRefresh), NodeManagement.Get("CSTROBOT"));
         }
         public void On_Alarm_Happen(AlarmManagement.Alarm Alarm)
         {
-
+            FormMainUpdate.SetFormEnable("FormMain", true);
+            FormMainUpdate.SetButtonEnable("btnAutoRun", true);
+            FormMainUpdate.SetButtonEnable("CycleStop_btn", false);
         }
 
         public void On_Command_Error(Node Node, Transaction Txn, CommandReturnMessage Msg)
@@ -96,7 +98,7 @@ namespace Ramiel
 
         public void On_Command_Finished(Node Node, Transaction Txn, CommandReturnMessage Msg)
         {
-            
+
             switch (Node.Type)
             {
                 case "LOADPORT":
@@ -134,7 +136,7 @@ namespace Ramiel
 
         public void On_DIO_Data_Chnaged(string Parameter, string Value, string Type)
         {
-
+            UpdateUI(Type, Convert.ToInt32(Parameter), Convert.ToByte(Value));
         }
 
         public void On_Event_Trigger(Node Node, CommandReturnMessage Msg)
@@ -215,7 +217,7 @@ namespace Ramiel
         {
             if (!Task.IsSubTask)
             {
-                FormMainUpdate.SetFormEnable("FormMain",true);
+                FormMainUpdate.SetFormEnable("FormMain", true);
             }
         }
 
@@ -224,30 +226,55 @@ namespace Ramiel
 
         private void SMIF1_Stage_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Stage_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Home_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Home_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_SetSpeed_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             int speed = 0;
             if (int.TryParse(SMIF1_Speed_cbx.Text, out speed))
             {
@@ -262,6 +289,11 @@ namespace Ramiel
 
         private void SMIF2_SetSpeed_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             int speed = 0;
             if (int.TryParse(SMIF2_Speed_cbx.Text, out speed))
             {
@@ -276,6 +308,11 @@ namespace Ramiel
 
         private void SMIF1_MoveTo_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             int slot = 0;
             if (int.TryParse(SMIF1_Slot_cbx.Text, out slot))
             {
@@ -290,6 +327,11 @@ namespace Ramiel
 
         private void SMIF2_MoveTo_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             int slot = 0;
             if (int.TryParse(SMIF2_Slot_cbx.Text, out slot))
             {
@@ -304,83 +346,153 @@ namespace Ramiel
 
         private void SMIF1_TwkUp_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKUP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
         private void SMIF2_TwkUp_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKUP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_TwkDn_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKDN, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_TwkDn_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_TWKDN, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_ReMap_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RE_MAPPING, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_ReMap_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RE_MAPPING, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Clamp_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_CLAMP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Clamp_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_CLAMP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_UnClamp_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNCLAMP, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_UnClamp_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNCLAMP, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Org_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_ORGSH, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Org_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_ORGSH, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_Reset_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RESET, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Reset_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_RESET, new Dictionary<string, string>() { { "@Target", "SMIF2" } }, Guid.NewGuid().ToString());
         }
@@ -394,6 +506,11 @@ namespace Ramiel
 
         private void CstRobot_Source_GetWait_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             if (!checkDryMode())
             {
                 return;
@@ -411,6 +528,11 @@ namespace Ramiel
 
         private void CstRobot_Source_Get_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             if (!checkDryMode())
             {
                 return;
@@ -427,17 +549,32 @@ namespace Ramiel
         }
         private void CstRobot_Reset_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_RESET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" } }, Guid.NewGuid().ToString());
         }
         private void CstRobot_Org_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_ORGSH, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
         }
 
         private void CstRobot_Home_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_SHOME, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
         }
@@ -446,6 +583,11 @@ namespace Ramiel
 
         private void CstRobot_Source_PutWait_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             if (!checkDryMode())
             {
                 return;
@@ -463,6 +605,11 @@ namespace Ramiel
 
         private void CstRobot_Source_Put_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             if (!checkDryMode())
             {
                 return;
@@ -477,136 +624,11 @@ namespace Ramiel
                 MessageBox.Show("Destination invalid", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-        private byte[] ConvertToBit(int[] WResult)
+
+
+        private void UpdateUI(string Type, int Pos, byte Val)
         {
-            string BitStr = "";
-            byte[] result = new byte[512];
-            for (int i = 0; i < WResult.Length; i++)
-            {
-                BitStr += new String(Convert.ToString(Convert.ToInt16(WResult[i]), 2).PadLeft(16, '0').Reverse().ToArray());
-            }
-
-            for (int i = 0; i < BitStr.Length; i++)
-            {
-                result[i] = Convert.ToByte(BitStr[i].ToString());
-            }
-            return result;
-        }
-        private void CCLINKAutoRefresh(object node)
-        {
-            int AddrOffset = 1280;
-            int CstRobotStation = 9;
-            Node Target = (Node)node;
-            //SpinWait.SpinUntil(() => Target.GetController().GetStatus().Equals("Connected"), 9999999);
-            McProtocolTcp PLC = new McProtocolTcp("192.168.3.39", 2000);
-            PLC.Open();
-           
-            byte[] result = new byte[512];
-            int[] WResult = new int[32];
-
-            //INIT
-            result = new byte[512];
-            PLC.GetBitDevice(PlcDeviceType.Y, AddrOffset, 512, result);
-
-            Target.SetIO("OUTPUT", result);
-            result = new byte[512];
-            Target.SetIO("OUTPUT_OLD", result);
-            result = new byte[512];
-            PLC.GetBitDevice(PlcDeviceType.X, AddrOffset, 512, result);
-            Target.SetIO("INPUT", result);
-            result = new byte[512];
-            Target.SetIO("INPUT_OLD", result);
-            WResult = new int[32];
-            PLC.ReadDeviceBlock(PlcDeviceType.D, 24576, 32, WResult);
-            result = ConvertToBit(WResult);
-            Target.SetIO("PRESENCE", result);
-            result = new byte[512];
-            Target.SetIO("PRESENCE_OLD", result);
-
-            //PLC.SetBitDevice(PlcDeviceType.Y, new Dictionary<int, byte>() { { 1280,1}, { 1281, 1 }, { 1285, 1 } });
-
-            while (true)
-            {
-                try
-                {
-                    //SpinWait.SpinUntil(() => false, 10);
-
-                    if (!Target.GetIO("OUTPUT").SequenceEqual(Target.GetIO("OUTPUT_OLD")))
-                    {
-                        Dictionary<int, byte> changedList = new Dictionary<int, byte>();
-                        for (int i = 0; i < Target.GetIO("OUTPUT").Length; i++)
-                        {
-                            if (Target.GetIO("OUTPUT")[i] != Target.GetIO("OUTPUT_OLD")[i])
-                            {
-                                changedList.Add(i + AddrOffset, Target.GetIO("OUTPUT")[i]);
-                                //_TaskReport.On_Message_Log("IO", "Y Area [" + (i + AddrOffset).ToString("X4") + "] " + Target.GetIO("OUTPUT_OLD")[i] + "->" + Target.GetIO("OUTPUT")[i]);
-                                Target.SetIO("OUTPUT_OLD", i, Target.GetIO("OUTPUT")[i]);
-                                UpdateUI("OUTPUT", i, Target.GetIO("OUTPUT")[i], Target);
-                            }
-                        }
-                        PLC.SetBitDevice(PlcDeviceType.Y, changedList);
-
-
-                    }
-
-                    PLC.GetBitDevice(PlcDeviceType.X, AddrOffset, 512, result);
-                    Target.SetIO("INPUT", result);
-                    if (!Target.GetIO("INPUT").SequenceEqual(Target.GetIO("INPUT_OLD")))
-                    {
-                        for (int i = 0; i < Target.GetIO("INPUT").Length; i++)
-                        {
-
-                            if (Target.GetIO("INPUT")[i] != Target.GetIO("INPUT_OLD")[i])
-                            {
-                                //_TaskReport.On_Message_Log("IO", "X Area [" + (i + AddrOffset).ToString("X4") + "] " + Target.GetIO("INPUT_OLD")[i] + "->" + Target.GetIO("INPUT")[i]);
-                                UpdateUI("INPUT", i, Target.GetIO("INPUT")[i], Target);
-                            }
-                        }
-                        if (Target.GetIO("INPUT")[6 + (CstRobotStation - 1) * 32] == 1 && Target.GetIO("INPUT_OLD")[6 + (CstRobotStation - 1) * 32] == 0)
-                        {
-                            string errAry = "";
-                            for (int i = 32; i <= 64; i++)
-                            {
-                                errAry += Target.GetIO("INPUT")[i + (CstRobotStation - 1) * 32].ToString();
-                            }
-
-                            string error = new String(errAry.Reverse().ToArray());
-                            error = Convert.ToInt32(error, 2).ToString("X");
-                            this.On_Alarm_Happen( AlarmManagement.NewAlarm(Target, error,""));
-                        }
-                        Target.SetIO("INPUT_OLD", Target.GetIO("INPUT"));
-
-                    }
-
-                    WResult = new int[32];
-                    PLC.ReadDeviceBlock(PlcDeviceType.D, 24576, 32, WResult);
-                    result = ConvertToBit(WResult);
-                    Target.SetIO("PRESENCE", result);
-                    if (!Target.GetIO("PRESENCE").SequenceEqual(Target.GetIO("PRESENCE_OLD")))
-                    {
-                        for (int i = 0; i < Target.GetIO("PRESENCE").Length; i++)
-                        {
-
-                            if (Target.GetIO("PRESENCE")[i] != Target.GetIO("PRESENCE_OLD")[i])
-                            {
-                                //_TaskReport.On_Message_Log("IO", "X Area [" + (i + AddrOffset).ToString("X4") + "] " + Target.GetIO("INPUT_OLD")[i] + "->" + Target.GetIO("INPUT")[i]);
-                                UpdateUI("PRESENCE", i, Target.GetIO("PRESENCE")[i], Target);
-                            }
-                        }
-
-                        Target.SetIO("PRESENCE_OLD", Target.GetIO("PRESENCE"));
-
-                    }
-                }
-                catch (Exception e)
-                {
-                    On_Message_Log("IO", "Lost connection with PLC");
-                    SpinWait.SpinUntil(() => false, 5000);
-                }
-            }
-        }
-        private void UpdateUI(string Type, int Pos, byte Val, Node Target)
-        {
+            Node Target = NodeManagement.Get("CSTROBOT");
             switch (Type)
             {
                 case "INPUT":
@@ -685,7 +707,7 @@ namespace Ramiel
                             {
                                 FormMainUpdate.Update_IO("Shelf_1", "Presence");
                             }
-                            if(Pos== Presence.Shelf_1_1)
+                            if (Pos == Presence.Shelf_1_1)
                             {
                                 FormMainUpdate.Update_IO_Table("Shelf_1_1", Target.GetIO("PRESENCE")[Presence.Shelf_1_1].ToString());
                             }
@@ -1182,9 +1204,105 @@ namespace Ramiel
                 MessageBox.Show("Already running!");
                 return;
             }
+            //btnAutoRun.Enabled = false;
+            IsRun = true;
+            DiabledControls(this);
+            CycleStop_btn.Enabled = true;
             RepeatCnt = Convert.ToInt64(tbTimes.Text);
             speed = AutoRunSpeed_cbx.Text;
             ThreadPool.QueueUserWorkItem(new WaitCallback(AutoRun));
+            ThreadPool.QueueUserWorkItem(new WaitCallback(AutoOutput));
+
+            
+        }
+        private void DiabledControls(Control input)
+        {
+            foreach (Control each in input.Controls)
+            {
+                if (each is Button || each is ComboBox)
+                {
+                    each.Enabled = false;
+                }
+                DiabledControls(each);
+            }
+        }
+
+        private void AutoOutput(object input)
+        {
+            Node Target = NodeManagement.Get("CSTROBOT");
+            while (IsRun)
+            {
+                Target.SetIO("OUTPUT", Output.SignalTower_Red, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.SignalTower_Red, 0);
+                Target.SetIO("OUTPUT", Output.SignalTower_Yellow, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.SignalTower_Yellow, 0);
+                Target.SetIO("OUTPUT", Output.SignalTower_Green, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.SignalTower_Green, 0);
+                Target.SetIO("OUTPUT", Output.SignalTower_Blue, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.SignalTower_Blue, 0);
+                Target.SetIO("OUTPUT", Output.Pod1_Lock, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.Pod1_Lock, 0);
+                Target.SetIO("OUTPUT", Output.Pod2_Lock, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.Pod2_Lock, 0);
+                Target.SetIO("OUTPUT", Output.CST_In, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.CST_In, 0);
+                Target.SetIO("OUTPUT", Output.CST_Out, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.CST_Out, 0);
+                Target.SetIO("OUTPUT", Output.Tx_Pause_Front, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.Tx_Pause_Front, 0);
+                Target.SetIO("OUTPUT", Output.Tx_Pause_Rear, 1);
+                SpinWait.SpinUntil(() => false, 500);
+                if (!IsRun)
+                {
+                    break;
+                }
+                Target.SetIO("OUTPUT", Output.Tx_Pause_Rear, 0);
+            }
         }
         long CurrntCnt = 0;
         long RepeatCnt = 0;
@@ -1193,20 +1311,33 @@ namespace Ramiel
         private void AutoRun(object input)
         {
             CurrentSmif = "23";
-            IsRun = true;
+            
             int sp = 0;
-            if (int.TryParse(AutoRunSpeed_cbx.Text, out sp))
+
+            if (int.TryParse(speed, out sp))
             {
                 
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString());
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString());
-
+                if (!Skip[22])
+                {
+                    if(!TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString()).Promise())
+                    {
+                        IsRun = false;
+                    }
+                }
+                if (!Skip[23])
+                {
+                    if(!TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString()).Promise())
+                    {
+                        IsRun = false;
+                    }
+                }
             }
-            
+
             while (IsRun)
             {
                 if (CurrntCnt >= RepeatCnt)
                 {
+                    IsRun = false;
                     break;
                 }
                 #region test1
@@ -1270,18 +1401,22 @@ namespace Ramiel
 
                 #region test2
 
-                
+
 
                 Stopwatch sw = new Stopwatch();
 
 
                 //耗時巨大的程式碼  
 
-                
+
 
                 for (int i = 0; i < 21; i++)
                 //for (int i = 0; i < 2; i++)
                 {
+                    if (Skip[i + 1])
+                    {
+                        continue;
+                    }
                     CurrentSmif = CurrentSmif.Equals("23") ? "22" : "23";
                     if (CurrentSmif.Equals("22") && Skip[22])
                     {
@@ -1292,10 +1427,10 @@ namespace Ramiel
                         CurrentSmif = "22";
                     }
 
-                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22")?"SMIF1":"SMIF2" } }).Promise())
+                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22") ? "SMIF1" : "SMIF2" } }).Promise())
                     {
                         IsRun = false;
-                        return;
+                        break;
                     }
                     sw.Reset();
                     sw.Start();
@@ -1305,26 +1440,26 @@ namespace Ramiel
 
                     {
                         IsRun = false;
-                        return;
+                        break;
                     }
-                    if (!Skip[i + 1])
-                    {
-                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
-                        {
-                            IsRun = false;
-                            return;
-                        }
 
-                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
-                        {
-                            IsRun = false;
-                            return;
-                        }
+                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                    {
+                        IsRun = false;
+                        break;
                     }
+
+                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                    {
+                        IsRun = false;
+                        break;
+                    }
+
+
                     if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CurrentSmif }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
                     {
                         IsRun = false;
-                        return;
+                        break;
                     }
 
                     sw.Stop();
@@ -1334,7 +1469,7 @@ namespace Ramiel
                     if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22") ? "SMIF1" : "SMIF2" } }).Promise())
                     {
                         IsRun = false;
-                        return;
+                        break;
                     }
                 }
 
@@ -1343,14 +1478,19 @@ namespace Ramiel
                 CurrntCnt++;
                 FormMainUpdate.CounterUpdate(CurrntCnt.ToString());
             }
+
+            //FormMainUpdate.SetButtonEnable("btnAutoRun", true);
+            FormMainUpdate.SetEnable("FormMain");
+            FormMainUpdate.SetButtonEnable("CycleStop_btn", false);
         }
 
         private void CycleStop_btn_Click(object sender, EventArgs e)
         {
             IsRun = false;
+            CycleStop_btn.Enabled = false;
         }
 
-        
+
 
         private void SignalTower_Red_Click(object sender, EventArgs e)
         {
@@ -1436,7 +1576,7 @@ namespace Ramiel
         bool[] Skip = new bool[25];
         private void Shelf_MouseClick(object sender, MouseEventArgs e)
         {
-            int ShelfNo = Convert.ToInt32(((TextBox)sender).Text.Replace("SHELF_",""));
+            int ShelfNo = Convert.ToInt32(((TextBox)sender).Text.Replace("SHELF_", ""));
 
             Skip[ShelfNo] = !Skip[ShelfNo];
             if (Skip[ShelfNo])
@@ -1480,38 +1620,58 @@ namespace Ramiel
         {
             if (tabMode.SelectedIndex == 1)
             {
-               
-                NodeManagement.Get("CSTROBOT") .SetIO("INPUT_OLD", new byte[512]);
+
+                NodeManagement.Get("CSTROBOT").SetIO("INPUT_OLD", new byte[512]);
             }
         }
 
         private void SMIF1_Lift_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
-            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" },{ "@Value","1"} }, Guid.NewGuid().ToString());
+            TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", "1" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF1_UnLift_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNLIFT, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", "0" } }, Guid.NewGuid().ToString());
         }
 
         private void SMIF2_Lift_btn_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_LIFT, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", "1" } }, Guid.NewGuid().ToString());
         }
 
         private void UnLift_Click(object sender, EventArgs e)
         {
+            if (IsRun)
+            {
+                MessageBox.Show("偵測到正在Auto Run", "警告", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_UNLIFT, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", "0" } }, Guid.NewGuid().ToString());
         }
 
         private void Test_btn_Click(object sender, EventArgs e)
         {
-            
+
             FormMainUpdate.SetFormEnable("FormMain", false);
             TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_READ_STATUS, new Dictionary<string, string>() { { "@Target", "SMIF1" } }, Guid.NewGuid().ToString());
         }
@@ -1551,8 +1711,8 @@ namespace Ramiel
     class Output
     {
         private const int StationNo = 7;
-        private const int Offset =  (StationNo - 1) * 32;
-        public const int SignalTower_Red = 0+ Offset;
+        private const int Offset = (StationNo - 1) * 32;
+        public const int SignalTower_Red = 0 + Offset;
         public const int SignalTower_Yellow = 1 + Offset;
         public const int SignalTower_Green = 2 + Offset;
         public const int SignalTower_Blue = 3 + Offset;
@@ -1568,7 +1728,7 @@ namespace Ramiel
     class Presence
     {
         private const int Offset = 0;
-        public const int Shelf_1_1 = 0+Offset;
+        public const int Shelf_1_1 = 0 + Offset;
         public const int Shelf_1_2 = 1 + Offset;
         public const int Shelf_2_1 = 2 + Offset;
         public const int Shelf_2_2 = 3 + Offset;

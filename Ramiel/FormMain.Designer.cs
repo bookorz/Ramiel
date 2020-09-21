@@ -2077,6 +2077,7 @@
             // 
             this.CycleStop_btn.BackColor = System.Drawing.Color.Red;
             this.CycleStop_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CycleStop_btn.Enabled = false;
             this.CycleStop_btn.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CycleStop_btn.ForeColor = System.Drawing.Color.White;
             this.CycleStop_btn.Location = new System.Drawing.Point(376, 97);
@@ -2730,7 +2731,7 @@
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.tabMode);
             this.Name = "FormMain";
-            this.Text = "200mm Oven Tester";
+            this.Text = "200mm Oven Tester Ver2.1";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBox49.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);

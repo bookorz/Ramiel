@@ -90,7 +90,53 @@ namespace Ramiel.UI_Update
             }
 
         }
+        public static void SetButtonEnable(string BtnName, bool enable)
+        {
+            Form form = Application.OpenForms["FormMain"];
+            if (form == null)
+                return;
+            Button btn = form.Controls.Find(BtnName, true).FirstOrDefault() as Button;
+            if (btn == null)
+                return;
+            if (btn.InvokeRequired)
+            {
+                EnableForm ph = new EnableForm(SetButtonEnable);
+                btn.Invoke(ph, BtnName, enable);
+            }
+            else
+            {
+                btn.Enabled = enable;
+            }
 
+        }
+        public static void SetEnable(string FormName)
+        {
+            Form form = Application.OpenForms[FormName];
+            if (form == null)
+                return;
+            
+            if (form.InvokeRequired)
+            {
+                UpdateUI ph = new UpdateUI(SetEnable);
+                form.Invoke(ph, FormName);
+            }
+            else
+            {
+                EnableControls(form);
+            }
+
+        }
+        private static void EnableControls(Control input)
+        {
+            foreach (Control each in input.Controls)
+            {
+                if (each is Button || each is ComboBox)
+                {
+                    each.Enabled = true;
+                }
+                EnableControls(each);
+            }
+        }
         public static void ShowMessage(string msg)
         {
             Form form = Application.OpenForms["FormMain"];
@@ -471,6 +517,10 @@ namespace Ramiel.UI_Update
                     if (msg.Contains("Alarm_Happen")|| msg.Contains("error"))
                     {
                         W.SelectionColor = Color.Red;
+                    }
+                    else if (msg.Contains("Transfer time:"))
+                    {
+                        W.SelectionColor = Color.Orange;
                     }
                     else
                     {
