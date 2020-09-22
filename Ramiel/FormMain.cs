@@ -1213,7 +1213,7 @@ namespace Ramiel
             ThreadPool.QueueUserWorkItem(new WaitCallback(AutoRun));
             ThreadPool.QueueUserWorkItem(new WaitCallback(AutoOutput));
 
-            
+
         }
         private void DiabledControls(Control input)
         {
@@ -1311,22 +1311,22 @@ namespace Ramiel
         private void AutoRun(object input)
         {
             CurrentSmif = "23";
-            
+
             int sp = 0;
 
             if (int.TryParse(speed, out sp))
             {
-                
+
                 if (!Skip[22])
                 {
-                    if(!TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString()).Promise())
+                    if (!TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF1" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString()).Promise())
                     {
                         IsRun = false;
                     }
                 }
                 if (!Skip[23])
                 {
-                    if(!TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString()).Promise())
+                    if (!TaskFlowManagement.Excute(TaskFlowManagement.Command.LOADPORT_SET_SPEED, new Dictionary<string, string>() { { "@Target", "SMIF2" }, { "@Value", sp == 100 ? "00" : sp == 0 ? "10" : sp.ToString() } }, Guid.NewGuid().ToString()).Promise())
                     {
                         IsRun = false;
                     }
@@ -1426,23 +1426,27 @@ namespace Ramiel
                     {
                         CurrentSmif = "22";
                     }
-
-                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22") ? "SMIF1" : "SMIF2" } }).Promise())
+                    if (!Skip[22] || !Skip[23])
                     {
-                        IsRun = false;
-                        break;
+                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.OPEN_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22") ? "SMIF1" : "SMIF2" } }).Promise())
+                        {
+                            IsRun = false;
+                            break;
+                        }
+
+                        sw.Reset();
+                        sw.Start();
                     }
-                    sw.Reset();
-                    sw.Start();
-
-                    //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", ((i % 2 == 0) ? "22" : "23") }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
-                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CurrentSmif }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
-
+                    if (!Skip[22] || !Skip[23])
                     {
-                        IsRun = false;
-                        break;
-                    }
+                        //if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", ((i % 2 == 0) ? "22" : "23") }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CurrentSmif }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
 
+                        {
+                            IsRun = false;
+                            break;
+                        }
+                    }
                     if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
                     {
                         IsRun = false;
@@ -1455,21 +1459,23 @@ namespace Ramiel
                         break;
                     }
 
-
-                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CurrentSmif }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                    if (!Skip[22] || !Skip[23])
                     {
-                        IsRun = false;
-                        break;
-                    }
+                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CurrentSmif }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                        {
+                            IsRun = false;
+                            break;
+                        }
 
-                    sw.Stop();
-                    TimeSpan ts2 = sw.Elapsed;
-                    UI_Update.FormMainUpdate.LogUpdate((CurrentSmif) + " -> " + "Shelf_" + (1 + i).ToString() + " -> " + CurrentSmif + " Transfer time:" + ts2.TotalSeconds.ToString());
+                        sw.Stop();
+                        TimeSpan ts2 = sw.Elapsed;
+                        UI_Update.FormMainUpdate.LogUpdate((CurrentSmif) + " -> " + "Shelf_" + (1 + i).ToString() + " -> " + CurrentSmif + " Transfer time:" + ts2.TotalSeconds.ToString());
 
-                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22") ? "SMIF1" : "SMIF2" } }).Promise())
-                    {
-                        IsRun = false;
-                        break;
+                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.CLOSE_FOUP, new Dictionary<string, string>() { { "@Target", CurrentSmif.Equals("22") ? "SMIF1" : "SMIF2" } }).Promise())
+                        {
+                            IsRun = false;
+                            break;
+                        }
                     }
                 }
 
