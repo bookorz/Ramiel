@@ -1701,6 +1701,22 @@ namespace Ramiel
         {
             Mode = Mode_cb.SelectedValue.ToString();
         }
+        Stopwatch Elapsed = new Stopwatch();
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (IsRun)
+            {
+                if (!Elapsed.IsRunning)
+                {
+                    Elapsed.Start();
+                }
+                Elapsed_lb.Text = Elapsed.Elapsed.Days + ":" + Elapsed.Elapsed.Hours.ToString("00") + ":" + Elapsed.Elapsed.Minutes.ToString("00") + ":" + Elapsed.Elapsed.Seconds.ToString("00") + "." + Elapsed.Elapsed.Milliseconds.ToString("000");
+            }
+            else
+            {
+                Elapsed.Stop();
+            }
+        }
     }
 
     public class Input
@@ -1728,7 +1744,8 @@ namespace Ramiel
         public const int Pod2_Lock = 11 + Offset;
         public const int CST_In = 12 + Offset;
         public const int CST_Out = 13 + Offset;
-        public const int Tx_Pause_Front = 14 + Offset;
+        public const int Tx_Pause_Front = 14 
+            + Offset;
         public const int Tx_Pause_Rear = 15 + Offset;
     }
     class Presence
@@ -1743,7 +1760,7 @@ namespace Ramiel
         public const int Shelf_4_1 = 6 + Offset;
         public const int Shelf_4_2 = 7 + Offset;
         public const int Shelf_5_1 = 8 + Offset;
-        public const int Shelf_5_2 = 9 + Offset;
+        public const int Shelf_5_2 = 9 + Offset;  
         public const int Shelf_6_1 = 10 + Offset;
         public const int Shelf_6_2 = 11 + Offset;
         public const int Shelf_7_1 = 12 + Offset;
@@ -1776,7 +1793,7 @@ namespace Ramiel
         public const int Shelf_20_2 = 29 + Offset;
         public const int Shelf_21_1 = 30 + Offset;
         public const int Shelf_21_2 = 31 + Offset;
-        public const int CstRobot_1 = 64 + Offset;
-        public const int CstRobot_2 = 65 + Offset;
+        public const int CstRobot_1 = 48;
+        public const int CstRobot_2 = 49;
     }
 }

@@ -68,6 +68,8 @@
             this.lblStatus = new System.Windows.Forms.Label();
             this.rtbMsg = new System.Windows.Forms.RichTextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.Elapsed_lb = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.Test_btn = new System.Windows.Forms.Button();
             this.btnClearMsg = new System.Windows.Forms.Button();
             this.pnlIO = new System.Windows.Forms.Panel();
@@ -232,6 +234,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox48 = new System.Windows.Forms.GroupBox();
             this.CstRobot_Source_cbx = new System.Windows.Forms.ComboBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox49.SuspendLayout();
             this.groupBox47.SuspendLayout();
             this.groupBox6.SuspendLayout();
@@ -733,6 +736,8 @@
             this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox6.Controls.Add(this.Elapsed_lb);
+            this.groupBox6.Controls.Add(this.label3);
             this.groupBox6.Controls.Add(this.Test_btn);
             this.groupBox6.Controls.Add(this.lblStatus);
             this.groupBox6.Controls.Add(this.rtbMsg);
@@ -744,11 +749,33 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Message Area";
             // 
+            // Elapsed_lb
+            // 
+            this.Elapsed_lb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Elapsed_lb.AutoSize = true;
+            this.Elapsed_lb.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Elapsed_lb.Location = new System.Drawing.Point(385, 659);
+            this.Elapsed_lb.Name = "Elapsed_lb";
+            this.Elapsed_lb.Size = new System.Drawing.Size(100, 17);
+            this.Elapsed_lb.TabIndex = 106;
+            this.Elapsed_lb.Text = "0:00:00:00.000";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(297, 659);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 17);
+            this.label3.TabIndex = 105;
+            this.label3.Text = "Elapsed time";
+            // 
             // Test_btn
             // 
             this.Test_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Test_btn.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Test_btn.Location = new System.Drawing.Point(228, 650);
+            this.Test_btn.Location = new System.Drawing.Point(120, 651);
             this.Test_btn.Name = "Test_btn";
             this.Test_btn.Size = new System.Drawing.Size(67, 33);
             this.Test_btn.TabIndex = 104;
@@ -2723,6 +2750,12 @@
             this.CstRobot_Source_cbx.Size = new System.Drawing.Size(127, 30);
             this.CstRobot_Source_cbx.TabIndex = 78;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 50;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -2731,7 +2764,7 @@
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.tabMode);
             this.Name = "FormMain";
-            this.Text = "200mm Oven Tester Ver2.2";
+            this.Text = "200mm Oven Tester Ver2.3";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBox49.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);
@@ -2968,6 +3001,9 @@
         private System.Windows.Forms.Button Test_btn;
         private System.Windows.Forms.ComboBox Mode_cb;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Elapsed_lb;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
