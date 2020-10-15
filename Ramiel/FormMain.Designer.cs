@@ -2764,7 +2764,7 @@
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.tabMode);
             this.Name = "FormMain";
-            this.Text = "200mm Oven Tester Ver2.3";
+            this.Text = "200mm Oven Tester Ver2.4";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBox49.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);

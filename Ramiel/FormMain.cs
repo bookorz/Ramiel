@@ -635,10 +635,10 @@ namespace Ramiel
                     switch (Pos)
                     {
                         case Input.CST_In_Press:
-                            FormMainUpdate.Update_IO("CST_In_Press", Val == 0 ? "Placement" : "N/A");
+                            FormMainUpdate.Update_IO("CST_In_Press", Val == 1 ? "Placement" : "N/A");
                             break;
                         case Input.CST_Out_Press:
-                            FormMainUpdate.Update_IO("CST_Out_Press", Val == 0 ? "Placement" : "N/A");
+                            FormMainUpdate.Update_IO("CST_Out_Press", Val == 1 ? "Placement" : "N/A");
                             break;
                         case Input.Tx_Pause_Front_Press:
                             FormMainUpdate.Update_IO("Tx_Pause_Front_Press", Val == 1 ? "Placement" : "N/A");
@@ -1708,7 +1708,7 @@ namespace Ramiel
             {
                 if (!Elapsed.IsRunning)
                 {
-                    Elapsed.Start();
+                    Elapsed.Restart();
                 }
                 Elapsed_lb.Text = Elapsed.Elapsed.Days + ":" + Elapsed.Elapsed.Hours.ToString("00") + ":" + Elapsed.Elapsed.Minutes.ToString("00") + ":" + Elapsed.Elapsed.Seconds.ToString("00") + "." + Elapsed.Elapsed.Milliseconds.ToString("000");
             }
