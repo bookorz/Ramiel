@@ -1413,10 +1413,7 @@ namespace Ramiel
                 for (int i = 0; i < 21; i++)
                 //for (int i = 0; i < 2; i++)
                 {
-                    if (Skip[i + 1])
-                    {
-                        continue;
-                    }
+                   
                     CurrentSmif = CurrentSmif.Equals("23") ? "22" : "23";
                     if (CurrentSmif.Equals("22") && Skip[22])
                     {
@@ -1447,18 +1444,22 @@ namespace Ramiel
                             break;
                         }
                     }
-                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                    if (!Skip[i + 1])
                     {
-                        IsRun = false;
-                        break;
-                    }
 
-                    if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
-                    {
-                        IsRun = false;
-                        break;
-                    }
 
+                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                        {
+                            IsRun = false;
+                            break;
+                        }
+
+                        if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", (1 + i).ToString() }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
+                        {
+                            IsRun = false;
+                            break;
+                        }
+                    }
                     if (!Skip[22] || !Skip[23])
                     {
                         if (!IsRun || !TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CurrentSmif }, { "@Speed", speed }, { "@Mode", Mode } }).Promise())
