@@ -93,7 +93,43 @@ namespace Ramiel
 
         public void On_Command_Excuted(Node Node, Transaction Txn, CommandReturnMessage Msg)
         {
+            switch (Node.Type)
+            {
+                case "LOADPORT":
+                    switch (Txn.Method)
+                    {
+                        case Transaction.Command.LoadPortType.Unload:
+                        case Transaction.Command.LoadPortType.InitialPos:
+                        case Transaction.Command.LoadPortType.ForceInitialPos:
 
+                            if (Node.Name.ToUpper().Equals("SMIF1"))
+                            {
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 10,  0);
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 11,  0);
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 12,  0);
+                            }
+                            if (Node.Name.ToUpper().Equals("SMIF2"))
+                            {
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 13,  0);
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 14,  0);
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 15,  0);
+                            }
+                            break;
+                        case Transaction.Command.LoadPortType.UnLift:
+                            if (Node.Name.ToUpper().Equals("SMIF1"))
+                            {
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 10, 0);
+
+                            }
+                            if (Node.Name.ToUpper().Equals("SMIF2"))
+                            {
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 13, 0);
+
+                            }
+                            break;
+                    }
+                    break;
+            }
         }
 
         public void On_Command_Finished(Node Node, Transaction Txn, CommandReturnMessage Msg)
@@ -112,6 +148,29 @@ namespace Ramiel
                             else
                             {
                                 FormMainUpdate.Update_IO(Node.Name, "N/A");
+                            }
+                            if (Node.Name.ToUpper().Equals("SMIF1")) {
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 10, (byte)(Node.Status["LLS"].Equals("TRUE")?1:0));
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 11, (byte)(Node.Status["LPS"].Equals("TRUE") ? 1 : 0));
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 12, (byte)(Node.Status["POS"].Equals("3") ? 1 : 0));
+                            }
+                            if (Node.Name.ToUpper().Equals("SMIF2"))
+                            {
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 13, (byte)(Node.Status["LLS"].Equals("TRUE") ? 1 : 0));
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 14, (byte)(Node.Status["LPS"].Equals("TRUE") ? 1 : 0));
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 15, (byte)(Node.Status["POS"].Equals("3") ? 1 : 0));
+                            }
+                            break;
+                        case Transaction.Command.LoadPortType.Lift:
+                            if (Node.Name.ToUpper().Equals("SMIF1"))
+                            {
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 10,  1);
+                                
+                            }
+                            if (Node.Name.ToUpper().Equals("SMIF2"))
+                            {
+                                NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", 13, 1 );
+                               
                             }
                             break;
                     }
@@ -540,7 +599,7 @@ namespace Ramiel
             if (!CstRobot_Source_cbx.SelectedValue.ToString().Equals(""))
             {
                 FormMainUpdate.SetFormEnable("FormMain", false);
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Source_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_GET, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Source_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } ,{ "@ByPassCheck",BypassSafetyCheck_ck.Checked?"TRUE":"FALSE" } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -617,7 +676,7 @@ namespace Ramiel
             if (!CstRobot_Destination_cbx.SelectedValue.ToString().Equals(""))
             {
                 FormMainUpdate.SetFormEnable("FormMain", false);
-                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Destination_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode } }, Guid.NewGuid().ToString());
+                TaskFlowManagement.Excute(TaskFlowManagement.Command.ROBOT_PUT, new Dictionary<string, string>() { { "@Target", "CSTROBOT" }, { "@Position", CstRobot_Destination_cbx.SelectedValue.ToString() }, { "@Speed", CstRobot_Speed_cbx.Text }, { "@Mode", Mode }, { "@ByPassCheck", BypassSafetyCheck_ck.Checked ? "TRUE" : "FALSE" } }, Guid.NewGuid().ToString());
             }
             else
             {
@@ -1199,6 +1258,7 @@ namespace Ramiel
 
         private void btnAutoRun_Click(object sender, EventArgs e)
         {
+            BypassSafetyCheck_ck.Checked = false;
             if (IsRun)
             {
                 MessageBox.Show("Already running!");
@@ -1210,6 +1270,7 @@ namespace Ramiel
             CycleStop_btn.Enabled = true;
             RepeatCnt = Convert.ToInt64(tbTimes.Text);
             speed = AutoRunSpeed_cbx.Text;
+
             ThreadPool.QueueUserWorkItem(new WaitCallback(AutoRun));
             ThreadPool.QueueUserWorkItem(new WaitCallback(AutoOutput));
 

@@ -230,6 +230,7 @@
             this.SMIF2_ReMap_btn = new System.Windows.Forms.Button();
             this.groupBox46 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BypassSafetyCheck_ck = new System.Windows.Forms.CheckBox();
             this.CstRobot_Speed_cbx = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox48 = new System.Windows.Forms.GroupBox();
@@ -2683,6 +2684,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.BypassSafetyCheck_ck);
             this.groupBox1.Controls.Add(this.CstRobot_Speed_cbx);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.groupBox48);
@@ -2697,6 +2699,16 @@
             this.groupBox1.TabIndex = 79;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Robot";
+            // 
+            // BypassSafetyCheck_ck
+            // 
+            this.BypassSafetyCheck_ck.AutoSize = true;
+            this.BypassSafetyCheck_ck.Location = new System.Drawing.Point(233, 264);
+            this.BypassSafetyCheck_ck.Name = "BypassSafetyCheck_ck";
+            this.BypassSafetyCheck_ck.Size = new System.Drawing.Size(169, 25);
+            this.BypassSafetyCheck_ck.TabIndex = 83;
+            this.BypassSafetyCheck_ck.Text = "Bypass Safety Check";
+            this.BypassSafetyCheck_ck.UseVisualStyleBackColor = true;
             // 
             // CstRobot_Speed_cbx
             // 
@@ -2764,7 +2776,7 @@
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.tabMode);
             this.Name = "FormMain";
-            this.Text = "200mm Oven Tester Ver2.4";
+            this.Text = "200mm Oven Tester Ver2.5";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBox49.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);
@@ -3004,6 +3016,7 @@
         private System.Windows.Forms.Label Elapsed_lb;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.CheckBox BypassSafetyCheck_ck;
     }
 }
 
