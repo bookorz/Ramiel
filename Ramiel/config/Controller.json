@@ -1,0 +1,15 @@
+	[
+		
+		{
+			"DeviceName": "PLCCONTROLLER01",
+			"DeviceType": "ROBOT",
+			"Vendor": "SANWA_MC",
+			"IPAdress": "192.168.3.39",
+			"Port": 2000,
+			"BaudRate": 38400,
+			"PortName": "COM4",
+			"ConnectionType": "SOCKET",
+			"Enable": true,
+			"ControllerType": "PLC"
+		}
+	]

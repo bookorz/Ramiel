@@ -1,0 +1,122 @@
+	[
+		{
+			"DeviceName": "D01",
+			"Type": "DIN",
+			"address": "17,1",
+			"Parameter": "FFUALARM",
+			"abnormal": "TRUE",
+			"error_code": "00100005"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DIN",
+			"address": "17,3",
+			"Parameter": "SAFETYRELAY",
+			"abnormal": "TRUE",
+			"error_code": "00100007"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DIN",
+			"address": "17,4",
+			"Parameter": "CDAALARM",
+			"abnormal": "FALSE",
+			"error_code": "00100003"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DIN",
+			"address": "17,5",
+			"Parameter": "VACUUM",
+			"abnormal": "FALSE",
+			"error_code": "00100002"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DIN",
+			"address": "17,6",
+			"Parameter": "MANUALPANEL",
+			"abnormal": "FALSE",
+			"error_code": "S0300177"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DOUT",
+			"address": "18,1",
+			"Parameter": "RED",
+			"abnormal": "N/A",
+			"error_code": "N/A"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DIN",
+			"address": "18,2",
+			"Parameter": "IONIZERALARM",
+			"abnormal": "FALSE",
+			"error_code": "00100006"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DOUT",
+			"address": "18,2",
+			"Parameter": "ORANGE",
+			"abnormal": "N/A",
+			"error_code": "N/A"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DOUT",
+			"address": "18,3",
+			"Parameter": "GREEN",
+			"abnormal": "N/A",
+			"error_code": "N/A"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DOUT",
+			"address": "18,4",
+			"Parameter": "BLUE",
+			"abnormal": "N/A",
+			"error_code": "N/A"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DOUT",
+			"address": "18,5",
+			"Parameter": "BUZZER1",
+			"abnormal": "N/A",
+			"error_code": "N/A"
+		},
+		{
+			"DeviceName": "D01",
+			"Type": "DOUT",
+			"address": "18,6",
+			"Parameter": "BUZZER2",
+			"abnormal": "N/A",
+			"error_code": "N/A"
+		},
+		{
+			"DeviceName": "D02",
+			"Type": "AIN",
+			"address": "0",
+			"Parameter": "DIFFERENTIAL",
+			"abnormal": "N/A",
+			"error_code": "N/A"
+		},
+		{
+			"DeviceName": "D02",
+			"Type": "DIN",
+			"address": "0",
+			"Parameter": "DIFFERENTIALPRESSUREALARM1",
+			"abnormal": "TRUE",
+			"error_code": "00100009"
+		},
+		{
+			"DeviceName": "D02",
+			"Type": "DIN",
+			"address": "1",
+			"Parameter": "DIFFERENTIALPRESSUREALARM2",
+			"abnormal": "TRUE",
+			"error_code": "00100010"
+		}
+	]

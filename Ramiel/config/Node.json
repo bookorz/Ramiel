@@ -1,0 +1,62 @@
+	[
+		{
+			"Name": "CSTROBOT",
+			"Controller": "",
+			"AdrNo": "0",
+			"Type": "MITSUBISHI_PLC",
+			"Vendor": "MITSUBISHI_PLC",
+			"ByPass": false,
+			"Enable": true,
+			"WaferSize": "",
+			"DoubleArmActive": false,
+
+			"R_Flip_Degree": " ",
+			"Associated_Node": " ",
+			"LArmActive": false,
+			"larmactive": false,
+			"CarrierType": "",
+			"Mode": null,
+			"AckTimeOut": 3000,
+			"MotionTimeOut": 30000
+		},
+		{
+			"Name": "SMIF1",
+			"Controller": "PLCCONTROLLER01",
+			"AdrNo": "1",
+			"Type": "LOADPORT",
+			"Vendor": "SANWA_MC",
+			"ByPass": false,
+			"Enable": true,
+			"WaferSize": "200",
+			"DoubleArmActive": false,
+
+			"R_Flip_Degree": " ",
+			"Associated_Node": " ",
+			"LArmActive": false,
+			"larmactive": false,
+			"CarrierType": "",
+			"Mode": null,
+			"AckTimeOut": 3000,
+			"MotionTimeOut": 120000
+		},
+		{
+			"Name": "SMIF2",
+			"Controller": "PLCCONTROLLER01",
+			"AdrNo": "1",
+			"Type": "LOADPORT",
+			"Vendor": "SANWA_MC",
+			"ByPass": false,
+			"Enable": true,
+			"WaferSize": "200",
+			"DoubleArmActive": false,
+
+			"R_Flip_Degree": " ",
+			"Associated_Node": " ",
+			"LArmActive": false,
+			"larmactive": false,
+			"CarrierType": "",
+			"Mode": null,
+			"AckTimeOut": 3000,
+			"MotionTimeOut": 120000
+		}	
+	]

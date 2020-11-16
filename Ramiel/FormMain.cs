@@ -690,6 +690,9 @@ namespace Ramiel
             Node Target = NodeManagement.Get("CSTROBOT");
             switch (Type)
             {
+                case "INTERLOCK":
+                    FormMainUpdate.Update_IO("Inter_Sig_"+(Pos).ToString(), Val == 1 ? "InterOn" : "InterOff");
+                    break;
                 case "INPUT":
                     switch (Pos)
                     {
@@ -1778,6 +1781,18 @@ namespace Ramiel
             {
                 Elapsed.Stop();
             }
+        }
+
+        private void Inter_on_btn_Click(object sender, EventArgs e)
+        {
+            int pos = Convert.ToInt16(((Button)sender).Name.Split(new string[] { "_" }, StringSplitOptions.None)[1]);
+            NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", pos, 1);
+        }
+
+        private void Inter_off_btn_Click(object sender, EventArgs e)
+        {
+            int pos = Convert.ToInt16(((Button)sender).Name.Split(new string[] { "_" }, StringSplitOptions.None)[1]);
+            NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", pos, 0);
         }
     }
 

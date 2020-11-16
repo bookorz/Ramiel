@@ -557,6 +557,10 @@ namespace Ramiel.UI_Update
                 signal = form.Controls.Find(key, true).FirstOrDefault() as Button;
             }
             if (signal == null)
+            {
+                signal = form.Controls.Find(key, true).FirstOrDefault() as Label;
+            }
+            if (signal == null)
                 return;
 
             if (signal.InvokeRequired)
@@ -589,6 +593,14 @@ namespace Ramiel.UI_Update
                 else if (val.Equals("Blue"))
                 {
                     signal.BackColor = Color.Blue;
+                }
+                else if (val.Equals("InterOn"))
+                {
+                    signal.ForeColor = Color.LimeGreen;
+                }
+                else if (val.Equals("InterOff"))
+                {
+                    signal.ForeColor = Color.Black;
                 }
                 else
                 {

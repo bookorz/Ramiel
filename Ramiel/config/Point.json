@@ -1,0 +1,227 @@
+	[
+		{
+			"NodeName": "WHR",
+			"Position": "ILPT1",
+			"PositionType": "ILPT",
+			"Point": "1",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "WHR",
+			"Position": "CTU",
+			"PositionType": "CTU",
+			"Point": "3",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "CTU",
+			"Position": "WHR",
+			"PositionType": "WHR",
+			"Point": "0",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "CTU",
+			"Position": "PTZ",
+			"PositionType": "PTZ",
+			"Point": "1",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF1",
+			"PositionType": "SHELF",
+			"Point": "11",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF2",
+			"PositionType": "SHELF",
+			"Point": "12",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF3",
+			"PositionType": "SHELF",
+			"Point": "13",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF4",
+			"PositionType": "SHELF",
+			"Point": "21",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF5",
+			"PositionType": "SHELF",
+			"Point": "31",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF6",
+			"PositionType": "SHELF",
+			"Point": "32",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF7",
+			"PositionType": "SHELF",
+			"Point": "33",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF8",
+			"PositionType": "SHELF",
+			"Point": "41",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF9",
+			"PositionType": "SHELF",
+			"Point": "42",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF10",
+			"PositionType": "SHELF",
+			"Point": "43",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF11",
+			"PositionType": "SHELF",
+			"Point": "51",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF12",
+			"PositionType": "SHELF",
+			"Point": "52",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF13",
+			"PositionType": "SHELF",
+			"Point": "53",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF14",
+			"PositionType": "SHELF",
+			"Point": "61",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF15",
+			"PositionType": "SHELF",
+			"Point": "62",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "SHELF16",
+			"PositionType": "SHELF",
+			"Point": "63",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "ELPT1",
+			"PositionType": "ELPT",
+			"Point": "1",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "ELPT2",
+			"PositionType": "ELPT",
+			"Point": "2",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "ILPT1",
+			"PositionType": "ILPT",
+			"Point": "3",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "FOUP_ROBOT",
+			"Position": "ILPT2",
+			"PositionType": "ILPT",
+			"Point": "4",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		},
+		{
+			"NodeName": "WHR",
+			"Position": "ILPT2",
+			"PositionType": "ILPT",
+			"Point": "2",
+			"MappingPoint": "",
+			"PreMappingPoint": null,
+			"Offset": 0
+		}
+	]
