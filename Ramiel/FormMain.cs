@@ -690,8 +690,14 @@ namespace Ramiel
             Node Target = NodeManagement.Get("CSTROBOT");
             switch (Type)
             {
-                case "INTERLOCK":
+                case "CSTINTERLOCK":
                     FormMainUpdate.Update_IO("Inter_Sig_"+(Pos).ToString(), Val == 1 ? "InterOn" : "InterOff");
+                    break;
+                case "SHELFINTERLOCK":
+                    FormMainUpdate.Update_IO("ShelfInter_Sig_" + (Pos).ToString(), Val == 1 ? "InterOn" : "InterOff");
+                    break;
+                case "VIPINTERLOCK":
+                    FormMainUpdate.Update_IO("VIPInter_Sig_" + (Pos).ToString(), Val == 1 ? "InterOn" : "InterOff");
                     break;
                 case "INPUT":
                     switch (Pos)
@@ -1786,13 +1792,37 @@ namespace Ramiel
         private void Inter_on_btn_Click(object sender, EventArgs e)
         {
             int pos = Convert.ToInt16(((Button)sender).Name.Split(new string[] { "_" }, StringSplitOptions.None)[1]);
-            NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", pos, 1);
+            NodeManagement.Get("CSTROBOT").SetIO("CSTINTERLOCK", pos, 1);
         }
 
         private void Inter_off_btn_Click(object sender, EventArgs e)
         {
             int pos = Convert.ToInt16(((Button)sender).Name.Split(new string[] { "_" }, StringSplitOptions.None)[1]);
-            NodeManagement.Get("CSTROBOT").SetIO("INTERLOCK", pos, 0);
+            NodeManagement.Get("CSTROBOT").SetIO("CSTINTERLOCK", pos, 0);
+        }
+
+        private void ShelfInter_on_btn_Click(object sender, EventArgs e)
+        {
+            int pos = Convert.ToInt16(((Button)sender).Name.Split(new string[] { "_" }, StringSplitOptions.None)[1]);
+            NodeManagement.Get("CSTROBOT").SetIO("SHELFINTERLOCK", pos, 1);
+        }
+
+        private void ShelfInter_off_btn_Click(object sender, EventArgs e)
+        {
+            int pos = Convert.ToInt16(((Button)sender).Name.Split(new string[] { "_" }, StringSplitOptions.None)[1]);
+            NodeManagement.Get("CSTROBOT").SetIO("SHELFINTERLOCK", pos, 0);
+        }
+
+        private void VIPInter_on_btn_Click(object sender, EventArgs e)
+        {
+            int pos = Convert.ToInt16(((Button)sender).Name.Split(new string[] { "_" }, StringSplitOptions.None)[1]);
+            NodeManagement.Get("CSTROBOT").SetIO("VIPINTERLOCK", pos, 1);
+        }
+
+        private void VIPInter_off_btn_Click(object sender, EventArgs e)
+        {
+            int pos = Convert.ToInt16(((Button)sender).Name.Split(new string[] { "_" }, StringSplitOptions.None)[1]);
+            NodeManagement.Get("CSTROBOT").SetIO("VIPINTERLOCK", pos,0 );
         }
     }
 
