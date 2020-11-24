@@ -236,7 +236,100 @@
             this.groupBox48 = new System.Windows.Forms.GroupBox();
             this.CstRobot_Source_cbx = new System.Windows.Forms.ComboBox();
             this.tabCSTInterlock = new System.Windows.Forms.TabPage();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.label103 = new System.Windows.Forms.Label();
+            this.ShelfInter_17_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_17_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_20_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_16_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_20_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_16_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_19_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_19_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_18_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_18_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_Sig_16 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_17 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_18 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_19 = new System.Windows.Forms.Label();
+            this.label111 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_20 = new System.Windows.Forms.Label();
+            this.ShelfInter_00_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_00_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_Sig_0 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.ShelfInter_12_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_12_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_15_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_11_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_15_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_11_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_14_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_10_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_14_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_10_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_13_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_13_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_09_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_09_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_08_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_08_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_07_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_07_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_06_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_06_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_05_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_05_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_04_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_04_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_03_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_03_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_02_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_02_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_01_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_01_on_btn = new System.Windows.Forms.Button();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_1 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_2 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_3 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_4 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_5 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_6 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_7 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_8 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_9 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_10 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_11 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_12 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_13 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_14 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_15 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.Inter_In_00 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.Inter_In_01 = new System.Windows.Forms.Label();
+            this.Inter_In_02 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.Inter_In_03 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
             this.Inter_00_off_btn = new System.Windows.Forms.Button();
             this.Inter_00_on_btn = new System.Windows.Forms.Button();
             this.Inter_Sig_0 = new System.Windows.Forms.Label();
@@ -315,91 +408,6 @@
             this.label69 = new System.Windows.Forms.Label();
             this.VIPInter_Sig_10 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.ShelfInter_00_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_00_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_Sig_0 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.ShelfInter_12_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_12_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_15_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_11_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_15_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_11_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_14_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_10_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_14_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_10_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_13_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_13_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_09_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_09_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_08_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_08_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_07_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_07_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_06_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_06_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_05_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_05_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_04_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_04_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_03_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_03_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_02_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_02_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_01_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_01_on_btn = new System.Windows.Forms.Button();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_1 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_2 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_3 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_4 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_5 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_6 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_7 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_8 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_9 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_10 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_11 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_12 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_13 = new System.Windows.Forms.Label();
-            this.label99 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_14 = new System.Windows.Forms.Label();
-            this.label101 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_15 = new System.Windows.Forms.Label();
-            this.label103 = new System.Windows.Forms.Label();
-            this.ShelfInter_17_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_17_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_20_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_16_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_20_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_16_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_19_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_19_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_18_off_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_18_on_btn = new System.Windows.Forms.Button();
-            this.ShelfInter_Sig_16 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_17 = new System.Windows.Forms.Label();
-            this.label107 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_18 = new System.Windows.Forms.Label();
-            this.label109 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_19 = new System.Windows.Forms.Label();
-            this.label111 = new System.Windows.Forms.Label();
-            this.ShelfInter_Sig_20 = new System.Windows.Forms.Label();
             this.groupBox49.SuspendLayout();
             this.groupBox47.SuspendLayout();
             this.groupBox6.SuspendLayout();
@@ -423,9 +431,9 @@
             this.groupBox1.SuspendLayout();
             this.groupBox48.SuspendLayout();
             this.tabCSTInterlock.SuspendLayout();
+            this.groupBox14.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.tabVIPInterlock.SuspendLayout();
-            this.groupBox14.SuspendLayout();
             this.SuspendLayout();
             // 
             // CstRobot_Source_GetWait_btn
@@ -2943,8 +2951,991 @@
             this.tabCSTInterlock.Text = "CST Robot Interlock";
             this.tabCSTInterlock.UseVisualStyleBackColor = true;
             // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.label103);
+            this.groupBox14.Controls.Add(this.ShelfInter_17_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_17_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_20_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_16_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_20_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_16_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_19_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_19_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_18_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_18_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_16);
+            this.groupBox14.Controls.Add(this.label105);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_17);
+            this.groupBox14.Controls.Add(this.label107);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_18);
+            this.groupBox14.Controls.Add(this.label109);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_19);
+            this.groupBox14.Controls.Add(this.label111);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_20);
+            this.groupBox14.Controls.Add(this.ShelfInter_00_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_00_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_0);
+            this.groupBox14.Controls.Add(this.label19);
+            this.groupBox14.Controls.Add(this.ShelfInter_12_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_12_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_15_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_11_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_15_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_11_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_14_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_10_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_14_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_10_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_13_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_13_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_09_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_09_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_08_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_08_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_07_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_07_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_06_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_06_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_05_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_05_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_04_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_04_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_03_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_03_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_02_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_02_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_01_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_01_on_btn);
+            this.groupBox14.Controls.Add(this.label23);
+            this.groupBox14.Controls.Add(this.label27);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_1);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_2);
+            this.groupBox14.Controls.Add(this.label39);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_3);
+            this.groupBox14.Controls.Add(this.label47);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_4);
+            this.groupBox14.Controls.Add(this.label55);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_5);
+            this.groupBox14.Controls.Add(this.label63);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_6);
+            this.groupBox14.Controls.Add(this.label81);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_7);
+            this.groupBox14.Controls.Add(this.label85);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_8);
+            this.groupBox14.Controls.Add(this.label89);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_9);
+            this.groupBox14.Controls.Add(this.label91);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_10);
+            this.groupBox14.Controls.Add(this.label93);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_11);
+            this.groupBox14.Controls.Add(this.label95);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_12);
+            this.groupBox14.Controls.Add(this.label97);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_13);
+            this.groupBox14.Controls.Add(this.label99);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_14);
+            this.groupBox14.Controls.Add(this.label101);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_15);
+            this.groupBox14.Location = new System.Drawing.Point(522, 3);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(462, 642);
+            this.groupBox14.TabIndex = 174;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Shelf";
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label103.Location = new System.Drawing.Point(43, 451);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(247, 26);
+            this.label103.TabIndex = 193;
+            this.label103.Text = "Shelf 21 Arm Extend Enable";
+            // 
+            // ShelfInter_17_off_btn
+            // 
+            this.ShelfInter_17_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_17_off_btn.Location = new System.Drawing.Point(402, 393);
+            this.ShelfInter_17_off_btn.Name = "ShelfInter_17_off_btn";
+            this.ShelfInter_17_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_17_off_btn.TabIndex = 192;
+            this.ShelfInter_17_off_btn.Text = "Off";
+            this.ShelfInter_17_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_17_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_17_on_btn
+            // 
+            this.ShelfInter_17_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_17_on_btn.Location = new System.Drawing.Point(350, 393);
+            this.ShelfInter_17_on_btn.Name = "ShelfInter_17_on_btn";
+            this.ShelfInter_17_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_17_on_btn.TabIndex = 191;
+            this.ShelfInter_17_on_btn.Text = "On";
+            this.ShelfInter_17_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_17_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_20_off_btn
+            // 
+            this.ShelfInter_20_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_20_off_btn.Location = new System.Drawing.Point(402, 456);
+            this.ShelfInter_20_off_btn.Name = "ShelfInter_20_off_btn";
+            this.ShelfInter_20_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_20_off_btn.TabIndex = 188;
+            this.ShelfInter_20_off_btn.Text = "Off";
+            this.ShelfInter_20_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_20_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_16_off_btn
+            // 
+            this.ShelfInter_16_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_16_off_btn.Location = new System.Drawing.Point(402, 372);
+            this.ShelfInter_16_off_btn.Name = "ShelfInter_16_off_btn";
+            this.ShelfInter_16_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_16_off_btn.TabIndex = 190;
+            this.ShelfInter_16_off_btn.Text = "Off";
+            this.ShelfInter_16_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_16_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_20_on_btn
+            // 
+            this.ShelfInter_20_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_20_on_btn.Location = new System.Drawing.Point(350, 456);
+            this.ShelfInter_20_on_btn.Name = "ShelfInter_20_on_btn";
+            this.ShelfInter_20_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_20_on_btn.TabIndex = 187;
+            this.ShelfInter_20_on_btn.Text = "On";
+            this.ShelfInter_20_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_20_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_16_on_btn
+            // 
+            this.ShelfInter_16_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_16_on_btn.Location = new System.Drawing.Point(350, 372);
+            this.ShelfInter_16_on_btn.Name = "ShelfInter_16_on_btn";
+            this.ShelfInter_16_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_16_on_btn.TabIndex = 189;
+            this.ShelfInter_16_on_btn.Text = "On";
+            this.ShelfInter_16_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_16_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_19_off_btn
+            // 
+            this.ShelfInter_19_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_19_off_btn.Location = new System.Drawing.Point(402, 434);
+            this.ShelfInter_19_off_btn.Name = "ShelfInter_19_off_btn";
+            this.ShelfInter_19_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_19_off_btn.TabIndex = 186;
+            this.ShelfInter_19_off_btn.Text = "Off";
+            this.ShelfInter_19_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_19_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_19_on_btn
+            // 
+            this.ShelfInter_19_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_19_on_btn.Location = new System.Drawing.Point(350, 434);
+            this.ShelfInter_19_on_btn.Name = "ShelfInter_19_on_btn";
+            this.ShelfInter_19_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_19_on_btn.TabIndex = 185;
+            this.ShelfInter_19_on_btn.Text = "On";
+            this.ShelfInter_19_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_19_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_18_off_btn
+            // 
+            this.ShelfInter_18_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_18_off_btn.Location = new System.Drawing.Point(402, 413);
+            this.ShelfInter_18_off_btn.Name = "ShelfInter_18_off_btn";
+            this.ShelfInter_18_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_18_off_btn.TabIndex = 184;
+            this.ShelfInter_18_off_btn.Text = "Off";
+            this.ShelfInter_18_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_18_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_18_on_btn
+            // 
+            this.ShelfInter_18_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_18_on_btn.Location = new System.Drawing.Point(350, 413);
+            this.ShelfInter_18_on_btn.Name = "ShelfInter_18_on_btn";
+            this.ShelfInter_18_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_18_on_btn.TabIndex = 183;
+            this.ShelfInter_18_on_btn.Text = "On";
+            this.ShelfInter_18_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_18_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_Sig_16
+            // 
+            this.ShelfInter_Sig_16.AutoSize = true;
+            this.ShelfInter_Sig_16.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_16.Location = new System.Drawing.Point(20, 364);
+            this.ShelfInter_Sig_16.Name = "ShelfInter_Sig_16";
+            this.ShelfInter_Sig_16.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_16.TabIndex = 174;
+            this.ShelfInter_Sig_16.Text = "■";
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label105.Location = new System.Drawing.Point(43, 366);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(247, 26);
+            this.label105.TabIndex = 175;
+            this.label105.Text = "Shelf 17 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_17
+            // 
+            this.ShelfInter_Sig_17.AutoSize = true;
+            this.ShelfInter_Sig_17.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_17.Location = new System.Drawing.Point(20, 385);
+            this.ShelfInter_Sig_17.Name = "ShelfInter_Sig_17";
+            this.ShelfInter_Sig_17.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_17.TabIndex = 176;
+            this.ShelfInter_Sig_17.Text = "■";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label107.Location = new System.Drawing.Point(43, 387);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(247, 26);
+            this.label107.TabIndex = 177;
+            this.label107.Text = "Shelf 18 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_18
+            // 
+            this.ShelfInter_Sig_18.AutoSize = true;
+            this.ShelfInter_Sig_18.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_18.Location = new System.Drawing.Point(20, 406);
+            this.ShelfInter_Sig_18.Name = "ShelfInter_Sig_18";
+            this.ShelfInter_Sig_18.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_18.TabIndex = 178;
+            this.ShelfInter_Sig_18.Text = "■";
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label109.Location = new System.Drawing.Point(43, 408);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(247, 26);
+            this.label109.TabIndex = 179;
+            this.label109.Text = "Shelf 19 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_19
+            // 
+            this.ShelfInter_Sig_19.AutoSize = true;
+            this.ShelfInter_Sig_19.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_19.Location = new System.Drawing.Point(20, 427);
+            this.ShelfInter_Sig_19.Name = "ShelfInter_Sig_19";
+            this.ShelfInter_Sig_19.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_19.TabIndex = 180;
+            this.ShelfInter_Sig_19.Text = "■";
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label111.Location = new System.Drawing.Point(43, 429);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(247, 26);
+            this.label111.TabIndex = 181;
+            this.label111.Text = "Shelf 20 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_20
+            // 
+            this.ShelfInter_Sig_20.AutoSize = true;
+            this.ShelfInter_Sig_20.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_20.Location = new System.Drawing.Point(20, 448);
+            this.ShelfInter_Sig_20.Name = "ShelfInter_Sig_20";
+            this.ShelfInter_Sig_20.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_20.TabIndex = 182;
+            this.ShelfInter_Sig_20.Text = "■";
+            // 
+            // ShelfInter_00_off_btn
+            // 
+            this.ShelfInter_00_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_00_off_btn.Location = new System.Drawing.Point(402, 32);
+            this.ShelfInter_00_off_btn.Name = "ShelfInter_00_off_btn";
+            this.ShelfInter_00_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_00_off_btn.TabIndex = 173;
+            this.ShelfInter_00_off_btn.Text = "Off";
+            this.ShelfInter_00_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_00_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_00_on_btn
+            // 
+            this.ShelfInter_00_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_00_on_btn.Location = new System.Drawing.Point(350, 32);
+            this.ShelfInter_00_on_btn.Name = "ShelfInter_00_on_btn";
+            this.ShelfInter_00_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_00_on_btn.TabIndex = 172;
+            this.ShelfInter_00_on_btn.Text = "On";
+            this.ShelfInter_00_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_00_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_Sig_0
+            // 
+            this.ShelfInter_Sig_0.AutoSize = true;
+            this.ShelfInter_Sig_0.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_0.Location = new System.Drawing.Point(20, 26);
+            this.ShelfInter_Sig_0.Name = "ShelfInter_Sig_0";
+            this.ShelfInter_Sig_0.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_0.TabIndex = 171;
+            this.ShelfInter_Sig_0.Text = "■";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(43, 345);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(247, 26);
+            this.label19.TabIndex = 170;
+            this.label19.Text = "Shelf 16 Arm Extend Enable";
+            // 
+            // ShelfInter_12_off_btn
+            // 
+            this.ShelfInter_12_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_12_off_btn.Location = new System.Drawing.Point(402, 287);
+            this.ShelfInter_12_off_btn.Name = "ShelfInter_12_off_btn";
+            this.ShelfInter_12_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_12_off_btn.TabIndex = 163;
+            this.ShelfInter_12_off_btn.Text = "Off";
+            this.ShelfInter_12_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_12_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_12_on_btn
+            // 
+            this.ShelfInter_12_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_12_on_btn.Location = new System.Drawing.Point(350, 287);
+            this.ShelfInter_12_on_btn.Name = "ShelfInter_12_on_btn";
+            this.ShelfInter_12_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_12_on_btn.TabIndex = 162;
+            this.ShelfInter_12_on_btn.Text = "On";
+            this.ShelfInter_12_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_12_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_15_off_btn
+            // 
+            this.ShelfInter_15_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_15_off_btn.Location = new System.Drawing.Point(402, 350);
+            this.ShelfInter_15_off_btn.Name = "ShelfInter_15_off_btn";
+            this.ShelfInter_15_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_15_off_btn.TabIndex = 153;
+            this.ShelfInter_15_off_btn.Text = "Off";
+            this.ShelfInter_15_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_15_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_11_off_btn
+            // 
+            this.ShelfInter_11_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_11_off_btn.Location = new System.Drawing.Point(402, 266);
+            this.ShelfInter_11_off_btn.Name = "ShelfInter_11_off_btn";
+            this.ShelfInter_11_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_11_off_btn.TabIndex = 161;
+            this.ShelfInter_11_off_btn.Text = "Off";
+            this.ShelfInter_11_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_11_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_15_on_btn
+            // 
+            this.ShelfInter_15_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_15_on_btn.Location = new System.Drawing.Point(350, 350);
+            this.ShelfInter_15_on_btn.Name = "ShelfInter_15_on_btn";
+            this.ShelfInter_15_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_15_on_btn.TabIndex = 152;
+            this.ShelfInter_15_on_btn.Text = "On";
+            this.ShelfInter_15_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_15_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_11_on_btn
+            // 
+            this.ShelfInter_11_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_11_on_btn.Location = new System.Drawing.Point(350, 266);
+            this.ShelfInter_11_on_btn.Name = "ShelfInter_11_on_btn";
+            this.ShelfInter_11_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_11_on_btn.TabIndex = 160;
+            this.ShelfInter_11_on_btn.Text = "On";
+            this.ShelfInter_11_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_11_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_14_off_btn
+            // 
+            this.ShelfInter_14_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_14_off_btn.Location = new System.Drawing.Point(402, 328);
+            this.ShelfInter_14_off_btn.Name = "ShelfInter_14_off_btn";
+            this.ShelfInter_14_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_14_off_btn.TabIndex = 151;
+            this.ShelfInter_14_off_btn.Text = "Off";
+            this.ShelfInter_14_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_14_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_10_off_btn
+            // 
+            this.ShelfInter_10_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_10_off_btn.Location = new System.Drawing.Point(402, 244);
+            this.ShelfInter_10_off_btn.Name = "ShelfInter_10_off_btn";
+            this.ShelfInter_10_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_10_off_btn.TabIndex = 159;
+            this.ShelfInter_10_off_btn.Text = "Off";
+            this.ShelfInter_10_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_10_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_14_on_btn
+            // 
+            this.ShelfInter_14_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_14_on_btn.Location = new System.Drawing.Point(350, 328);
+            this.ShelfInter_14_on_btn.Name = "ShelfInter_14_on_btn";
+            this.ShelfInter_14_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_14_on_btn.TabIndex = 150;
+            this.ShelfInter_14_on_btn.Text = "On";
+            this.ShelfInter_14_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_14_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_10_on_btn
+            // 
+            this.ShelfInter_10_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_10_on_btn.Location = new System.Drawing.Point(350, 244);
+            this.ShelfInter_10_on_btn.Name = "ShelfInter_10_on_btn";
+            this.ShelfInter_10_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_10_on_btn.TabIndex = 158;
+            this.ShelfInter_10_on_btn.Text = "On";
+            this.ShelfInter_10_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_10_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_13_off_btn
+            // 
+            this.ShelfInter_13_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_13_off_btn.Location = new System.Drawing.Point(402, 307);
+            this.ShelfInter_13_off_btn.Name = "ShelfInter_13_off_btn";
+            this.ShelfInter_13_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_13_off_btn.TabIndex = 149;
+            this.ShelfInter_13_off_btn.Text = "Off";
+            this.ShelfInter_13_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_13_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_13_on_btn
+            // 
+            this.ShelfInter_13_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_13_on_btn.Location = new System.Drawing.Point(350, 307);
+            this.ShelfInter_13_on_btn.Name = "ShelfInter_13_on_btn";
+            this.ShelfInter_13_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_13_on_btn.TabIndex = 148;
+            this.ShelfInter_13_on_btn.Text = "On";
+            this.ShelfInter_13_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_13_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_09_off_btn
+            // 
+            this.ShelfInter_09_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_09_off_btn.Location = new System.Drawing.Point(402, 223);
+            this.ShelfInter_09_off_btn.Name = "ShelfInter_09_off_btn";
+            this.ShelfInter_09_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_09_off_btn.TabIndex = 157;
+            this.ShelfInter_09_off_btn.Text = "Off";
+            this.ShelfInter_09_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_09_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_09_on_btn
+            // 
+            this.ShelfInter_09_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_09_on_btn.Location = new System.Drawing.Point(350, 223);
+            this.ShelfInter_09_on_btn.Name = "ShelfInter_09_on_btn";
+            this.ShelfInter_09_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_09_on_btn.TabIndex = 156;
+            this.ShelfInter_09_on_btn.Text = "On";
+            this.ShelfInter_09_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_09_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_08_off_btn
+            // 
+            this.ShelfInter_08_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_08_off_btn.Location = new System.Drawing.Point(402, 203);
+            this.ShelfInter_08_off_btn.Name = "ShelfInter_08_off_btn";
+            this.ShelfInter_08_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_08_off_btn.TabIndex = 155;
+            this.ShelfInter_08_off_btn.Text = "Off";
+            this.ShelfInter_08_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_08_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_08_on_btn
+            // 
+            this.ShelfInter_08_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_08_on_btn.Location = new System.Drawing.Point(350, 203);
+            this.ShelfInter_08_on_btn.Name = "ShelfInter_08_on_btn";
+            this.ShelfInter_08_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_08_on_btn.TabIndex = 154;
+            this.ShelfInter_08_on_btn.Text = "On";
+            this.ShelfInter_08_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_08_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_07_off_btn
+            // 
+            this.ShelfInter_07_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_07_off_btn.Location = new System.Drawing.Point(402, 182);
+            this.ShelfInter_07_off_btn.Name = "ShelfInter_07_off_btn";
+            this.ShelfInter_07_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_07_off_btn.TabIndex = 153;
+            this.ShelfInter_07_off_btn.Text = "Off";
+            this.ShelfInter_07_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_07_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_07_on_btn
+            // 
+            this.ShelfInter_07_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_07_on_btn.Location = new System.Drawing.Point(350, 182);
+            this.ShelfInter_07_on_btn.Name = "ShelfInter_07_on_btn";
+            this.ShelfInter_07_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_07_on_btn.TabIndex = 152;
+            this.ShelfInter_07_on_btn.Text = "On";
+            this.ShelfInter_07_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_07_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_06_off_btn
+            // 
+            this.ShelfInter_06_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_06_off_btn.Location = new System.Drawing.Point(402, 160);
+            this.ShelfInter_06_off_btn.Name = "ShelfInter_06_off_btn";
+            this.ShelfInter_06_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_06_off_btn.TabIndex = 151;
+            this.ShelfInter_06_off_btn.Text = "Off";
+            this.ShelfInter_06_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_06_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_06_on_btn
+            // 
+            this.ShelfInter_06_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_06_on_btn.Location = new System.Drawing.Point(350, 160);
+            this.ShelfInter_06_on_btn.Name = "ShelfInter_06_on_btn";
+            this.ShelfInter_06_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_06_on_btn.TabIndex = 150;
+            this.ShelfInter_06_on_btn.Text = "On";
+            this.ShelfInter_06_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_06_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_05_off_btn
+            // 
+            this.ShelfInter_05_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_05_off_btn.Location = new System.Drawing.Point(402, 139);
+            this.ShelfInter_05_off_btn.Name = "ShelfInter_05_off_btn";
+            this.ShelfInter_05_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_05_off_btn.TabIndex = 149;
+            this.ShelfInter_05_off_btn.Text = "Off";
+            this.ShelfInter_05_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_05_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_05_on_btn
+            // 
+            this.ShelfInter_05_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_05_on_btn.Location = new System.Drawing.Point(350, 139);
+            this.ShelfInter_05_on_btn.Name = "ShelfInter_05_on_btn";
+            this.ShelfInter_05_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_05_on_btn.TabIndex = 148;
+            this.ShelfInter_05_on_btn.Text = "On";
+            this.ShelfInter_05_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_05_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_04_off_btn
+            // 
+            this.ShelfInter_04_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_04_off_btn.Location = new System.Drawing.Point(402, 117);
+            this.ShelfInter_04_off_btn.Name = "ShelfInter_04_off_btn";
+            this.ShelfInter_04_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_04_off_btn.TabIndex = 147;
+            this.ShelfInter_04_off_btn.Text = "Off";
+            this.ShelfInter_04_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_04_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_04_on_btn
+            // 
+            this.ShelfInter_04_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_04_on_btn.Location = new System.Drawing.Point(350, 117);
+            this.ShelfInter_04_on_btn.Name = "ShelfInter_04_on_btn";
+            this.ShelfInter_04_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_04_on_btn.TabIndex = 146;
+            this.ShelfInter_04_on_btn.Text = "On";
+            this.ShelfInter_04_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_04_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_03_off_btn
+            // 
+            this.ShelfInter_03_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_03_off_btn.Location = new System.Drawing.Point(402, 96);
+            this.ShelfInter_03_off_btn.Name = "ShelfInter_03_off_btn";
+            this.ShelfInter_03_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_03_off_btn.TabIndex = 145;
+            this.ShelfInter_03_off_btn.Text = "Off";
+            this.ShelfInter_03_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_03_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_03_on_btn
+            // 
+            this.ShelfInter_03_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_03_on_btn.Location = new System.Drawing.Point(350, 96);
+            this.ShelfInter_03_on_btn.Name = "ShelfInter_03_on_btn";
+            this.ShelfInter_03_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_03_on_btn.TabIndex = 144;
+            this.ShelfInter_03_on_btn.Text = "On";
+            this.ShelfInter_03_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_03_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_02_off_btn
+            // 
+            this.ShelfInter_02_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_02_off_btn.Location = new System.Drawing.Point(402, 74);
+            this.ShelfInter_02_off_btn.Name = "ShelfInter_02_off_btn";
+            this.ShelfInter_02_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_02_off_btn.TabIndex = 143;
+            this.ShelfInter_02_off_btn.Text = "Off";
+            this.ShelfInter_02_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_02_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_02_on_btn
+            // 
+            this.ShelfInter_02_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_02_on_btn.Location = new System.Drawing.Point(350, 74);
+            this.ShelfInter_02_on_btn.Name = "ShelfInter_02_on_btn";
+            this.ShelfInter_02_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_02_on_btn.TabIndex = 142;
+            this.ShelfInter_02_on_btn.Text = "On";
+            this.ShelfInter_02_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_02_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_01_off_btn
+            // 
+            this.ShelfInter_01_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_01_off_btn.Location = new System.Drawing.Point(402, 53);
+            this.ShelfInter_01_off_btn.Name = "ShelfInter_01_off_btn";
+            this.ShelfInter_01_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_01_off_btn.TabIndex = 141;
+            this.ShelfInter_01_off_btn.Text = "Off";
+            this.ShelfInter_01_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_01_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_01_on_btn
+            // 
+            this.ShelfInter_01_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_01_on_btn.Location = new System.Drawing.Point(350, 53);
+            this.ShelfInter_01_on_btn.Name = "ShelfInter_01_on_btn";
+            this.ShelfInter_01_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_01_on_btn.TabIndex = 140;
+            this.ShelfInter_01_on_btn.Text = "On";
+            this.ShelfInter_01_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_01_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(43, 50);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(236, 26);
+            this.label23.TabIndex = 2;
+            this.label23.Text = "Shelf 2 Arm Extend Enable";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(43, 29);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(236, 26);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "Shelf 1 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_1
+            // 
+            this.ShelfInter_Sig_1.AutoSize = true;
+            this.ShelfInter_Sig_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_1.Location = new System.Drawing.Point(20, 48);
+            this.ShelfInter_Sig_1.Name = "ShelfInter_Sig_1";
+            this.ShelfInter_Sig_1.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_1.TabIndex = 1;
+            this.ShelfInter_Sig_1.Text = "■";
+            // 
+            // ShelfInter_Sig_2
+            // 
+            this.ShelfInter_Sig_2.AutoSize = true;
+            this.ShelfInter_Sig_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_2.Location = new System.Drawing.Point(20, 69);
+            this.ShelfInter_Sig_2.Name = "ShelfInter_Sig_2";
+            this.ShelfInter_Sig_2.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_2.TabIndex = 3;
+            this.ShelfInter_Sig_2.Text = "■";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(43, 71);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(236, 26);
+            this.label39.TabIndex = 4;
+            this.label39.Text = "Shelf 3 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_3
+            // 
+            this.ShelfInter_Sig_3.AutoSize = true;
+            this.ShelfInter_Sig_3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_3.Location = new System.Drawing.Point(20, 90);
+            this.ShelfInter_Sig_3.Name = "ShelfInter_Sig_3";
+            this.ShelfInter_Sig_3.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_3.TabIndex = 5;
+            this.ShelfInter_Sig_3.Text = "■";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(43, 92);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(236, 26);
+            this.label47.TabIndex = 6;
+            this.label47.Text = "Shelf 4 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_4
+            // 
+            this.ShelfInter_Sig_4.AutoSize = true;
+            this.ShelfInter_Sig_4.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_4.Location = new System.Drawing.Point(20, 111);
+            this.ShelfInter_Sig_4.Name = "ShelfInter_Sig_4";
+            this.ShelfInter_Sig_4.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_4.TabIndex = 7;
+            this.ShelfInter_Sig_4.Text = "■";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(43, 113);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(236, 26);
+            this.label55.TabIndex = 8;
+            this.label55.Text = "Shelf 5 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_5
+            // 
+            this.ShelfInter_Sig_5.AutoSize = true;
+            this.ShelfInter_Sig_5.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_5.Location = new System.Drawing.Point(20, 132);
+            this.ShelfInter_Sig_5.Name = "ShelfInter_Sig_5";
+            this.ShelfInter_Sig_5.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_5.TabIndex = 9;
+            this.ShelfInter_Sig_5.Text = "■";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Location = new System.Drawing.Point(43, 134);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(236, 26);
+            this.label63.TabIndex = 10;
+            this.label63.Text = "Shelf 6 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_6
+            // 
+            this.ShelfInter_Sig_6.AutoSize = true;
+            this.ShelfInter_Sig_6.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_6.Location = new System.Drawing.Point(20, 153);
+            this.ShelfInter_Sig_6.Name = "ShelfInter_Sig_6";
+            this.ShelfInter_Sig_6.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_6.TabIndex = 11;
+            this.ShelfInter_Sig_6.Text = "■";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.Location = new System.Drawing.Point(43, 155);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(236, 26);
+            this.label81.TabIndex = 12;
+            this.label81.Text = "Shelf 7 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_7
+            // 
+            this.ShelfInter_Sig_7.AutoSize = true;
+            this.ShelfInter_Sig_7.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_7.Location = new System.Drawing.Point(20, 174);
+            this.ShelfInter_Sig_7.Name = "ShelfInter_Sig_7";
+            this.ShelfInter_Sig_7.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_7.TabIndex = 13;
+            this.ShelfInter_Sig_7.Text = "■";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.Location = new System.Drawing.Point(43, 176);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(236, 26);
+            this.label85.TabIndex = 14;
+            this.label85.Text = "Shelf 8 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_8
+            // 
+            this.ShelfInter_Sig_8.AutoSize = true;
+            this.ShelfInter_Sig_8.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_8.Location = new System.Drawing.Point(20, 195);
+            this.ShelfInter_Sig_8.Name = "ShelfInter_Sig_8";
+            this.ShelfInter_Sig_8.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_8.TabIndex = 15;
+            this.ShelfInter_Sig_8.Text = "■";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.Location = new System.Drawing.Point(43, 197);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(236, 26);
+            this.label89.TabIndex = 16;
+            this.label89.Text = "Shelf 9 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_9
+            // 
+            this.ShelfInter_Sig_9.AutoSize = true;
+            this.ShelfInter_Sig_9.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_9.Location = new System.Drawing.Point(20, 216);
+            this.ShelfInter_Sig_9.Name = "ShelfInter_Sig_9";
+            this.ShelfInter_Sig_9.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_9.TabIndex = 17;
+            this.ShelfInter_Sig_9.Text = "■";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.Location = new System.Drawing.Point(43, 218);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(247, 26);
+            this.label91.TabIndex = 18;
+            this.label91.Text = "Shelf 10 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_10
+            // 
+            this.ShelfInter_Sig_10.AutoSize = true;
+            this.ShelfInter_Sig_10.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_10.Location = new System.Drawing.Point(20, 237);
+            this.ShelfInter_Sig_10.Name = "ShelfInter_Sig_10";
+            this.ShelfInter_Sig_10.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_10.TabIndex = 19;
+            this.ShelfInter_Sig_10.Text = "■";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.Location = new System.Drawing.Point(43, 239);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(247, 26);
+            this.label93.TabIndex = 20;
+            this.label93.Text = "Shelf 11 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_11
+            // 
+            this.ShelfInter_Sig_11.AutoSize = true;
+            this.ShelfInter_Sig_11.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_11.Location = new System.Drawing.Point(20, 258);
+            this.ShelfInter_Sig_11.Name = "ShelfInter_Sig_11";
+            this.ShelfInter_Sig_11.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_11.TabIndex = 21;
+            this.ShelfInter_Sig_11.Text = "■";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.Location = new System.Drawing.Point(43, 260);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(247, 26);
+            this.label95.TabIndex = 22;
+            this.label95.Text = "Shelf 12 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_12
+            // 
+            this.ShelfInter_Sig_12.AutoSize = true;
+            this.ShelfInter_Sig_12.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_12.Location = new System.Drawing.Point(20, 279);
+            this.ShelfInter_Sig_12.Name = "ShelfInter_Sig_12";
+            this.ShelfInter_Sig_12.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_12.TabIndex = 23;
+            this.ShelfInter_Sig_12.Text = "■";
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.Location = new System.Drawing.Point(43, 281);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(247, 26);
+            this.label97.TabIndex = 24;
+            this.label97.Text = "Shelf 13 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_13
+            // 
+            this.ShelfInter_Sig_13.AutoSize = true;
+            this.ShelfInter_Sig_13.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_13.Location = new System.Drawing.Point(20, 300);
+            this.ShelfInter_Sig_13.Name = "ShelfInter_Sig_13";
+            this.ShelfInter_Sig_13.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_13.TabIndex = 25;
+            this.ShelfInter_Sig_13.Text = "■";
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.Location = new System.Drawing.Point(43, 302);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(247, 26);
+            this.label99.TabIndex = 26;
+            this.label99.Text = "Shelf 14 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_14
+            // 
+            this.ShelfInter_Sig_14.AutoSize = true;
+            this.ShelfInter_Sig_14.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_14.Location = new System.Drawing.Point(20, 321);
+            this.ShelfInter_Sig_14.Name = "ShelfInter_Sig_14";
+            this.ShelfInter_Sig_14.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_14.TabIndex = 27;
+            this.ShelfInter_Sig_14.Text = "■";
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label101.Location = new System.Drawing.Point(43, 323);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(247, 26);
+            this.label101.TabIndex = 28;
+            this.label101.Text = "Shelf 15 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_15
+            // 
+            this.ShelfInter_Sig_15.AutoSize = true;
+            this.ShelfInter_Sig_15.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_15.Location = new System.Drawing.Point(20, 342);
+            this.ShelfInter_Sig_15.Name = "ShelfInter_Sig_15";
+            this.ShelfInter_Sig_15.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_15.TabIndex = 29;
+            this.ShelfInter_Sig_15.Text = "■";
+            // 
             // groupBox13
             // 
+            this.groupBox13.Controls.Add(this.Inter_In_00);
+            this.groupBox13.Controls.Add(this.label31);
+            this.groupBox13.Controls.Add(this.label35);
+            this.groupBox13.Controls.Add(this.Inter_In_01);
+            this.groupBox13.Controls.Add(this.Inter_In_02);
+            this.groupBox13.Controls.Add(this.label59);
+            this.groupBox13.Controls.Add(this.Inter_In_03);
+            this.groupBox13.Controls.Add(this.label71);
             this.groupBox13.Controls.Add(this.Inter_00_off_btn);
             this.groupBox13.Controls.Add(this.Inter_00_on_btn);
             this.groupBox13.Controls.Add(this.Inter_Sig_0);
@@ -3009,12 +4000,92 @@
             this.groupBox13.Controls.Add(this.Inter_Sig_14);
             this.groupBox13.Controls.Add(this.label65);
             this.groupBox13.Controls.Add(this.Inter_Sig_15);
-            this.groupBox13.Location = new System.Drawing.Point(3, 3);
+            this.groupBox13.Location = new System.Drawing.Point(13, 3);
             this.groupBox13.Name = "groupBox13";
             this.groupBox13.Size = new System.Drawing.Size(462, 642);
             this.groupBox13.TabIndex = 140;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "CST Robot";
+            // 
+            // Inter_In_00
+            // 
+            this.Inter_In_00.AutoSize = true;
+            this.Inter_In_00.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_00.Location = new System.Drawing.Point(20, 491);
+            this.Inter_In_00.Name = "Inter_In_00";
+            this.Inter_In_00.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_00.TabIndex = 181;
+            this.Inter_In_00.Text = "■";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(43, 515);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(268, 26);
+            this.label31.TabIndex = 176;
+            this.label31.Text = "FIMS-DC Arm Not Extend (NC)";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(43, 494);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(266, 26);
+            this.label35.TabIndex = 174;
+            this.label35.Text = "FIMS-CC Arm Not Extend (NC)";
+            // 
+            // Inter_In_01
+            // 
+            this.Inter_In_01.AutoSize = true;
+            this.Inter_In_01.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_01.Location = new System.Drawing.Point(20, 513);
+            this.Inter_In_01.Name = "Inter_In_01";
+            this.Inter_In_01.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_01.TabIndex = 175;
+            this.Inter_In_01.Text = "■";
+            // 
+            // Inter_In_02
+            // 
+            this.Inter_In_02.AutoSize = true;
+            this.Inter_In_02.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_02.Location = new System.Drawing.Point(20, 534);
+            this.Inter_In_02.Name = "Inter_In_02";
+            this.Inter_In_02.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_02.TabIndex = 177;
+            this.Inter_In_02.Text = "■";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(43, 536);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(255, 26);
+            this.label59.TabIndex = 178;
+            this.label59.Text = "SMIF-1 Arm Not Extend (NC)";
+            // 
+            // Inter_In_03
+            // 
+            this.Inter_In_03.AutoSize = true;
+            this.Inter_In_03.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_03.Location = new System.Drawing.Point(20, 555);
+            this.Inter_In_03.Name = "Inter_In_03";
+            this.Inter_In_03.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_03.TabIndex = 179;
+            this.Inter_In_03.Text = "■";
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.Location = new System.Drawing.Point(43, 557);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(255, 26);
+            this.label71.TabIndex = 180;
+            this.label71.Text = "SMIF-2 Arm Not Extend (NC)";
             // 
             // Inter_00_off_btn
             // 
@@ -3841,981 +4912,6 @@
             this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // groupBox14
-            // 
-            this.groupBox14.Controls.Add(this.label103);
-            this.groupBox14.Controls.Add(this.ShelfInter_17_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_17_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_20_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_16_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_20_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_16_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_19_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_19_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_18_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_18_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_16);
-            this.groupBox14.Controls.Add(this.label105);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_17);
-            this.groupBox14.Controls.Add(this.label107);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_18);
-            this.groupBox14.Controls.Add(this.label109);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_19);
-            this.groupBox14.Controls.Add(this.label111);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_20);
-            this.groupBox14.Controls.Add(this.ShelfInter_00_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_00_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_0);
-            this.groupBox14.Controls.Add(this.label19);
-            this.groupBox14.Controls.Add(this.ShelfInter_12_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_12_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_15_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_11_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_15_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_11_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_14_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_10_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_14_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_10_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_13_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_13_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_09_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_09_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_08_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_08_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_07_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_07_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_06_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_06_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_05_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_05_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_04_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_04_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_03_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_03_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_02_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_02_on_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_01_off_btn);
-            this.groupBox14.Controls.Add(this.ShelfInter_01_on_btn);
-            this.groupBox14.Controls.Add(this.label23);
-            this.groupBox14.Controls.Add(this.label27);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_1);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_2);
-            this.groupBox14.Controls.Add(this.label39);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_3);
-            this.groupBox14.Controls.Add(this.label47);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_4);
-            this.groupBox14.Controls.Add(this.label55);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_5);
-            this.groupBox14.Controls.Add(this.label63);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_6);
-            this.groupBox14.Controls.Add(this.label81);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_7);
-            this.groupBox14.Controls.Add(this.label85);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_8);
-            this.groupBox14.Controls.Add(this.label89);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_9);
-            this.groupBox14.Controls.Add(this.label91);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_10);
-            this.groupBox14.Controls.Add(this.label93);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_11);
-            this.groupBox14.Controls.Add(this.label95);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_12);
-            this.groupBox14.Controls.Add(this.label97);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_13);
-            this.groupBox14.Controls.Add(this.label99);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_14);
-            this.groupBox14.Controls.Add(this.label101);
-            this.groupBox14.Controls.Add(this.ShelfInter_Sig_15);
-            this.groupBox14.Location = new System.Drawing.Point(522, 3);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(462, 642);
-            this.groupBox14.TabIndex = 174;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Shelf";
-            // 
-            // ShelfInter_00_off_btn
-            // 
-            this.ShelfInter_00_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_00_off_btn.Location = new System.Drawing.Point(402, 32);
-            this.ShelfInter_00_off_btn.Name = "ShelfInter_00_off_btn";
-            this.ShelfInter_00_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_00_off_btn.TabIndex = 173;
-            this.ShelfInter_00_off_btn.Text = "Off";
-            this.ShelfInter_00_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_00_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_00_on_btn
-            // 
-            this.ShelfInter_00_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_00_on_btn.Location = new System.Drawing.Point(350, 32);
-            this.ShelfInter_00_on_btn.Name = "ShelfInter_00_on_btn";
-            this.ShelfInter_00_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_00_on_btn.TabIndex = 172;
-            this.ShelfInter_00_on_btn.Text = "On";
-            this.ShelfInter_00_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_00_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_Sig_0
-            // 
-            this.ShelfInter_Sig_0.AutoSize = true;
-            this.ShelfInter_Sig_0.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_0.Location = new System.Drawing.Point(20, 26);
-            this.ShelfInter_Sig_0.Name = "ShelfInter_Sig_0";
-            this.ShelfInter_Sig_0.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_0.TabIndex = 171;
-            this.ShelfInter_Sig_0.Text = "■";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(43, 345);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(247, 26);
-            this.label19.TabIndex = 170;
-            this.label19.Text = "Shelf 16 Arm Extend Enable";
-            // 
-            // ShelfInter_12_off_btn
-            // 
-            this.ShelfInter_12_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_12_off_btn.Location = new System.Drawing.Point(402, 287);
-            this.ShelfInter_12_off_btn.Name = "ShelfInter_12_off_btn";
-            this.ShelfInter_12_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_12_off_btn.TabIndex = 163;
-            this.ShelfInter_12_off_btn.Text = "Off";
-            this.ShelfInter_12_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_12_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_12_on_btn
-            // 
-            this.ShelfInter_12_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_12_on_btn.Location = new System.Drawing.Point(350, 287);
-            this.ShelfInter_12_on_btn.Name = "ShelfInter_12_on_btn";
-            this.ShelfInter_12_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_12_on_btn.TabIndex = 162;
-            this.ShelfInter_12_on_btn.Text = "On";
-            this.ShelfInter_12_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_12_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_15_off_btn
-            // 
-            this.ShelfInter_15_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_15_off_btn.Location = new System.Drawing.Point(402, 350);
-            this.ShelfInter_15_off_btn.Name = "ShelfInter_15_off_btn";
-            this.ShelfInter_15_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_15_off_btn.TabIndex = 153;
-            this.ShelfInter_15_off_btn.Text = "Off";
-            this.ShelfInter_15_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_15_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_11_off_btn
-            // 
-            this.ShelfInter_11_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_11_off_btn.Location = new System.Drawing.Point(402, 266);
-            this.ShelfInter_11_off_btn.Name = "ShelfInter_11_off_btn";
-            this.ShelfInter_11_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_11_off_btn.TabIndex = 161;
-            this.ShelfInter_11_off_btn.Text = "Off";
-            this.ShelfInter_11_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_11_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_15_on_btn
-            // 
-            this.ShelfInter_15_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_15_on_btn.Location = new System.Drawing.Point(350, 350);
-            this.ShelfInter_15_on_btn.Name = "ShelfInter_15_on_btn";
-            this.ShelfInter_15_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_15_on_btn.TabIndex = 152;
-            this.ShelfInter_15_on_btn.Text = "On";
-            this.ShelfInter_15_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_15_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_11_on_btn
-            // 
-            this.ShelfInter_11_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_11_on_btn.Location = new System.Drawing.Point(350, 266);
-            this.ShelfInter_11_on_btn.Name = "ShelfInter_11_on_btn";
-            this.ShelfInter_11_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_11_on_btn.TabIndex = 160;
-            this.ShelfInter_11_on_btn.Text = "On";
-            this.ShelfInter_11_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_11_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_14_off_btn
-            // 
-            this.ShelfInter_14_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_14_off_btn.Location = new System.Drawing.Point(402, 328);
-            this.ShelfInter_14_off_btn.Name = "ShelfInter_14_off_btn";
-            this.ShelfInter_14_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_14_off_btn.TabIndex = 151;
-            this.ShelfInter_14_off_btn.Text = "Off";
-            this.ShelfInter_14_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_14_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_10_off_btn
-            // 
-            this.ShelfInter_10_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_10_off_btn.Location = new System.Drawing.Point(402, 244);
-            this.ShelfInter_10_off_btn.Name = "ShelfInter_10_off_btn";
-            this.ShelfInter_10_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_10_off_btn.TabIndex = 159;
-            this.ShelfInter_10_off_btn.Text = "Off";
-            this.ShelfInter_10_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_10_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_14_on_btn
-            // 
-            this.ShelfInter_14_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_14_on_btn.Location = new System.Drawing.Point(350, 328);
-            this.ShelfInter_14_on_btn.Name = "ShelfInter_14_on_btn";
-            this.ShelfInter_14_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_14_on_btn.TabIndex = 150;
-            this.ShelfInter_14_on_btn.Text = "On";
-            this.ShelfInter_14_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_14_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_10_on_btn
-            // 
-            this.ShelfInter_10_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_10_on_btn.Location = new System.Drawing.Point(350, 244);
-            this.ShelfInter_10_on_btn.Name = "ShelfInter_10_on_btn";
-            this.ShelfInter_10_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_10_on_btn.TabIndex = 158;
-            this.ShelfInter_10_on_btn.Text = "On";
-            this.ShelfInter_10_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_10_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_13_off_btn
-            // 
-            this.ShelfInter_13_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_13_off_btn.Location = new System.Drawing.Point(402, 307);
-            this.ShelfInter_13_off_btn.Name = "ShelfInter_13_off_btn";
-            this.ShelfInter_13_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_13_off_btn.TabIndex = 149;
-            this.ShelfInter_13_off_btn.Text = "Off";
-            this.ShelfInter_13_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_13_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_13_on_btn
-            // 
-            this.ShelfInter_13_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_13_on_btn.Location = new System.Drawing.Point(350, 307);
-            this.ShelfInter_13_on_btn.Name = "ShelfInter_13_on_btn";
-            this.ShelfInter_13_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_13_on_btn.TabIndex = 148;
-            this.ShelfInter_13_on_btn.Text = "On";
-            this.ShelfInter_13_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_13_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_09_off_btn
-            // 
-            this.ShelfInter_09_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_09_off_btn.Location = new System.Drawing.Point(402, 223);
-            this.ShelfInter_09_off_btn.Name = "ShelfInter_09_off_btn";
-            this.ShelfInter_09_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_09_off_btn.TabIndex = 157;
-            this.ShelfInter_09_off_btn.Text = "Off";
-            this.ShelfInter_09_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_09_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_09_on_btn
-            // 
-            this.ShelfInter_09_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_09_on_btn.Location = new System.Drawing.Point(350, 223);
-            this.ShelfInter_09_on_btn.Name = "ShelfInter_09_on_btn";
-            this.ShelfInter_09_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_09_on_btn.TabIndex = 156;
-            this.ShelfInter_09_on_btn.Text = "On";
-            this.ShelfInter_09_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_09_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_08_off_btn
-            // 
-            this.ShelfInter_08_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_08_off_btn.Location = new System.Drawing.Point(402, 203);
-            this.ShelfInter_08_off_btn.Name = "ShelfInter_08_off_btn";
-            this.ShelfInter_08_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_08_off_btn.TabIndex = 155;
-            this.ShelfInter_08_off_btn.Text = "Off";
-            this.ShelfInter_08_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_08_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_08_on_btn
-            // 
-            this.ShelfInter_08_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_08_on_btn.Location = new System.Drawing.Point(350, 203);
-            this.ShelfInter_08_on_btn.Name = "ShelfInter_08_on_btn";
-            this.ShelfInter_08_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_08_on_btn.TabIndex = 154;
-            this.ShelfInter_08_on_btn.Text = "On";
-            this.ShelfInter_08_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_08_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_07_off_btn
-            // 
-            this.ShelfInter_07_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_07_off_btn.Location = new System.Drawing.Point(402, 182);
-            this.ShelfInter_07_off_btn.Name = "ShelfInter_07_off_btn";
-            this.ShelfInter_07_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_07_off_btn.TabIndex = 153;
-            this.ShelfInter_07_off_btn.Text = "Off";
-            this.ShelfInter_07_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_07_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_07_on_btn
-            // 
-            this.ShelfInter_07_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_07_on_btn.Location = new System.Drawing.Point(350, 182);
-            this.ShelfInter_07_on_btn.Name = "ShelfInter_07_on_btn";
-            this.ShelfInter_07_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_07_on_btn.TabIndex = 152;
-            this.ShelfInter_07_on_btn.Text = "On";
-            this.ShelfInter_07_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_07_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_06_off_btn
-            // 
-            this.ShelfInter_06_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_06_off_btn.Location = new System.Drawing.Point(402, 160);
-            this.ShelfInter_06_off_btn.Name = "ShelfInter_06_off_btn";
-            this.ShelfInter_06_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_06_off_btn.TabIndex = 151;
-            this.ShelfInter_06_off_btn.Text = "Off";
-            this.ShelfInter_06_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_06_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_06_on_btn
-            // 
-            this.ShelfInter_06_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_06_on_btn.Location = new System.Drawing.Point(350, 160);
-            this.ShelfInter_06_on_btn.Name = "ShelfInter_06_on_btn";
-            this.ShelfInter_06_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_06_on_btn.TabIndex = 150;
-            this.ShelfInter_06_on_btn.Text = "On";
-            this.ShelfInter_06_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_06_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_05_off_btn
-            // 
-            this.ShelfInter_05_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_05_off_btn.Location = new System.Drawing.Point(402, 139);
-            this.ShelfInter_05_off_btn.Name = "ShelfInter_05_off_btn";
-            this.ShelfInter_05_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_05_off_btn.TabIndex = 149;
-            this.ShelfInter_05_off_btn.Text = "Off";
-            this.ShelfInter_05_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_05_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_05_on_btn
-            // 
-            this.ShelfInter_05_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_05_on_btn.Location = new System.Drawing.Point(350, 139);
-            this.ShelfInter_05_on_btn.Name = "ShelfInter_05_on_btn";
-            this.ShelfInter_05_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_05_on_btn.TabIndex = 148;
-            this.ShelfInter_05_on_btn.Text = "On";
-            this.ShelfInter_05_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_05_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_04_off_btn
-            // 
-            this.ShelfInter_04_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_04_off_btn.Location = new System.Drawing.Point(402, 117);
-            this.ShelfInter_04_off_btn.Name = "ShelfInter_04_off_btn";
-            this.ShelfInter_04_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_04_off_btn.TabIndex = 147;
-            this.ShelfInter_04_off_btn.Text = "Off";
-            this.ShelfInter_04_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_04_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_04_on_btn
-            // 
-            this.ShelfInter_04_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_04_on_btn.Location = new System.Drawing.Point(350, 117);
-            this.ShelfInter_04_on_btn.Name = "ShelfInter_04_on_btn";
-            this.ShelfInter_04_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_04_on_btn.TabIndex = 146;
-            this.ShelfInter_04_on_btn.Text = "On";
-            this.ShelfInter_04_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_04_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_03_off_btn
-            // 
-            this.ShelfInter_03_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_03_off_btn.Location = new System.Drawing.Point(402, 96);
-            this.ShelfInter_03_off_btn.Name = "ShelfInter_03_off_btn";
-            this.ShelfInter_03_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_03_off_btn.TabIndex = 145;
-            this.ShelfInter_03_off_btn.Text = "Off";
-            this.ShelfInter_03_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_03_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_03_on_btn
-            // 
-            this.ShelfInter_03_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_03_on_btn.Location = new System.Drawing.Point(350, 96);
-            this.ShelfInter_03_on_btn.Name = "ShelfInter_03_on_btn";
-            this.ShelfInter_03_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_03_on_btn.TabIndex = 144;
-            this.ShelfInter_03_on_btn.Text = "On";
-            this.ShelfInter_03_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_03_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_02_off_btn
-            // 
-            this.ShelfInter_02_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_02_off_btn.Location = new System.Drawing.Point(402, 74);
-            this.ShelfInter_02_off_btn.Name = "ShelfInter_02_off_btn";
-            this.ShelfInter_02_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_02_off_btn.TabIndex = 143;
-            this.ShelfInter_02_off_btn.Text = "Off";
-            this.ShelfInter_02_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_02_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_02_on_btn
-            // 
-            this.ShelfInter_02_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_02_on_btn.Location = new System.Drawing.Point(350, 74);
-            this.ShelfInter_02_on_btn.Name = "ShelfInter_02_on_btn";
-            this.ShelfInter_02_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_02_on_btn.TabIndex = 142;
-            this.ShelfInter_02_on_btn.Text = "On";
-            this.ShelfInter_02_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_02_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_01_off_btn
-            // 
-            this.ShelfInter_01_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_01_off_btn.Location = new System.Drawing.Point(402, 53);
-            this.ShelfInter_01_off_btn.Name = "ShelfInter_01_off_btn";
-            this.ShelfInter_01_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_01_off_btn.TabIndex = 141;
-            this.ShelfInter_01_off_btn.Text = "Off";
-            this.ShelfInter_01_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_01_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_01_on_btn
-            // 
-            this.ShelfInter_01_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_01_on_btn.Location = new System.Drawing.Point(350, 53);
-            this.ShelfInter_01_on_btn.Name = "ShelfInter_01_on_btn";
-            this.ShelfInter_01_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_01_on_btn.TabIndex = 140;
-            this.ShelfInter_01_on_btn.Text = "On";
-            this.ShelfInter_01_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_01_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(43, 50);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(236, 26);
-            this.label23.TabIndex = 2;
-            this.label23.Text = "Shelf 2 Arm Extend Enable";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(43, 29);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(236, 26);
-            this.label27.TabIndex = 0;
-            this.label27.Text = "Shelf 1 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_1
-            // 
-            this.ShelfInter_Sig_1.AutoSize = true;
-            this.ShelfInter_Sig_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_1.Location = new System.Drawing.Point(20, 48);
-            this.ShelfInter_Sig_1.Name = "ShelfInter_Sig_1";
-            this.ShelfInter_Sig_1.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_1.TabIndex = 1;
-            this.ShelfInter_Sig_1.Text = "■";
-            // 
-            // ShelfInter_Sig_2
-            // 
-            this.ShelfInter_Sig_2.AutoSize = true;
-            this.ShelfInter_Sig_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_2.Location = new System.Drawing.Point(20, 69);
-            this.ShelfInter_Sig_2.Name = "ShelfInter_Sig_2";
-            this.ShelfInter_Sig_2.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_2.TabIndex = 3;
-            this.ShelfInter_Sig_2.Text = "■";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(43, 71);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(236, 26);
-            this.label39.TabIndex = 4;
-            this.label39.Text = "Shelf 3 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_3
-            // 
-            this.ShelfInter_Sig_3.AutoSize = true;
-            this.ShelfInter_Sig_3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_3.Location = new System.Drawing.Point(20, 90);
-            this.ShelfInter_Sig_3.Name = "ShelfInter_Sig_3";
-            this.ShelfInter_Sig_3.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_3.TabIndex = 5;
-            this.ShelfInter_Sig_3.Text = "■";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(43, 92);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(236, 26);
-            this.label47.TabIndex = 6;
-            this.label47.Text = "Shelf 4 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_4
-            // 
-            this.ShelfInter_Sig_4.AutoSize = true;
-            this.ShelfInter_Sig_4.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_4.Location = new System.Drawing.Point(20, 111);
-            this.ShelfInter_Sig_4.Name = "ShelfInter_Sig_4";
-            this.ShelfInter_Sig_4.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_4.TabIndex = 7;
-            this.ShelfInter_Sig_4.Text = "■";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(43, 113);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(236, 26);
-            this.label55.TabIndex = 8;
-            this.label55.Text = "Shelf 5 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_5
-            // 
-            this.ShelfInter_Sig_5.AutoSize = true;
-            this.ShelfInter_Sig_5.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_5.Location = new System.Drawing.Point(20, 132);
-            this.ShelfInter_Sig_5.Name = "ShelfInter_Sig_5";
-            this.ShelfInter_Sig_5.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_5.TabIndex = 9;
-            this.ShelfInter_Sig_5.Text = "■";
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(43, 134);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(236, 26);
-            this.label63.TabIndex = 10;
-            this.label63.Text = "Shelf 6 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_6
-            // 
-            this.ShelfInter_Sig_6.AutoSize = true;
-            this.ShelfInter_Sig_6.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_6.Location = new System.Drawing.Point(20, 153);
-            this.ShelfInter_Sig_6.Name = "ShelfInter_Sig_6";
-            this.ShelfInter_Sig_6.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_6.TabIndex = 11;
-            this.ShelfInter_Sig_6.Text = "■";
-            // 
-            // label81
-            // 
-            this.label81.AutoSize = true;
-            this.label81.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.Location = new System.Drawing.Point(43, 155);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(236, 26);
-            this.label81.TabIndex = 12;
-            this.label81.Text = "Shelf 7 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_7
-            // 
-            this.ShelfInter_Sig_7.AutoSize = true;
-            this.ShelfInter_Sig_7.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_7.Location = new System.Drawing.Point(20, 174);
-            this.ShelfInter_Sig_7.Name = "ShelfInter_Sig_7";
-            this.ShelfInter_Sig_7.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_7.TabIndex = 13;
-            this.ShelfInter_Sig_7.Text = "■";
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label85.Location = new System.Drawing.Point(43, 176);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(236, 26);
-            this.label85.TabIndex = 14;
-            this.label85.Text = "Shelf 8 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_8
-            // 
-            this.ShelfInter_Sig_8.AutoSize = true;
-            this.ShelfInter_Sig_8.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_8.Location = new System.Drawing.Point(20, 195);
-            this.ShelfInter_Sig_8.Name = "ShelfInter_Sig_8";
-            this.ShelfInter_Sig_8.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_8.TabIndex = 15;
-            this.ShelfInter_Sig_8.Text = "■";
-            // 
-            // label89
-            // 
-            this.label89.AutoSize = true;
-            this.label89.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label89.Location = new System.Drawing.Point(43, 197);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(236, 26);
-            this.label89.TabIndex = 16;
-            this.label89.Text = "Shelf 9 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_9
-            // 
-            this.ShelfInter_Sig_9.AutoSize = true;
-            this.ShelfInter_Sig_9.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_9.Location = new System.Drawing.Point(20, 216);
-            this.ShelfInter_Sig_9.Name = "ShelfInter_Sig_9";
-            this.ShelfInter_Sig_9.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_9.TabIndex = 17;
-            this.ShelfInter_Sig_9.Text = "■";
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label91.Location = new System.Drawing.Point(43, 218);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(247, 26);
-            this.label91.TabIndex = 18;
-            this.label91.Text = "Shelf 10 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_10
-            // 
-            this.ShelfInter_Sig_10.AutoSize = true;
-            this.ShelfInter_Sig_10.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_10.Location = new System.Drawing.Point(20, 237);
-            this.ShelfInter_Sig_10.Name = "ShelfInter_Sig_10";
-            this.ShelfInter_Sig_10.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_10.TabIndex = 19;
-            this.ShelfInter_Sig_10.Text = "■";
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label93.Location = new System.Drawing.Point(43, 239);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(247, 26);
-            this.label93.TabIndex = 20;
-            this.label93.Text = "Shelf 11 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_11
-            // 
-            this.ShelfInter_Sig_11.AutoSize = true;
-            this.ShelfInter_Sig_11.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_11.Location = new System.Drawing.Point(20, 258);
-            this.ShelfInter_Sig_11.Name = "ShelfInter_Sig_11";
-            this.ShelfInter_Sig_11.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_11.TabIndex = 21;
-            this.ShelfInter_Sig_11.Text = "■";
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label95.Location = new System.Drawing.Point(43, 260);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(247, 26);
-            this.label95.TabIndex = 22;
-            this.label95.Text = "Shelf 12 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_12
-            // 
-            this.ShelfInter_Sig_12.AutoSize = true;
-            this.ShelfInter_Sig_12.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_12.Location = new System.Drawing.Point(20, 279);
-            this.ShelfInter_Sig_12.Name = "ShelfInter_Sig_12";
-            this.ShelfInter_Sig_12.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_12.TabIndex = 23;
-            this.ShelfInter_Sig_12.Text = "■";
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label97.Location = new System.Drawing.Point(43, 281);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(247, 26);
-            this.label97.TabIndex = 24;
-            this.label97.Text = "Shelf 13 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_13
-            // 
-            this.ShelfInter_Sig_13.AutoSize = true;
-            this.ShelfInter_Sig_13.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_13.Location = new System.Drawing.Point(20, 300);
-            this.ShelfInter_Sig_13.Name = "ShelfInter_Sig_13";
-            this.ShelfInter_Sig_13.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_13.TabIndex = 25;
-            this.ShelfInter_Sig_13.Text = "■";
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label99.Location = new System.Drawing.Point(43, 302);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(247, 26);
-            this.label99.TabIndex = 26;
-            this.label99.Text = "Shelf 14 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_14
-            // 
-            this.ShelfInter_Sig_14.AutoSize = true;
-            this.ShelfInter_Sig_14.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_14.Location = new System.Drawing.Point(20, 321);
-            this.ShelfInter_Sig_14.Name = "ShelfInter_Sig_14";
-            this.ShelfInter_Sig_14.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_14.TabIndex = 27;
-            this.ShelfInter_Sig_14.Text = "■";
-            // 
-            // label101
-            // 
-            this.label101.AutoSize = true;
-            this.label101.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label101.Location = new System.Drawing.Point(43, 323);
-            this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(247, 26);
-            this.label101.TabIndex = 28;
-            this.label101.Text = "Shelf 15 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_15
-            // 
-            this.ShelfInter_Sig_15.AutoSize = true;
-            this.ShelfInter_Sig_15.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_15.Location = new System.Drawing.Point(20, 342);
-            this.ShelfInter_Sig_15.Name = "ShelfInter_Sig_15";
-            this.ShelfInter_Sig_15.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_15.TabIndex = 29;
-            this.ShelfInter_Sig_15.Text = "■";
-            // 
-            // label103
-            // 
-            this.label103.AutoSize = true;
-            this.label103.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label103.Location = new System.Drawing.Point(43, 451);
-            this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(247, 26);
-            this.label103.TabIndex = 193;
-            this.label103.Text = "Shelf 21 Arm Extend Enable";
-            // 
-            // ShelfInter_17_off_btn
-            // 
-            this.ShelfInter_17_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_17_off_btn.Location = new System.Drawing.Point(402, 393);
-            this.ShelfInter_17_off_btn.Name = "ShelfInter_17_off_btn";
-            this.ShelfInter_17_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_17_off_btn.TabIndex = 192;
-            this.ShelfInter_17_off_btn.Text = "Off";
-            this.ShelfInter_17_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_17_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_17_on_btn
-            // 
-            this.ShelfInter_17_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_17_on_btn.Location = new System.Drawing.Point(350, 393);
-            this.ShelfInter_17_on_btn.Name = "ShelfInter_17_on_btn";
-            this.ShelfInter_17_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_17_on_btn.TabIndex = 191;
-            this.ShelfInter_17_on_btn.Text = "On";
-            this.ShelfInter_17_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_17_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_20_off_btn
-            // 
-            this.ShelfInter_20_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_20_off_btn.Location = new System.Drawing.Point(402, 456);
-            this.ShelfInter_20_off_btn.Name = "ShelfInter_20_off_btn";
-            this.ShelfInter_20_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_20_off_btn.TabIndex = 188;
-            this.ShelfInter_20_off_btn.Text = "Off";
-            this.ShelfInter_20_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_20_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_16_off_btn
-            // 
-            this.ShelfInter_16_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_16_off_btn.Location = new System.Drawing.Point(402, 372);
-            this.ShelfInter_16_off_btn.Name = "ShelfInter_16_off_btn";
-            this.ShelfInter_16_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_16_off_btn.TabIndex = 190;
-            this.ShelfInter_16_off_btn.Text = "Off";
-            this.ShelfInter_16_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_16_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_20_on_btn
-            // 
-            this.ShelfInter_20_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_20_on_btn.Location = new System.Drawing.Point(350, 456);
-            this.ShelfInter_20_on_btn.Name = "ShelfInter_20_on_btn";
-            this.ShelfInter_20_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_20_on_btn.TabIndex = 187;
-            this.ShelfInter_20_on_btn.Text = "On";
-            this.ShelfInter_20_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_20_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_16_on_btn
-            // 
-            this.ShelfInter_16_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_16_on_btn.Location = new System.Drawing.Point(350, 372);
-            this.ShelfInter_16_on_btn.Name = "ShelfInter_16_on_btn";
-            this.ShelfInter_16_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_16_on_btn.TabIndex = 189;
-            this.ShelfInter_16_on_btn.Text = "On";
-            this.ShelfInter_16_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_16_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_19_off_btn
-            // 
-            this.ShelfInter_19_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_19_off_btn.Location = new System.Drawing.Point(402, 434);
-            this.ShelfInter_19_off_btn.Name = "ShelfInter_19_off_btn";
-            this.ShelfInter_19_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_19_off_btn.TabIndex = 186;
-            this.ShelfInter_19_off_btn.Text = "Off";
-            this.ShelfInter_19_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_19_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_19_on_btn
-            // 
-            this.ShelfInter_19_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_19_on_btn.Location = new System.Drawing.Point(350, 434);
-            this.ShelfInter_19_on_btn.Name = "ShelfInter_19_on_btn";
-            this.ShelfInter_19_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_19_on_btn.TabIndex = 185;
-            this.ShelfInter_19_on_btn.Text = "On";
-            this.ShelfInter_19_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_19_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_18_off_btn
-            // 
-            this.ShelfInter_18_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_18_off_btn.Location = new System.Drawing.Point(402, 413);
-            this.ShelfInter_18_off_btn.Name = "ShelfInter_18_off_btn";
-            this.ShelfInter_18_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.ShelfInter_18_off_btn.TabIndex = 184;
-            this.ShelfInter_18_off_btn.Text = "Off";
-            this.ShelfInter_18_off_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_18_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
-            // 
-            // ShelfInter_18_on_btn
-            // 
-            this.ShelfInter_18_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_18_on_btn.Location = new System.Drawing.Point(350, 413);
-            this.ShelfInter_18_on_btn.Name = "ShelfInter_18_on_btn";
-            this.ShelfInter_18_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.ShelfInter_18_on_btn.TabIndex = 183;
-            this.ShelfInter_18_on_btn.Text = "On";
-            this.ShelfInter_18_on_btn.UseVisualStyleBackColor = true;
-            this.ShelfInter_18_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
-            // 
-            // ShelfInter_Sig_16
-            // 
-            this.ShelfInter_Sig_16.AutoSize = true;
-            this.ShelfInter_Sig_16.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_16.Location = new System.Drawing.Point(20, 364);
-            this.ShelfInter_Sig_16.Name = "ShelfInter_Sig_16";
-            this.ShelfInter_Sig_16.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_16.TabIndex = 174;
-            this.ShelfInter_Sig_16.Text = "■";
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label105.Location = new System.Drawing.Point(43, 366);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(247, 26);
-            this.label105.TabIndex = 175;
-            this.label105.Text = "Shelf 17 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_17
-            // 
-            this.ShelfInter_Sig_17.AutoSize = true;
-            this.ShelfInter_Sig_17.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_17.Location = new System.Drawing.Point(20, 385);
-            this.ShelfInter_Sig_17.Name = "ShelfInter_Sig_17";
-            this.ShelfInter_Sig_17.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_17.TabIndex = 176;
-            this.ShelfInter_Sig_17.Text = "■";
-            // 
-            // label107
-            // 
-            this.label107.AutoSize = true;
-            this.label107.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label107.Location = new System.Drawing.Point(43, 387);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(247, 26);
-            this.label107.TabIndex = 177;
-            this.label107.Text = "Shelf 18 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_18
-            // 
-            this.ShelfInter_Sig_18.AutoSize = true;
-            this.ShelfInter_Sig_18.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_18.Location = new System.Drawing.Point(20, 406);
-            this.ShelfInter_Sig_18.Name = "ShelfInter_Sig_18";
-            this.ShelfInter_Sig_18.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_18.TabIndex = 178;
-            this.ShelfInter_Sig_18.Text = "■";
-            // 
-            // label109
-            // 
-            this.label109.AutoSize = true;
-            this.label109.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label109.Location = new System.Drawing.Point(43, 408);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(247, 26);
-            this.label109.TabIndex = 179;
-            this.label109.Text = "Shelf 19 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_19
-            // 
-            this.ShelfInter_Sig_19.AutoSize = true;
-            this.ShelfInter_Sig_19.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_19.Location = new System.Drawing.Point(20, 427);
-            this.ShelfInter_Sig_19.Name = "ShelfInter_Sig_19";
-            this.ShelfInter_Sig_19.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_19.TabIndex = 180;
-            this.ShelfInter_Sig_19.Text = "■";
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label111.Location = new System.Drawing.Point(43, 429);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(247, 26);
-            this.label111.TabIndex = 181;
-            this.label111.Text = "Shelf 20 Arm Extend Enable";
-            // 
-            // ShelfInter_Sig_20
-            // 
-            this.ShelfInter_Sig_20.AutoSize = true;
-            this.ShelfInter_Sig_20.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShelfInter_Sig_20.Location = new System.Drawing.Point(20, 448);
-            this.ShelfInter_Sig_20.Name = "ShelfInter_Sig_20";
-            this.ShelfInter_Sig_20.Size = new System.Drawing.Size(29, 29);
-            this.ShelfInter_Sig_20.TabIndex = 182;
-            this.ShelfInter_Sig_20.Text = "■";
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -4854,12 +4950,12 @@
             this.groupBox1.PerformLayout();
             this.groupBox48.ResumeLayout(false);
             this.tabCSTInterlock.ResumeLayout(false);
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             this.tabVIPInterlock.ResumeLayout(false);
             this.tabVIPInterlock.PerformLayout();
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox14.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -5236,6 +5332,14 @@
         private System.Windows.Forms.Label ShelfInter_Sig_14;
         private System.Windows.Forms.Label label101;
         private System.Windows.Forms.Label ShelfInter_Sig_15;
+        private System.Windows.Forms.Label Inter_In_00;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label Inter_In_01;
+        private System.Windows.Forms.Label Inter_In_02;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label Inter_In_03;
+        private System.Windows.Forms.Label label71;
     }
 }
 
