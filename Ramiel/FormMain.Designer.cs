@@ -73,83 +73,6 @@
             this.Test_btn = new System.Windows.Forms.Button();
             this.btnClearMsg = new System.Windows.Forms.Button();
             this.pnlIO = new System.Windows.Forms.Panel();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.Inter_00_off_btn = new System.Windows.Forms.Button();
-            this.Inter_00_on_btn = new System.Windows.Forms.Button();
-            this.Inter_Sig_0 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.Inter_12_off_btn = new System.Windows.Forms.Button();
-            this.Inter_12_on_btn = new System.Windows.Forms.Button();
-            this.Inter_15_off_btn = new System.Windows.Forms.Button();
-            this.Inter_11_off_btn = new System.Windows.Forms.Button();
-            this.Inter_15_on_btn = new System.Windows.Forms.Button();
-            this.Inter_11_on_btn = new System.Windows.Forms.Button();
-            this.Inter_14_off_btn = new System.Windows.Forms.Button();
-            this.Inter_10_off_btn = new System.Windows.Forms.Button();
-            this.Inter_14_on_btn = new System.Windows.Forms.Button();
-            this.Inter_10_on_btn = new System.Windows.Forms.Button();
-            this.Inter_13_off_btn = new System.Windows.Forms.Button();
-            this.Inter_13_on_btn = new System.Windows.Forms.Button();
-            this.Inter_09_off_btn = new System.Windows.Forms.Button();
-            this.Inter_09_on_btn = new System.Windows.Forms.Button();
-            this.Inter_08_off_btn = new System.Windows.Forms.Button();
-            this.Inter_08_on_btn = new System.Windows.Forms.Button();
-            this.Inter_07_off_btn = new System.Windows.Forms.Button();
-            this.Inter_07_on_btn = new System.Windows.Forms.Button();
-            this.Inter_06_off_btn = new System.Windows.Forms.Button();
-            this.Inter_06_on_btn = new System.Windows.Forms.Button();
-            this.Inter_05_off_btn = new System.Windows.Forms.Button();
-            this.Inter_05_on_btn = new System.Windows.Forms.Button();
-            this.Inter_04_off_btn = new System.Windows.Forms.Button();
-            this.Inter_04_on_btn = new System.Windows.Forms.Button();
-            this.Inter_03_off_btn = new System.Windows.Forms.Button();
-            this.Inter_03_on_btn = new System.Windows.Forms.Button();
-            this.Inter_02_off_btn = new System.Windows.Forms.Button();
-            this.Inter_02_on_btn = new System.Windows.Forms.Button();
-            this.Inter_01_off_btn = new System.Windows.Forms.Button();
-            this.Inter_01_on_btn = new System.Windows.Forms.Button();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.Inter_Sig_1 = new System.Windows.Forms.Label();
-            this.Inter_Sig_2 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.Inter_Sig_3 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.Inter_Sig_4 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.Inter_Sig_5 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.Inter_Sig_6 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.Inter_Sig_7 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.Inter_Sig_8 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.Inter_Sig_9 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.Inter_Sig_10 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.Inter_Sig_11 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.Inter_Sig_12 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.Inter_Sig_13 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.Inter_Sig_14 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.Inter_Sig_15 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -312,12 +235,183 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox48 = new System.Windows.Forms.GroupBox();
             this.CstRobot_Source_cbx = new System.Windows.Forms.ComboBox();
+            this.tabCSTInterlock = new System.Windows.Forms.TabPage();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.label103 = new System.Windows.Forms.Label();
+            this.ShelfInter_17_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_17_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_20_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_16_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_20_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_16_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_19_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_19_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_18_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_18_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_Sig_16 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_17 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_18 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_19 = new System.Windows.Forms.Label();
+            this.label111 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_20 = new System.Windows.Forms.Label();
+            this.ShelfInter_00_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_00_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_Sig_0 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.ShelfInter_12_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_12_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_15_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_11_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_15_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_11_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_14_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_10_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_14_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_10_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_13_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_13_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_09_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_09_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_08_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_08_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_07_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_07_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_06_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_06_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_05_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_05_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_04_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_04_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_03_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_03_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_02_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_02_on_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_01_off_btn = new System.Windows.Forms.Button();
+            this.ShelfInter_01_on_btn = new System.Windows.Forms.Button();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_1 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_2 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_3 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_4 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_5 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_6 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_7 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_8 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_9 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_10 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_11 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_12 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_13 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_14 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.ShelfInter_Sig_15 = new System.Windows.Forms.Label();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.Inter_In_00 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.Inter_In_01 = new System.Windows.Forms.Label();
+            this.Inter_In_02 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.Inter_In_03 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.Inter_00_off_btn = new System.Windows.Forms.Button();
+            this.Inter_00_on_btn = new System.Windows.Forms.Button();
+            this.Inter_Sig_0 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.Inter_12_off_btn = new System.Windows.Forms.Button();
+            this.Inter_12_on_btn = new System.Windows.Forms.Button();
+            this.Inter_15_off_btn = new System.Windows.Forms.Button();
+            this.Inter_11_off_btn = new System.Windows.Forms.Button();
+            this.Inter_15_on_btn = new System.Windows.Forms.Button();
+            this.Inter_11_on_btn = new System.Windows.Forms.Button();
+            this.Inter_14_off_btn = new System.Windows.Forms.Button();
+            this.Inter_10_off_btn = new System.Windows.Forms.Button();
+            this.Inter_14_on_btn = new System.Windows.Forms.Button();
+            this.Inter_10_on_btn = new System.Windows.Forms.Button();
+            this.Inter_13_off_btn = new System.Windows.Forms.Button();
+            this.Inter_13_on_btn = new System.Windows.Forms.Button();
+            this.Inter_09_off_btn = new System.Windows.Forms.Button();
+            this.Inter_09_on_btn = new System.Windows.Forms.Button();
+            this.Inter_08_off_btn = new System.Windows.Forms.Button();
+            this.Inter_08_on_btn = new System.Windows.Forms.Button();
+            this.Inter_07_off_btn = new System.Windows.Forms.Button();
+            this.Inter_07_on_btn = new System.Windows.Forms.Button();
+            this.Inter_06_off_btn = new System.Windows.Forms.Button();
+            this.Inter_06_on_btn = new System.Windows.Forms.Button();
+            this.Inter_05_off_btn = new System.Windows.Forms.Button();
+            this.Inter_05_on_btn = new System.Windows.Forms.Button();
+            this.Inter_04_off_btn = new System.Windows.Forms.Button();
+            this.Inter_04_on_btn = new System.Windows.Forms.Button();
+            this.Inter_03_off_btn = new System.Windows.Forms.Button();
+            this.Inter_03_on_btn = new System.Windows.Forms.Button();
+            this.Inter_02_off_btn = new System.Windows.Forms.Button();
+            this.Inter_02_on_btn = new System.Windows.Forms.Button();
+            this.Inter_01_off_btn = new System.Windows.Forms.Button();
+            this.Inter_01_on_btn = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.Inter_Sig_1 = new System.Windows.Forms.Label();
+            this.Inter_Sig_2 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.Inter_Sig_3 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.Inter_Sig_4 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.Inter_Sig_5 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.Inter_Sig_6 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.Inter_Sig_7 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.Inter_Sig_8 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.Inter_Sig_9 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.Inter_Sig_10 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.Inter_Sig_11 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.Inter_Sig_12 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.Inter_Sig_13 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.Inter_Sig_14 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.Inter_Sig_15 = new System.Windows.Forms.Label();
+            this.tabVIPInterlock = new System.Windows.Forms.TabPage();
+            this.VIPInter_10_off_btn = new System.Windows.Forms.Button();
+            this.VIPInter_10_on_btn = new System.Windows.Forms.Button();
+            this.VIPInter_09_off_btn = new System.Windows.Forms.Button();
+            this.VIPInter_09_on_btn = new System.Windows.Forms.Button();
+            this.VIPInter_08_off_btn = new System.Windows.Forms.Button();
+            this.VIPInter_08_on_btn = new System.Windows.Forms.Button();
+            this.label73 = new System.Windows.Forms.Label();
+            this.VIPInter_Sig_08 = new System.Windows.Forms.Label();
+            this.label77 = new System.Windows.Forms.Label();
+            this.VIPInter_Sig_09 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.VIPInter_Sig_10 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox49.SuspendLayout();
             this.groupBox47.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.pnlIO.SuspendLayout();
-            this.groupBox13.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabIO.SuspendLayout();
             this.groupBox17.SuspendLayout();
@@ -336,6 +430,10 @@
             this.groupBox46.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox48.SuspendLayout();
+            this.tabCSTInterlock.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.tabVIPInterlock.SuspendLayout();
             this.SuspendLayout();
             // 
             // CstRobot_Source_GetWait_btn
@@ -878,889 +976,11 @@
             // pnlIO
             // 
             this.pnlIO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlIO.Controls.Add(this.groupBox13);
             this.pnlIO.Controls.Add(this.groupBox2);
             this.pnlIO.Location = new System.Drawing.Point(3, 3);
             this.pnlIO.Name = "pnlIO";
             this.pnlIO.Size = new System.Drawing.Size(981, 677);
             this.pnlIO.TabIndex = 0;
-            // 
-            // groupBox13
-            // 
-            this.groupBox13.Controls.Add(this.Inter_00_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_00_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_Sig_0);
-            this.groupBox13.Controls.Add(this.label13);
-            this.groupBox13.Controls.Add(this.button35);
-            this.groupBox13.Controls.Add(this.button36);
-            this.groupBox13.Controls.Add(this.button37);
-            this.groupBox13.Controls.Add(this.button38);
-            this.groupBox13.Controls.Add(this.button39);
-            this.groupBox13.Controls.Add(this.button40);
-            this.groupBox13.Controls.Add(this.Inter_12_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_12_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_15_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_11_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_15_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_11_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_14_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_10_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_14_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_10_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_13_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_13_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_09_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_09_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_08_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_08_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_07_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_07_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_06_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_06_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_05_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_05_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_04_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_04_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_03_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_03_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_02_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_02_on_btn);
-            this.groupBox13.Controls.Add(this.Inter_01_off_btn);
-            this.groupBox13.Controls.Add(this.Inter_01_on_btn);
-            this.groupBox13.Controls.Add(this.label73);
-            this.groupBox13.Controls.Add(this.label75);
-            this.groupBox13.Controls.Add(this.label77);
-            this.groupBox13.Controls.Add(this.label79);
-            this.groupBox13.Controls.Add(this.label9);
-            this.groupBox13.Controls.Add(this.label11);
-            this.groupBox13.Controls.Add(this.Inter_Sig_1);
-            this.groupBox13.Controls.Add(this.Inter_Sig_2);
-            this.groupBox13.Controls.Add(this.label17);
-            this.groupBox13.Controls.Add(this.Inter_Sig_3);
-            this.groupBox13.Controls.Add(this.label21);
-            this.groupBox13.Controls.Add(this.Inter_Sig_4);
-            this.groupBox13.Controls.Add(this.label25);
-            this.groupBox13.Controls.Add(this.Inter_Sig_5);
-            this.groupBox13.Controls.Add(this.label29);
-            this.groupBox13.Controls.Add(this.Inter_Sig_6);
-            this.groupBox13.Controls.Add(this.label33);
-            this.groupBox13.Controls.Add(this.Inter_Sig_7);
-            this.groupBox13.Controls.Add(this.label37);
-            this.groupBox13.Controls.Add(this.Inter_Sig_8);
-            this.groupBox13.Controls.Add(this.label41);
-            this.groupBox13.Controls.Add(this.Inter_Sig_9);
-            this.groupBox13.Controls.Add(this.label45);
-            this.groupBox13.Controls.Add(this.Inter_Sig_10);
-            this.groupBox13.Controls.Add(this.label49);
-            this.groupBox13.Controls.Add(this.Inter_Sig_11);
-            this.groupBox13.Controls.Add(this.label53);
-            this.groupBox13.Controls.Add(this.Inter_Sig_12);
-            this.groupBox13.Controls.Add(this.label57);
-            this.groupBox13.Controls.Add(this.Inter_Sig_13);
-            this.groupBox13.Controls.Add(this.label61);
-            this.groupBox13.Controls.Add(this.Inter_Sig_14);
-            this.groupBox13.Controls.Add(this.label65);
-            this.groupBox13.Controls.Add(this.Inter_Sig_15);
-            this.groupBox13.Controls.Add(this.label69);
-            this.groupBox13.Controls.Add(this.label71);
-            this.groupBox13.Location = new System.Drawing.Point(343, 4);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(462, 642);
-            this.groupBox13.TabIndex = 139;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Interlock";
-            // 
-            // Inter_00_off_btn
-            // 
-            this.Inter_00_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_00_off_btn.Location = new System.Drawing.Point(402, 32);
-            this.Inter_00_off_btn.Name = "Inter_00_off_btn";
-            this.Inter_00_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_00_off_btn.TabIndex = 173;
-            this.Inter_00_off_btn.Text = "Off";
-            this.Inter_00_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_00_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_00_on_btn
-            // 
-            this.Inter_00_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_00_on_btn.Location = new System.Drawing.Point(350, 32);
-            this.Inter_00_on_btn.Name = "Inter_00_on_btn";
-            this.Inter_00_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_00_on_btn.TabIndex = 172;
-            this.Inter_00_on_btn.Text = "On";
-            this.Inter_00_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_00_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_Sig_0
-            // 
-            this.Inter_Sig_0.AutoSize = true;
-            this.Inter_Sig_0.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_0.Location = new System.Drawing.Point(20, 26);
-            this.Inter_Sig_0.Name = "Inter_Sig_0";
-            this.Inter_Sig_0.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_0.TabIndex = 171;
-            this.Inter_Sig_0.Text = "■";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(43, 345);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(193, 26);
-            this.label13.TabIndex = 170;
-            this.label13.Text = "SMIF-2 POS(Position)";
-            // 
-            // button35
-            // 
-            this.button35.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button35.Location = new System.Drawing.Point(402, 476);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(45, 21);
-            this.button35.TabIndex = 169;
-            this.button35.Text = "Off";
-            this.button35.UseVisualStyleBackColor = true;
-            // 
-            // button36
-            // 
-            this.button36.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button36.Location = new System.Drawing.Point(350, 476);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(46, 21);
-            this.button36.TabIndex = 168;
-            this.button36.Text = "On";
-            this.button36.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            this.button37.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.Location = new System.Drawing.Point(402, 454);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(45, 21);
-            this.button37.TabIndex = 167;
-            this.button37.Text = "Off";
-            this.button37.UseVisualStyleBackColor = true;
-            // 
-            // button38
-            // 
-            this.button38.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button38.Location = new System.Drawing.Point(350, 454);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(46, 21);
-            this.button38.TabIndex = 166;
-            this.button38.Text = "On";
-            this.button38.UseVisualStyleBackColor = true;
-            // 
-            // button39
-            // 
-            this.button39.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button39.Location = new System.Drawing.Point(402, 433);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(45, 21);
-            this.button39.TabIndex = 165;
-            this.button39.Text = "Off";
-            this.button39.UseVisualStyleBackColor = true;
-            // 
-            // button40
-            // 
-            this.button40.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button40.Location = new System.Drawing.Point(350, 433);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(46, 21);
-            this.button40.TabIndex = 164;
-            this.button40.Text = "On";
-            this.button40.UseVisualStyleBackColor = true;
-            // 
-            // Inter_12_off_btn
-            // 
-            this.Inter_12_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_12_off_btn.Location = new System.Drawing.Point(402, 287);
-            this.Inter_12_off_btn.Name = "Inter_12_off_btn";
-            this.Inter_12_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_12_off_btn.TabIndex = 163;
-            this.Inter_12_off_btn.Text = "Off";
-            this.Inter_12_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_12_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_12_on_btn
-            // 
-            this.Inter_12_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_12_on_btn.Location = new System.Drawing.Point(350, 287);
-            this.Inter_12_on_btn.Name = "Inter_12_on_btn";
-            this.Inter_12_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_12_on_btn.TabIndex = 162;
-            this.Inter_12_on_btn.Text = "On";
-            this.Inter_12_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_12_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_15_off_btn
-            // 
-            this.Inter_15_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_15_off_btn.Location = new System.Drawing.Point(402, 350);
-            this.Inter_15_off_btn.Name = "Inter_15_off_btn";
-            this.Inter_15_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_15_off_btn.TabIndex = 153;
-            this.Inter_15_off_btn.Text = "Off";
-            this.Inter_15_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_15_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_11_off_btn
-            // 
-            this.Inter_11_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_11_off_btn.Location = new System.Drawing.Point(402, 266);
-            this.Inter_11_off_btn.Name = "Inter_11_off_btn";
-            this.Inter_11_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_11_off_btn.TabIndex = 161;
-            this.Inter_11_off_btn.Text = "Off";
-            this.Inter_11_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_11_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_15_on_btn
-            // 
-            this.Inter_15_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_15_on_btn.Location = new System.Drawing.Point(350, 350);
-            this.Inter_15_on_btn.Name = "Inter_15_on_btn";
-            this.Inter_15_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_15_on_btn.TabIndex = 152;
-            this.Inter_15_on_btn.Text = "On";
-            this.Inter_15_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_15_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_11_on_btn
-            // 
-            this.Inter_11_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_11_on_btn.Location = new System.Drawing.Point(350, 266);
-            this.Inter_11_on_btn.Name = "Inter_11_on_btn";
-            this.Inter_11_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_11_on_btn.TabIndex = 160;
-            this.Inter_11_on_btn.Text = "On";
-            this.Inter_11_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_11_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_14_off_btn
-            // 
-            this.Inter_14_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_14_off_btn.Location = new System.Drawing.Point(402, 328);
-            this.Inter_14_off_btn.Name = "Inter_14_off_btn";
-            this.Inter_14_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_14_off_btn.TabIndex = 151;
-            this.Inter_14_off_btn.Text = "Off";
-            this.Inter_14_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_14_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_10_off_btn
-            // 
-            this.Inter_10_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_10_off_btn.Location = new System.Drawing.Point(402, 244);
-            this.Inter_10_off_btn.Name = "Inter_10_off_btn";
-            this.Inter_10_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_10_off_btn.TabIndex = 159;
-            this.Inter_10_off_btn.Text = "Off";
-            this.Inter_10_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_10_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_14_on_btn
-            // 
-            this.Inter_14_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_14_on_btn.Location = new System.Drawing.Point(350, 328);
-            this.Inter_14_on_btn.Name = "Inter_14_on_btn";
-            this.Inter_14_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_14_on_btn.TabIndex = 150;
-            this.Inter_14_on_btn.Text = "On";
-            this.Inter_14_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_14_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_10_on_btn
-            // 
-            this.Inter_10_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_10_on_btn.Location = new System.Drawing.Point(350, 244);
-            this.Inter_10_on_btn.Name = "Inter_10_on_btn";
-            this.Inter_10_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_10_on_btn.TabIndex = 158;
-            this.Inter_10_on_btn.Text = "On";
-            this.Inter_10_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_10_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_13_off_btn
-            // 
-            this.Inter_13_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_13_off_btn.Location = new System.Drawing.Point(402, 307);
-            this.Inter_13_off_btn.Name = "Inter_13_off_btn";
-            this.Inter_13_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_13_off_btn.TabIndex = 149;
-            this.Inter_13_off_btn.Text = "Off";
-            this.Inter_13_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_13_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_13_on_btn
-            // 
-            this.Inter_13_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_13_on_btn.Location = new System.Drawing.Point(350, 307);
-            this.Inter_13_on_btn.Name = "Inter_13_on_btn";
-            this.Inter_13_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_13_on_btn.TabIndex = 148;
-            this.Inter_13_on_btn.Text = "On";
-            this.Inter_13_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_13_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_09_off_btn
-            // 
-            this.Inter_09_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_09_off_btn.Location = new System.Drawing.Point(402, 223);
-            this.Inter_09_off_btn.Name = "Inter_09_off_btn";
-            this.Inter_09_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_09_off_btn.TabIndex = 157;
-            this.Inter_09_off_btn.Text = "Off";
-            this.Inter_09_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_09_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_09_on_btn
-            // 
-            this.Inter_09_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_09_on_btn.Location = new System.Drawing.Point(350, 223);
-            this.Inter_09_on_btn.Name = "Inter_09_on_btn";
-            this.Inter_09_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_09_on_btn.TabIndex = 156;
-            this.Inter_09_on_btn.Text = "On";
-            this.Inter_09_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_09_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_08_off_btn
-            // 
-            this.Inter_08_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_08_off_btn.Location = new System.Drawing.Point(402, 203);
-            this.Inter_08_off_btn.Name = "Inter_08_off_btn";
-            this.Inter_08_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_08_off_btn.TabIndex = 155;
-            this.Inter_08_off_btn.Text = "Off";
-            this.Inter_08_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_08_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_08_on_btn
-            // 
-            this.Inter_08_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_08_on_btn.Location = new System.Drawing.Point(350, 203);
-            this.Inter_08_on_btn.Name = "Inter_08_on_btn";
-            this.Inter_08_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_08_on_btn.TabIndex = 154;
-            this.Inter_08_on_btn.Text = "On";
-            this.Inter_08_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_08_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_07_off_btn
-            // 
-            this.Inter_07_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_07_off_btn.Location = new System.Drawing.Point(402, 182);
-            this.Inter_07_off_btn.Name = "Inter_07_off_btn";
-            this.Inter_07_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_07_off_btn.TabIndex = 153;
-            this.Inter_07_off_btn.Text = "Off";
-            this.Inter_07_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_07_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_07_on_btn
-            // 
-            this.Inter_07_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_07_on_btn.Location = new System.Drawing.Point(350, 182);
-            this.Inter_07_on_btn.Name = "Inter_07_on_btn";
-            this.Inter_07_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_07_on_btn.TabIndex = 152;
-            this.Inter_07_on_btn.Text = "On";
-            this.Inter_07_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_07_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_06_off_btn
-            // 
-            this.Inter_06_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_06_off_btn.Location = new System.Drawing.Point(402, 160);
-            this.Inter_06_off_btn.Name = "Inter_06_off_btn";
-            this.Inter_06_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_06_off_btn.TabIndex = 151;
-            this.Inter_06_off_btn.Text = "Off";
-            this.Inter_06_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_06_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_06_on_btn
-            // 
-            this.Inter_06_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_06_on_btn.Location = new System.Drawing.Point(350, 160);
-            this.Inter_06_on_btn.Name = "Inter_06_on_btn";
-            this.Inter_06_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_06_on_btn.TabIndex = 150;
-            this.Inter_06_on_btn.Text = "On";
-            this.Inter_06_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_06_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_05_off_btn
-            // 
-            this.Inter_05_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_05_off_btn.Location = new System.Drawing.Point(402, 139);
-            this.Inter_05_off_btn.Name = "Inter_05_off_btn";
-            this.Inter_05_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_05_off_btn.TabIndex = 149;
-            this.Inter_05_off_btn.Text = "Off";
-            this.Inter_05_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_05_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_05_on_btn
-            // 
-            this.Inter_05_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_05_on_btn.Location = new System.Drawing.Point(350, 139);
-            this.Inter_05_on_btn.Name = "Inter_05_on_btn";
-            this.Inter_05_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_05_on_btn.TabIndex = 148;
-            this.Inter_05_on_btn.Text = "On";
-            this.Inter_05_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_05_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_04_off_btn
-            // 
-            this.Inter_04_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_04_off_btn.Location = new System.Drawing.Point(402, 117);
-            this.Inter_04_off_btn.Name = "Inter_04_off_btn";
-            this.Inter_04_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_04_off_btn.TabIndex = 147;
-            this.Inter_04_off_btn.Text = "Off";
-            this.Inter_04_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_04_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_04_on_btn
-            // 
-            this.Inter_04_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_04_on_btn.Location = new System.Drawing.Point(350, 117);
-            this.Inter_04_on_btn.Name = "Inter_04_on_btn";
-            this.Inter_04_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_04_on_btn.TabIndex = 146;
-            this.Inter_04_on_btn.Text = "On";
-            this.Inter_04_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_04_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_03_off_btn
-            // 
-            this.Inter_03_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_03_off_btn.Location = new System.Drawing.Point(402, 96);
-            this.Inter_03_off_btn.Name = "Inter_03_off_btn";
-            this.Inter_03_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_03_off_btn.TabIndex = 145;
-            this.Inter_03_off_btn.Text = "Off";
-            this.Inter_03_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_03_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_03_on_btn
-            // 
-            this.Inter_03_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_03_on_btn.Location = new System.Drawing.Point(350, 96);
-            this.Inter_03_on_btn.Name = "Inter_03_on_btn";
-            this.Inter_03_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_03_on_btn.TabIndex = 144;
-            this.Inter_03_on_btn.Text = "On";
-            this.Inter_03_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_03_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_02_off_btn
-            // 
-            this.Inter_02_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_02_off_btn.Location = new System.Drawing.Point(402, 74);
-            this.Inter_02_off_btn.Name = "Inter_02_off_btn";
-            this.Inter_02_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_02_off_btn.TabIndex = 143;
-            this.Inter_02_off_btn.Text = "Off";
-            this.Inter_02_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_02_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_02_on_btn
-            // 
-            this.Inter_02_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_02_on_btn.Location = new System.Drawing.Point(350, 74);
-            this.Inter_02_on_btn.Name = "Inter_02_on_btn";
-            this.Inter_02_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_02_on_btn.TabIndex = 142;
-            this.Inter_02_on_btn.Text = "On";
-            this.Inter_02_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_02_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // Inter_01_off_btn
-            // 
-            this.Inter_01_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_01_off_btn.Location = new System.Drawing.Point(402, 53);
-            this.Inter_01_off_btn.Name = "Inter_01_off_btn";
-            this.Inter_01_off_btn.Size = new System.Drawing.Size(45, 21);
-            this.Inter_01_off_btn.TabIndex = 141;
-            this.Inter_01_off_btn.Text = "Off";
-            this.Inter_01_off_btn.UseVisualStyleBackColor = true;
-            this.Inter_01_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
-            // 
-            // Inter_01_on_btn
-            // 
-            this.Inter_01_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_01_on_btn.Location = new System.Drawing.Point(350, 53);
-            this.Inter_01_on_btn.Name = "Inter_01_on_btn";
-            this.Inter_01_on_btn.Size = new System.Drawing.Size(46, 21);
-            this.Inter_01_on_btn.TabIndex = 140;
-            this.Inter_01_on_btn.Text = "On";
-            this.Inter_01_on_btn.UseVisualStyleBackColor = true;
-            this.Inter_01_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(43, 429);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(289, 26);
-            this.label73.TabIndex = 32;
-            this.label73.Text = "FIMS-CL Arm Extend Enable (NC)";
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(20, 427);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(29, 29);
-            this.label75.TabIndex = 33;
-            this.label75.Text = "■";
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(43, 450);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(291, 26);
-            this.label77.TabIndex = 34;
-            this.label77.Text = "FIMS-DL Arm Extend Enable (NC)";
-            // 
-            // label79
-            // 
-            this.label79.AutoSize = true;
-            this.label79.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.Location = new System.Drawing.Point(20, 448);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(29, 29);
-            this.label79.TabIndex = 35;
-            this.label79.Text = "■";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(43, 50);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(293, 26);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "FIMS-DC Arm Extend Enable (NC)";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(43, 29);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(291, 26);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "FIMS-CC Arm Extend Enable (NC)";
-            // 
-            // Inter_Sig_1
-            // 
-            this.Inter_Sig_1.AutoSize = true;
-            this.Inter_Sig_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_1.Location = new System.Drawing.Point(20, 48);
-            this.Inter_Sig_1.Name = "Inter_Sig_1";
-            this.Inter_Sig_1.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_1.TabIndex = 1;
-            this.Inter_Sig_1.Text = "■";
-            // 
-            // Inter_Sig_2
-            // 
-            this.Inter_Sig_2.AutoSize = true;
-            this.Inter_Sig_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_2.Location = new System.Drawing.Point(20, 69);
-            this.Inter_Sig_2.Name = "Inter_Sig_2";
-            this.Inter_Sig_2.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_2.TabIndex = 3;
-            this.Inter_Sig_2.Text = "■";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(43, 71);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(280, 26);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "SMIF-1 Arm Extend Enable (NC)";
-            // 
-            // Inter_Sig_3
-            // 
-            this.Inter_Sig_3.AutoSize = true;
-            this.Inter_Sig_3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_3.Location = new System.Drawing.Point(20, 90);
-            this.Inter_Sig_3.Name = "Inter_Sig_3";
-            this.Inter_Sig_3.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_3.TabIndex = 5;
-            this.Inter_Sig_3.Text = "■";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(43, 92);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(280, 26);
-            this.label21.TabIndex = 6;
-            this.label21.Text = "SMIF-2 Arm Extend Enable (NC)";
-            // 
-            // Inter_Sig_4
-            // 
-            this.Inter_Sig_4.AutoSize = true;
-            this.Inter_Sig_4.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_4.Location = new System.Drawing.Point(20, 111);
-            this.Inter_Sig_4.Name = "Inter_Sig_4";
-            this.Inter_Sig_4.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_4.TabIndex = 7;
-            this.Inter_Sig_4.Text = "■";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(43, 113);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(178, 26);
-            this.label25.TabIndex = 8;
-            this.label25.Text = "Trans. Port R-1(Top)";
-            // 
-            // Inter_Sig_5
-            // 
-            this.Inter_Sig_5.AutoSize = true;
-            this.Inter_Sig_5.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_5.Location = new System.Drawing.Point(20, 132);
-            this.Inter_Sig_5.Name = "Inter_Sig_5";
-            this.Inter_Sig_5.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_5.TabIndex = 9;
-            this.Inter_Sig_5.Text = "■";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(43, 134);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(178, 26);
-            this.label29.TabIndex = 10;
-            this.label29.Text = "Trans. Port R-2(Top)";
-            // 
-            // Inter_Sig_6
-            // 
-            this.Inter_Sig_6.AutoSize = true;
-            this.Inter_Sig_6.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_6.Location = new System.Drawing.Point(20, 153);
-            this.Inter_Sig_6.Name = "Inter_Sig_6";
-            this.Inter_Sig_6.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_6.TabIndex = 11;
-            this.Inter_Sig_6.Text = "■";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(43, 155);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(209, 26);
-            this.label33.TabIndex = 12;
-            this.label33.Text = "Top Cassette GV1 Open";
-            // 
-            // Inter_Sig_7
-            // 
-            this.Inter_Sig_7.AutoSize = true;
-            this.Inter_Sig_7.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_7.Location = new System.Drawing.Point(20, 174);
-            this.Inter_Sig_7.Name = "Inter_Sig_7";
-            this.Inter_Sig_7.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_7.TabIndex = 13;
-            this.Inter_Sig_7.Text = "■";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(43, 176);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(187, 26);
-            this.label37.TabIndex = 14;
-            this.label37.Text = "Trans. Port R-1(BTM)";
-            // 
-            // Inter_Sig_8
-            // 
-            this.Inter_Sig_8.AutoSize = true;
-            this.Inter_Sig_8.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_8.Location = new System.Drawing.Point(20, 195);
-            this.Inter_Sig_8.Name = "Inter_Sig_8";
-            this.Inter_Sig_8.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_8.TabIndex = 15;
-            this.Inter_Sig_8.Text = "■";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(43, 197);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(187, 26);
-            this.label41.TabIndex = 16;
-            this.label41.Text = "Trans. Port R-2(BTM)";
-            // 
-            // Inter_Sig_9
-            // 
-            this.Inter_Sig_9.AutoSize = true;
-            this.Inter_Sig_9.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_9.Location = new System.Drawing.Point(20, 216);
-            this.Inter_Sig_9.Name = "Inter_Sig_9";
-            this.Inter_Sig_9.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_9.TabIndex = 17;
-            this.Inter_Sig_9.Text = "■";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(43, 218);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(218, 26);
-            this.label45.TabIndex = 18;
-            this.label45.Text = "BTM Cassette GV2 Open";
-            // 
-            // Inter_Sig_10
-            // 
-            this.Inter_Sig_10.AutoSize = true;
-            this.Inter_Sig_10.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_10.Location = new System.Drawing.Point(20, 237);
-            this.Inter_Sig_10.Name = "Inter_Sig_10";
-            this.Inter_Sig_10.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_10.TabIndex = 19;
-            this.Inter_Sig_10.Text = "■";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(43, 239);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(246, 26);
-            this.label49.TabIndex = 20;
-            this.label49.Text = "SMIF-1 LLS(Lift Lock Status)";
-            // 
-            // Inter_Sig_11
-            // 
-            this.Inter_Sig_11.AutoSize = true;
-            this.Inter_Sig_11.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_11.Location = new System.Drawing.Point(20, 258);
-            this.Inter_Sig_11.Name = "Inter_Sig_11";
-            this.Inter_Sig_11.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_11.TabIndex = 21;
-            this.Inter_Sig_11.Text = "■";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(43, 260);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(273, 26);
-            this.label53.TabIndex = 22;
-            this.label53.Text = "SMIF-1 LPS(Lift Present Status)";
-            // 
-            // Inter_Sig_12
-            // 
-            this.Inter_Sig_12.AutoSize = true;
-            this.Inter_Sig_12.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_12.Location = new System.Drawing.Point(20, 279);
-            this.Inter_Sig_12.Name = "Inter_Sig_12";
-            this.Inter_Sig_12.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_12.TabIndex = 23;
-            this.Inter_Sig_12.Text = "■";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(43, 281);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(193, 26);
-            this.label57.TabIndex = 24;
-            this.label57.Text = "SMIF-1 POS(Position)";
-            // 
-            // Inter_Sig_13
-            // 
-            this.Inter_Sig_13.AutoSize = true;
-            this.Inter_Sig_13.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_13.Location = new System.Drawing.Point(20, 300);
-            this.Inter_Sig_13.Name = "Inter_Sig_13";
-            this.Inter_Sig_13.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_13.TabIndex = 25;
-            this.Inter_Sig_13.Text = "■";
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(43, 302);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(246, 26);
-            this.label61.TabIndex = 26;
-            this.label61.Text = "SMIF-2 LLS(Lift Lock Status)";
-            // 
-            // Inter_Sig_14
-            // 
-            this.Inter_Sig_14.AutoSize = true;
-            this.Inter_Sig_14.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_14.Location = new System.Drawing.Point(20, 321);
-            this.Inter_Sig_14.Name = "Inter_Sig_14";
-            this.Inter_Sig_14.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_14.TabIndex = 27;
-            this.Inter_Sig_14.Text = "■";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.Location = new System.Drawing.Point(43, 323);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(273, 26);
-            this.label65.TabIndex = 28;
-            this.label65.Text = "SMIF-2 LPS(Lift Present Status)";
-            // 
-            // Inter_Sig_15
-            // 
-            this.Inter_Sig_15.AutoSize = true;
-            this.Inter_Sig_15.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_Sig_15.Location = new System.Drawing.Point(20, 342);
-            this.Inter_Sig_15.Name = "Inter_Sig_15";
-            this.Inter_Sig_15.Size = new System.Drawing.Size(29, 29);
-            this.Inter_Sig_15.TabIndex = 29;
-            this.Inter_Sig_15.Text = "■";
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(43, 471);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(259, 26);
-            this.label69.TabIndex = 30;
-            this.label69.Text = "Boat Arm Extend Enable (NC)";
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.Location = new System.Drawing.Point(20, 469);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(29, 29);
-            this.label71.TabIndex = 31;
-            this.label71.Text = "■";
             // 
             // groupBox2
             // 
@@ -2994,6 +2214,8 @@
             this.tabMode.Appearance = System.Windows.Forms.TabAppearance.Buttons;
             this.tabMode.Controls.Add(this.tabStocker);
             this.tabMode.Controls.Add(this.tabIO);
+            this.tabMode.Controls.Add(this.tabCSTInterlock);
+            this.tabMode.Controls.Add(this.tabVIPInterlock);
             this.tabMode.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabMode.Location = new System.Drawing.Point(12, 12);
             this.tabMode.Name = "tabMode";
@@ -3718,6 +2940,1972 @@
             this.CstRobot_Source_cbx.Size = new System.Drawing.Size(127, 30);
             this.CstRobot_Source_cbx.TabIndex = 78;
             // 
+            // tabCSTInterlock
+            // 
+            this.tabCSTInterlock.Controls.Add(this.groupBox14);
+            this.tabCSTInterlock.Controls.Add(this.groupBox13);
+            this.tabCSTInterlock.Location = new System.Drawing.Point(4, 33);
+            this.tabCSTInterlock.Name = "tabCSTInterlock";
+            this.tabCSTInterlock.Size = new System.Drawing.Size(987, 655);
+            this.tabCSTInterlock.TabIndex = 9;
+            this.tabCSTInterlock.Text = "CST Robot Interlock";
+            this.tabCSTInterlock.UseVisualStyleBackColor = true;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.label103);
+            this.groupBox14.Controls.Add(this.ShelfInter_17_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_17_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_20_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_16_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_20_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_16_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_19_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_19_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_18_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_18_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_16);
+            this.groupBox14.Controls.Add(this.label105);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_17);
+            this.groupBox14.Controls.Add(this.label107);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_18);
+            this.groupBox14.Controls.Add(this.label109);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_19);
+            this.groupBox14.Controls.Add(this.label111);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_20);
+            this.groupBox14.Controls.Add(this.ShelfInter_00_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_00_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_0);
+            this.groupBox14.Controls.Add(this.label19);
+            this.groupBox14.Controls.Add(this.ShelfInter_12_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_12_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_15_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_11_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_15_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_11_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_14_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_10_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_14_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_10_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_13_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_13_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_09_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_09_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_08_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_08_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_07_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_07_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_06_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_06_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_05_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_05_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_04_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_04_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_03_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_03_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_02_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_02_on_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_01_off_btn);
+            this.groupBox14.Controls.Add(this.ShelfInter_01_on_btn);
+            this.groupBox14.Controls.Add(this.label23);
+            this.groupBox14.Controls.Add(this.label27);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_1);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_2);
+            this.groupBox14.Controls.Add(this.label39);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_3);
+            this.groupBox14.Controls.Add(this.label47);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_4);
+            this.groupBox14.Controls.Add(this.label55);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_5);
+            this.groupBox14.Controls.Add(this.label63);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_6);
+            this.groupBox14.Controls.Add(this.label81);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_7);
+            this.groupBox14.Controls.Add(this.label85);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_8);
+            this.groupBox14.Controls.Add(this.label89);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_9);
+            this.groupBox14.Controls.Add(this.label91);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_10);
+            this.groupBox14.Controls.Add(this.label93);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_11);
+            this.groupBox14.Controls.Add(this.label95);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_12);
+            this.groupBox14.Controls.Add(this.label97);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_13);
+            this.groupBox14.Controls.Add(this.label99);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_14);
+            this.groupBox14.Controls.Add(this.label101);
+            this.groupBox14.Controls.Add(this.ShelfInter_Sig_15);
+            this.groupBox14.Location = new System.Drawing.Point(522, 3);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(462, 642);
+            this.groupBox14.TabIndex = 174;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Shelf";
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label103.Location = new System.Drawing.Point(43, 451);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(247, 26);
+            this.label103.TabIndex = 193;
+            this.label103.Text = "Shelf 21 Arm Extend Enable";
+            // 
+            // ShelfInter_17_off_btn
+            // 
+            this.ShelfInter_17_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_17_off_btn.Location = new System.Drawing.Point(402, 393);
+            this.ShelfInter_17_off_btn.Name = "ShelfInter_17_off_btn";
+            this.ShelfInter_17_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_17_off_btn.TabIndex = 192;
+            this.ShelfInter_17_off_btn.Text = "Off";
+            this.ShelfInter_17_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_17_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_17_on_btn
+            // 
+            this.ShelfInter_17_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_17_on_btn.Location = new System.Drawing.Point(350, 393);
+            this.ShelfInter_17_on_btn.Name = "ShelfInter_17_on_btn";
+            this.ShelfInter_17_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_17_on_btn.TabIndex = 191;
+            this.ShelfInter_17_on_btn.Text = "On";
+            this.ShelfInter_17_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_17_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_20_off_btn
+            // 
+            this.ShelfInter_20_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_20_off_btn.Location = new System.Drawing.Point(402, 456);
+            this.ShelfInter_20_off_btn.Name = "ShelfInter_20_off_btn";
+            this.ShelfInter_20_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_20_off_btn.TabIndex = 188;
+            this.ShelfInter_20_off_btn.Text = "Off";
+            this.ShelfInter_20_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_20_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_16_off_btn
+            // 
+            this.ShelfInter_16_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_16_off_btn.Location = new System.Drawing.Point(402, 372);
+            this.ShelfInter_16_off_btn.Name = "ShelfInter_16_off_btn";
+            this.ShelfInter_16_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_16_off_btn.TabIndex = 190;
+            this.ShelfInter_16_off_btn.Text = "Off";
+            this.ShelfInter_16_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_16_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_20_on_btn
+            // 
+            this.ShelfInter_20_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_20_on_btn.Location = new System.Drawing.Point(350, 456);
+            this.ShelfInter_20_on_btn.Name = "ShelfInter_20_on_btn";
+            this.ShelfInter_20_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_20_on_btn.TabIndex = 187;
+            this.ShelfInter_20_on_btn.Text = "On";
+            this.ShelfInter_20_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_20_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_16_on_btn
+            // 
+            this.ShelfInter_16_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_16_on_btn.Location = new System.Drawing.Point(350, 372);
+            this.ShelfInter_16_on_btn.Name = "ShelfInter_16_on_btn";
+            this.ShelfInter_16_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_16_on_btn.TabIndex = 189;
+            this.ShelfInter_16_on_btn.Text = "On";
+            this.ShelfInter_16_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_16_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_19_off_btn
+            // 
+            this.ShelfInter_19_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_19_off_btn.Location = new System.Drawing.Point(402, 434);
+            this.ShelfInter_19_off_btn.Name = "ShelfInter_19_off_btn";
+            this.ShelfInter_19_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_19_off_btn.TabIndex = 186;
+            this.ShelfInter_19_off_btn.Text = "Off";
+            this.ShelfInter_19_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_19_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_19_on_btn
+            // 
+            this.ShelfInter_19_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_19_on_btn.Location = new System.Drawing.Point(350, 434);
+            this.ShelfInter_19_on_btn.Name = "ShelfInter_19_on_btn";
+            this.ShelfInter_19_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_19_on_btn.TabIndex = 185;
+            this.ShelfInter_19_on_btn.Text = "On";
+            this.ShelfInter_19_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_19_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_18_off_btn
+            // 
+            this.ShelfInter_18_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_18_off_btn.Location = new System.Drawing.Point(402, 413);
+            this.ShelfInter_18_off_btn.Name = "ShelfInter_18_off_btn";
+            this.ShelfInter_18_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_18_off_btn.TabIndex = 184;
+            this.ShelfInter_18_off_btn.Text = "Off";
+            this.ShelfInter_18_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_18_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_18_on_btn
+            // 
+            this.ShelfInter_18_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_18_on_btn.Location = new System.Drawing.Point(350, 413);
+            this.ShelfInter_18_on_btn.Name = "ShelfInter_18_on_btn";
+            this.ShelfInter_18_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_18_on_btn.TabIndex = 183;
+            this.ShelfInter_18_on_btn.Text = "On";
+            this.ShelfInter_18_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_18_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_Sig_16
+            // 
+            this.ShelfInter_Sig_16.AutoSize = true;
+            this.ShelfInter_Sig_16.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_16.Location = new System.Drawing.Point(20, 364);
+            this.ShelfInter_Sig_16.Name = "ShelfInter_Sig_16";
+            this.ShelfInter_Sig_16.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_16.TabIndex = 174;
+            this.ShelfInter_Sig_16.Text = "■";
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label105.Location = new System.Drawing.Point(43, 366);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(247, 26);
+            this.label105.TabIndex = 175;
+            this.label105.Text = "Shelf 17 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_17
+            // 
+            this.ShelfInter_Sig_17.AutoSize = true;
+            this.ShelfInter_Sig_17.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_17.Location = new System.Drawing.Point(20, 385);
+            this.ShelfInter_Sig_17.Name = "ShelfInter_Sig_17";
+            this.ShelfInter_Sig_17.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_17.TabIndex = 176;
+            this.ShelfInter_Sig_17.Text = "■";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label107.Location = new System.Drawing.Point(43, 387);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(247, 26);
+            this.label107.TabIndex = 177;
+            this.label107.Text = "Shelf 18 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_18
+            // 
+            this.ShelfInter_Sig_18.AutoSize = true;
+            this.ShelfInter_Sig_18.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_18.Location = new System.Drawing.Point(20, 406);
+            this.ShelfInter_Sig_18.Name = "ShelfInter_Sig_18";
+            this.ShelfInter_Sig_18.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_18.TabIndex = 178;
+            this.ShelfInter_Sig_18.Text = "■";
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label109.Location = new System.Drawing.Point(43, 408);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(247, 26);
+            this.label109.TabIndex = 179;
+            this.label109.Text = "Shelf 19 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_19
+            // 
+            this.ShelfInter_Sig_19.AutoSize = true;
+            this.ShelfInter_Sig_19.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_19.Location = new System.Drawing.Point(20, 427);
+            this.ShelfInter_Sig_19.Name = "ShelfInter_Sig_19";
+            this.ShelfInter_Sig_19.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_19.TabIndex = 180;
+            this.ShelfInter_Sig_19.Text = "■";
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label111.Location = new System.Drawing.Point(43, 429);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(247, 26);
+            this.label111.TabIndex = 181;
+            this.label111.Text = "Shelf 20 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_20
+            // 
+            this.ShelfInter_Sig_20.AutoSize = true;
+            this.ShelfInter_Sig_20.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_20.Location = new System.Drawing.Point(20, 448);
+            this.ShelfInter_Sig_20.Name = "ShelfInter_Sig_20";
+            this.ShelfInter_Sig_20.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_20.TabIndex = 182;
+            this.ShelfInter_Sig_20.Text = "■";
+            // 
+            // ShelfInter_00_off_btn
+            // 
+            this.ShelfInter_00_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_00_off_btn.Location = new System.Drawing.Point(402, 32);
+            this.ShelfInter_00_off_btn.Name = "ShelfInter_00_off_btn";
+            this.ShelfInter_00_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_00_off_btn.TabIndex = 173;
+            this.ShelfInter_00_off_btn.Text = "Off";
+            this.ShelfInter_00_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_00_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_00_on_btn
+            // 
+            this.ShelfInter_00_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_00_on_btn.Location = new System.Drawing.Point(350, 32);
+            this.ShelfInter_00_on_btn.Name = "ShelfInter_00_on_btn";
+            this.ShelfInter_00_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_00_on_btn.TabIndex = 172;
+            this.ShelfInter_00_on_btn.Text = "On";
+            this.ShelfInter_00_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_00_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_Sig_0
+            // 
+            this.ShelfInter_Sig_0.AutoSize = true;
+            this.ShelfInter_Sig_0.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_0.Location = new System.Drawing.Point(20, 26);
+            this.ShelfInter_Sig_0.Name = "ShelfInter_Sig_0";
+            this.ShelfInter_Sig_0.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_0.TabIndex = 171;
+            this.ShelfInter_Sig_0.Text = "■";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(43, 345);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(247, 26);
+            this.label19.TabIndex = 170;
+            this.label19.Text = "Shelf 16 Arm Extend Enable";
+            // 
+            // ShelfInter_12_off_btn
+            // 
+            this.ShelfInter_12_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_12_off_btn.Location = new System.Drawing.Point(402, 287);
+            this.ShelfInter_12_off_btn.Name = "ShelfInter_12_off_btn";
+            this.ShelfInter_12_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_12_off_btn.TabIndex = 163;
+            this.ShelfInter_12_off_btn.Text = "Off";
+            this.ShelfInter_12_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_12_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_12_on_btn
+            // 
+            this.ShelfInter_12_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_12_on_btn.Location = new System.Drawing.Point(350, 287);
+            this.ShelfInter_12_on_btn.Name = "ShelfInter_12_on_btn";
+            this.ShelfInter_12_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_12_on_btn.TabIndex = 162;
+            this.ShelfInter_12_on_btn.Text = "On";
+            this.ShelfInter_12_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_12_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_15_off_btn
+            // 
+            this.ShelfInter_15_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_15_off_btn.Location = new System.Drawing.Point(402, 350);
+            this.ShelfInter_15_off_btn.Name = "ShelfInter_15_off_btn";
+            this.ShelfInter_15_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_15_off_btn.TabIndex = 153;
+            this.ShelfInter_15_off_btn.Text = "Off";
+            this.ShelfInter_15_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_15_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_11_off_btn
+            // 
+            this.ShelfInter_11_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_11_off_btn.Location = new System.Drawing.Point(402, 266);
+            this.ShelfInter_11_off_btn.Name = "ShelfInter_11_off_btn";
+            this.ShelfInter_11_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_11_off_btn.TabIndex = 161;
+            this.ShelfInter_11_off_btn.Text = "Off";
+            this.ShelfInter_11_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_11_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_15_on_btn
+            // 
+            this.ShelfInter_15_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_15_on_btn.Location = new System.Drawing.Point(350, 350);
+            this.ShelfInter_15_on_btn.Name = "ShelfInter_15_on_btn";
+            this.ShelfInter_15_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_15_on_btn.TabIndex = 152;
+            this.ShelfInter_15_on_btn.Text = "On";
+            this.ShelfInter_15_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_15_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_11_on_btn
+            // 
+            this.ShelfInter_11_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_11_on_btn.Location = new System.Drawing.Point(350, 266);
+            this.ShelfInter_11_on_btn.Name = "ShelfInter_11_on_btn";
+            this.ShelfInter_11_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_11_on_btn.TabIndex = 160;
+            this.ShelfInter_11_on_btn.Text = "On";
+            this.ShelfInter_11_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_11_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_14_off_btn
+            // 
+            this.ShelfInter_14_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_14_off_btn.Location = new System.Drawing.Point(402, 328);
+            this.ShelfInter_14_off_btn.Name = "ShelfInter_14_off_btn";
+            this.ShelfInter_14_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_14_off_btn.TabIndex = 151;
+            this.ShelfInter_14_off_btn.Text = "Off";
+            this.ShelfInter_14_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_14_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_10_off_btn
+            // 
+            this.ShelfInter_10_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_10_off_btn.Location = new System.Drawing.Point(402, 244);
+            this.ShelfInter_10_off_btn.Name = "ShelfInter_10_off_btn";
+            this.ShelfInter_10_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_10_off_btn.TabIndex = 159;
+            this.ShelfInter_10_off_btn.Text = "Off";
+            this.ShelfInter_10_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_10_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_14_on_btn
+            // 
+            this.ShelfInter_14_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_14_on_btn.Location = new System.Drawing.Point(350, 328);
+            this.ShelfInter_14_on_btn.Name = "ShelfInter_14_on_btn";
+            this.ShelfInter_14_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_14_on_btn.TabIndex = 150;
+            this.ShelfInter_14_on_btn.Text = "On";
+            this.ShelfInter_14_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_14_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_10_on_btn
+            // 
+            this.ShelfInter_10_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_10_on_btn.Location = new System.Drawing.Point(350, 244);
+            this.ShelfInter_10_on_btn.Name = "ShelfInter_10_on_btn";
+            this.ShelfInter_10_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_10_on_btn.TabIndex = 158;
+            this.ShelfInter_10_on_btn.Text = "On";
+            this.ShelfInter_10_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_10_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_13_off_btn
+            // 
+            this.ShelfInter_13_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_13_off_btn.Location = new System.Drawing.Point(402, 307);
+            this.ShelfInter_13_off_btn.Name = "ShelfInter_13_off_btn";
+            this.ShelfInter_13_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_13_off_btn.TabIndex = 149;
+            this.ShelfInter_13_off_btn.Text = "Off";
+            this.ShelfInter_13_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_13_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_13_on_btn
+            // 
+            this.ShelfInter_13_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_13_on_btn.Location = new System.Drawing.Point(350, 307);
+            this.ShelfInter_13_on_btn.Name = "ShelfInter_13_on_btn";
+            this.ShelfInter_13_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_13_on_btn.TabIndex = 148;
+            this.ShelfInter_13_on_btn.Text = "On";
+            this.ShelfInter_13_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_13_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_09_off_btn
+            // 
+            this.ShelfInter_09_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_09_off_btn.Location = new System.Drawing.Point(402, 223);
+            this.ShelfInter_09_off_btn.Name = "ShelfInter_09_off_btn";
+            this.ShelfInter_09_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_09_off_btn.TabIndex = 157;
+            this.ShelfInter_09_off_btn.Text = "Off";
+            this.ShelfInter_09_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_09_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_09_on_btn
+            // 
+            this.ShelfInter_09_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_09_on_btn.Location = new System.Drawing.Point(350, 223);
+            this.ShelfInter_09_on_btn.Name = "ShelfInter_09_on_btn";
+            this.ShelfInter_09_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_09_on_btn.TabIndex = 156;
+            this.ShelfInter_09_on_btn.Text = "On";
+            this.ShelfInter_09_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_09_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_08_off_btn
+            // 
+            this.ShelfInter_08_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_08_off_btn.Location = new System.Drawing.Point(402, 203);
+            this.ShelfInter_08_off_btn.Name = "ShelfInter_08_off_btn";
+            this.ShelfInter_08_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_08_off_btn.TabIndex = 155;
+            this.ShelfInter_08_off_btn.Text = "Off";
+            this.ShelfInter_08_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_08_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_08_on_btn
+            // 
+            this.ShelfInter_08_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_08_on_btn.Location = new System.Drawing.Point(350, 203);
+            this.ShelfInter_08_on_btn.Name = "ShelfInter_08_on_btn";
+            this.ShelfInter_08_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_08_on_btn.TabIndex = 154;
+            this.ShelfInter_08_on_btn.Text = "On";
+            this.ShelfInter_08_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_08_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_07_off_btn
+            // 
+            this.ShelfInter_07_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_07_off_btn.Location = new System.Drawing.Point(402, 182);
+            this.ShelfInter_07_off_btn.Name = "ShelfInter_07_off_btn";
+            this.ShelfInter_07_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_07_off_btn.TabIndex = 153;
+            this.ShelfInter_07_off_btn.Text = "Off";
+            this.ShelfInter_07_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_07_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_07_on_btn
+            // 
+            this.ShelfInter_07_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_07_on_btn.Location = new System.Drawing.Point(350, 182);
+            this.ShelfInter_07_on_btn.Name = "ShelfInter_07_on_btn";
+            this.ShelfInter_07_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_07_on_btn.TabIndex = 152;
+            this.ShelfInter_07_on_btn.Text = "On";
+            this.ShelfInter_07_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_07_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_06_off_btn
+            // 
+            this.ShelfInter_06_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_06_off_btn.Location = new System.Drawing.Point(402, 160);
+            this.ShelfInter_06_off_btn.Name = "ShelfInter_06_off_btn";
+            this.ShelfInter_06_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_06_off_btn.TabIndex = 151;
+            this.ShelfInter_06_off_btn.Text = "Off";
+            this.ShelfInter_06_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_06_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_06_on_btn
+            // 
+            this.ShelfInter_06_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_06_on_btn.Location = new System.Drawing.Point(350, 160);
+            this.ShelfInter_06_on_btn.Name = "ShelfInter_06_on_btn";
+            this.ShelfInter_06_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_06_on_btn.TabIndex = 150;
+            this.ShelfInter_06_on_btn.Text = "On";
+            this.ShelfInter_06_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_06_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_05_off_btn
+            // 
+            this.ShelfInter_05_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_05_off_btn.Location = new System.Drawing.Point(402, 139);
+            this.ShelfInter_05_off_btn.Name = "ShelfInter_05_off_btn";
+            this.ShelfInter_05_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_05_off_btn.TabIndex = 149;
+            this.ShelfInter_05_off_btn.Text = "Off";
+            this.ShelfInter_05_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_05_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_05_on_btn
+            // 
+            this.ShelfInter_05_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_05_on_btn.Location = new System.Drawing.Point(350, 139);
+            this.ShelfInter_05_on_btn.Name = "ShelfInter_05_on_btn";
+            this.ShelfInter_05_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_05_on_btn.TabIndex = 148;
+            this.ShelfInter_05_on_btn.Text = "On";
+            this.ShelfInter_05_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_05_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_04_off_btn
+            // 
+            this.ShelfInter_04_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_04_off_btn.Location = new System.Drawing.Point(402, 117);
+            this.ShelfInter_04_off_btn.Name = "ShelfInter_04_off_btn";
+            this.ShelfInter_04_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_04_off_btn.TabIndex = 147;
+            this.ShelfInter_04_off_btn.Text = "Off";
+            this.ShelfInter_04_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_04_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_04_on_btn
+            // 
+            this.ShelfInter_04_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_04_on_btn.Location = new System.Drawing.Point(350, 117);
+            this.ShelfInter_04_on_btn.Name = "ShelfInter_04_on_btn";
+            this.ShelfInter_04_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_04_on_btn.TabIndex = 146;
+            this.ShelfInter_04_on_btn.Text = "On";
+            this.ShelfInter_04_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_04_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_03_off_btn
+            // 
+            this.ShelfInter_03_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_03_off_btn.Location = new System.Drawing.Point(402, 96);
+            this.ShelfInter_03_off_btn.Name = "ShelfInter_03_off_btn";
+            this.ShelfInter_03_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_03_off_btn.TabIndex = 145;
+            this.ShelfInter_03_off_btn.Text = "Off";
+            this.ShelfInter_03_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_03_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_03_on_btn
+            // 
+            this.ShelfInter_03_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_03_on_btn.Location = new System.Drawing.Point(350, 96);
+            this.ShelfInter_03_on_btn.Name = "ShelfInter_03_on_btn";
+            this.ShelfInter_03_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_03_on_btn.TabIndex = 144;
+            this.ShelfInter_03_on_btn.Text = "On";
+            this.ShelfInter_03_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_03_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_02_off_btn
+            // 
+            this.ShelfInter_02_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_02_off_btn.Location = new System.Drawing.Point(402, 74);
+            this.ShelfInter_02_off_btn.Name = "ShelfInter_02_off_btn";
+            this.ShelfInter_02_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_02_off_btn.TabIndex = 143;
+            this.ShelfInter_02_off_btn.Text = "Off";
+            this.ShelfInter_02_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_02_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_02_on_btn
+            // 
+            this.ShelfInter_02_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_02_on_btn.Location = new System.Drawing.Point(350, 74);
+            this.ShelfInter_02_on_btn.Name = "ShelfInter_02_on_btn";
+            this.ShelfInter_02_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_02_on_btn.TabIndex = 142;
+            this.ShelfInter_02_on_btn.Text = "On";
+            this.ShelfInter_02_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_02_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // ShelfInter_01_off_btn
+            // 
+            this.ShelfInter_01_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_01_off_btn.Location = new System.Drawing.Point(402, 53);
+            this.ShelfInter_01_off_btn.Name = "ShelfInter_01_off_btn";
+            this.ShelfInter_01_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.ShelfInter_01_off_btn.TabIndex = 141;
+            this.ShelfInter_01_off_btn.Text = "Off";
+            this.ShelfInter_01_off_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_01_off_btn.Click += new System.EventHandler(this.ShelfInter_off_btn_Click);
+            // 
+            // ShelfInter_01_on_btn
+            // 
+            this.ShelfInter_01_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_01_on_btn.Location = new System.Drawing.Point(350, 53);
+            this.ShelfInter_01_on_btn.Name = "ShelfInter_01_on_btn";
+            this.ShelfInter_01_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.ShelfInter_01_on_btn.TabIndex = 140;
+            this.ShelfInter_01_on_btn.Text = "On";
+            this.ShelfInter_01_on_btn.UseVisualStyleBackColor = true;
+            this.ShelfInter_01_on_btn.Click += new System.EventHandler(this.ShelfInter_on_btn_Click);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(43, 50);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(236, 26);
+            this.label23.TabIndex = 2;
+            this.label23.Text = "Shelf 2 Arm Extend Enable";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(43, 29);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(236, 26);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "Shelf 1 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_1
+            // 
+            this.ShelfInter_Sig_1.AutoSize = true;
+            this.ShelfInter_Sig_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_1.Location = new System.Drawing.Point(20, 48);
+            this.ShelfInter_Sig_1.Name = "ShelfInter_Sig_1";
+            this.ShelfInter_Sig_1.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_1.TabIndex = 1;
+            this.ShelfInter_Sig_1.Text = "■";
+            // 
+            // ShelfInter_Sig_2
+            // 
+            this.ShelfInter_Sig_2.AutoSize = true;
+            this.ShelfInter_Sig_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_2.Location = new System.Drawing.Point(20, 69);
+            this.ShelfInter_Sig_2.Name = "ShelfInter_Sig_2";
+            this.ShelfInter_Sig_2.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_2.TabIndex = 3;
+            this.ShelfInter_Sig_2.Text = "■";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(43, 71);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(236, 26);
+            this.label39.TabIndex = 4;
+            this.label39.Text = "Shelf 3 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_3
+            // 
+            this.ShelfInter_Sig_3.AutoSize = true;
+            this.ShelfInter_Sig_3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_3.Location = new System.Drawing.Point(20, 90);
+            this.ShelfInter_Sig_3.Name = "ShelfInter_Sig_3";
+            this.ShelfInter_Sig_3.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_3.TabIndex = 5;
+            this.ShelfInter_Sig_3.Text = "■";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(43, 92);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(236, 26);
+            this.label47.TabIndex = 6;
+            this.label47.Text = "Shelf 4 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_4
+            // 
+            this.ShelfInter_Sig_4.AutoSize = true;
+            this.ShelfInter_Sig_4.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_4.Location = new System.Drawing.Point(20, 111);
+            this.ShelfInter_Sig_4.Name = "ShelfInter_Sig_4";
+            this.ShelfInter_Sig_4.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_4.TabIndex = 7;
+            this.ShelfInter_Sig_4.Text = "■";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(43, 113);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(236, 26);
+            this.label55.TabIndex = 8;
+            this.label55.Text = "Shelf 5 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_5
+            // 
+            this.ShelfInter_Sig_5.AutoSize = true;
+            this.ShelfInter_Sig_5.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_5.Location = new System.Drawing.Point(20, 132);
+            this.ShelfInter_Sig_5.Name = "ShelfInter_Sig_5";
+            this.ShelfInter_Sig_5.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_5.TabIndex = 9;
+            this.ShelfInter_Sig_5.Text = "■";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Location = new System.Drawing.Point(43, 134);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(236, 26);
+            this.label63.TabIndex = 10;
+            this.label63.Text = "Shelf 6 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_6
+            // 
+            this.ShelfInter_Sig_6.AutoSize = true;
+            this.ShelfInter_Sig_6.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_6.Location = new System.Drawing.Point(20, 153);
+            this.ShelfInter_Sig_6.Name = "ShelfInter_Sig_6";
+            this.ShelfInter_Sig_6.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_6.TabIndex = 11;
+            this.ShelfInter_Sig_6.Text = "■";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.Location = new System.Drawing.Point(43, 155);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(236, 26);
+            this.label81.TabIndex = 12;
+            this.label81.Text = "Shelf 7 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_7
+            // 
+            this.ShelfInter_Sig_7.AutoSize = true;
+            this.ShelfInter_Sig_7.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_7.Location = new System.Drawing.Point(20, 174);
+            this.ShelfInter_Sig_7.Name = "ShelfInter_Sig_7";
+            this.ShelfInter_Sig_7.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_7.TabIndex = 13;
+            this.ShelfInter_Sig_7.Text = "■";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.Location = new System.Drawing.Point(43, 176);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(236, 26);
+            this.label85.TabIndex = 14;
+            this.label85.Text = "Shelf 8 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_8
+            // 
+            this.ShelfInter_Sig_8.AutoSize = true;
+            this.ShelfInter_Sig_8.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_8.Location = new System.Drawing.Point(20, 195);
+            this.ShelfInter_Sig_8.Name = "ShelfInter_Sig_8";
+            this.ShelfInter_Sig_8.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_8.TabIndex = 15;
+            this.ShelfInter_Sig_8.Text = "■";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.Location = new System.Drawing.Point(43, 197);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(236, 26);
+            this.label89.TabIndex = 16;
+            this.label89.Text = "Shelf 9 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_9
+            // 
+            this.ShelfInter_Sig_9.AutoSize = true;
+            this.ShelfInter_Sig_9.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_9.Location = new System.Drawing.Point(20, 216);
+            this.ShelfInter_Sig_9.Name = "ShelfInter_Sig_9";
+            this.ShelfInter_Sig_9.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_9.TabIndex = 17;
+            this.ShelfInter_Sig_9.Text = "■";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.Location = new System.Drawing.Point(43, 218);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(247, 26);
+            this.label91.TabIndex = 18;
+            this.label91.Text = "Shelf 10 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_10
+            // 
+            this.ShelfInter_Sig_10.AutoSize = true;
+            this.ShelfInter_Sig_10.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_10.Location = new System.Drawing.Point(20, 237);
+            this.ShelfInter_Sig_10.Name = "ShelfInter_Sig_10";
+            this.ShelfInter_Sig_10.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_10.TabIndex = 19;
+            this.ShelfInter_Sig_10.Text = "■";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.Location = new System.Drawing.Point(43, 239);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(247, 26);
+            this.label93.TabIndex = 20;
+            this.label93.Text = "Shelf 11 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_11
+            // 
+            this.ShelfInter_Sig_11.AutoSize = true;
+            this.ShelfInter_Sig_11.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_11.Location = new System.Drawing.Point(20, 258);
+            this.ShelfInter_Sig_11.Name = "ShelfInter_Sig_11";
+            this.ShelfInter_Sig_11.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_11.TabIndex = 21;
+            this.ShelfInter_Sig_11.Text = "■";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.Location = new System.Drawing.Point(43, 260);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(247, 26);
+            this.label95.TabIndex = 22;
+            this.label95.Text = "Shelf 12 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_12
+            // 
+            this.ShelfInter_Sig_12.AutoSize = true;
+            this.ShelfInter_Sig_12.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_12.Location = new System.Drawing.Point(20, 279);
+            this.ShelfInter_Sig_12.Name = "ShelfInter_Sig_12";
+            this.ShelfInter_Sig_12.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_12.TabIndex = 23;
+            this.ShelfInter_Sig_12.Text = "■";
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.Location = new System.Drawing.Point(43, 281);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(247, 26);
+            this.label97.TabIndex = 24;
+            this.label97.Text = "Shelf 13 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_13
+            // 
+            this.ShelfInter_Sig_13.AutoSize = true;
+            this.ShelfInter_Sig_13.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_13.Location = new System.Drawing.Point(20, 300);
+            this.ShelfInter_Sig_13.Name = "ShelfInter_Sig_13";
+            this.ShelfInter_Sig_13.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_13.TabIndex = 25;
+            this.ShelfInter_Sig_13.Text = "■";
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.Location = new System.Drawing.Point(43, 302);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(247, 26);
+            this.label99.TabIndex = 26;
+            this.label99.Text = "Shelf 14 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_14
+            // 
+            this.ShelfInter_Sig_14.AutoSize = true;
+            this.ShelfInter_Sig_14.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_14.Location = new System.Drawing.Point(20, 321);
+            this.ShelfInter_Sig_14.Name = "ShelfInter_Sig_14";
+            this.ShelfInter_Sig_14.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_14.TabIndex = 27;
+            this.ShelfInter_Sig_14.Text = "■";
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label101.Location = new System.Drawing.Point(43, 323);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(247, 26);
+            this.label101.TabIndex = 28;
+            this.label101.Text = "Shelf 15 Arm Extend Enable";
+            // 
+            // ShelfInter_Sig_15
+            // 
+            this.ShelfInter_Sig_15.AutoSize = true;
+            this.ShelfInter_Sig_15.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShelfInter_Sig_15.Location = new System.Drawing.Point(20, 342);
+            this.ShelfInter_Sig_15.Name = "ShelfInter_Sig_15";
+            this.ShelfInter_Sig_15.Size = new System.Drawing.Size(29, 29);
+            this.ShelfInter_Sig_15.TabIndex = 29;
+            this.ShelfInter_Sig_15.Text = "■";
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.Inter_In_00);
+            this.groupBox13.Controls.Add(this.label31);
+            this.groupBox13.Controls.Add(this.label35);
+            this.groupBox13.Controls.Add(this.Inter_In_01);
+            this.groupBox13.Controls.Add(this.Inter_In_02);
+            this.groupBox13.Controls.Add(this.label59);
+            this.groupBox13.Controls.Add(this.Inter_In_03);
+            this.groupBox13.Controls.Add(this.label71);
+            this.groupBox13.Controls.Add(this.Inter_00_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_00_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_Sig_0);
+            this.groupBox13.Controls.Add(this.label13);
+            this.groupBox13.Controls.Add(this.Inter_12_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_12_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_15_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_11_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_15_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_11_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_14_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_10_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_14_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_10_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_13_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_13_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_09_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_09_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_08_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_08_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_07_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_07_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_06_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_06_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_05_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_05_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_04_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_04_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_03_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_03_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_02_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_02_on_btn);
+            this.groupBox13.Controls.Add(this.Inter_01_off_btn);
+            this.groupBox13.Controls.Add(this.Inter_01_on_btn);
+            this.groupBox13.Controls.Add(this.label9);
+            this.groupBox13.Controls.Add(this.label11);
+            this.groupBox13.Controls.Add(this.Inter_Sig_1);
+            this.groupBox13.Controls.Add(this.Inter_Sig_2);
+            this.groupBox13.Controls.Add(this.label17);
+            this.groupBox13.Controls.Add(this.Inter_Sig_3);
+            this.groupBox13.Controls.Add(this.label21);
+            this.groupBox13.Controls.Add(this.Inter_Sig_4);
+            this.groupBox13.Controls.Add(this.label25);
+            this.groupBox13.Controls.Add(this.Inter_Sig_5);
+            this.groupBox13.Controls.Add(this.label29);
+            this.groupBox13.Controls.Add(this.Inter_Sig_6);
+            this.groupBox13.Controls.Add(this.label33);
+            this.groupBox13.Controls.Add(this.Inter_Sig_7);
+            this.groupBox13.Controls.Add(this.label37);
+            this.groupBox13.Controls.Add(this.Inter_Sig_8);
+            this.groupBox13.Controls.Add(this.label41);
+            this.groupBox13.Controls.Add(this.Inter_Sig_9);
+            this.groupBox13.Controls.Add(this.label45);
+            this.groupBox13.Controls.Add(this.Inter_Sig_10);
+            this.groupBox13.Controls.Add(this.label49);
+            this.groupBox13.Controls.Add(this.Inter_Sig_11);
+            this.groupBox13.Controls.Add(this.label53);
+            this.groupBox13.Controls.Add(this.Inter_Sig_12);
+            this.groupBox13.Controls.Add(this.label57);
+            this.groupBox13.Controls.Add(this.Inter_Sig_13);
+            this.groupBox13.Controls.Add(this.label61);
+            this.groupBox13.Controls.Add(this.Inter_Sig_14);
+            this.groupBox13.Controls.Add(this.label65);
+            this.groupBox13.Controls.Add(this.Inter_Sig_15);
+            this.groupBox13.Location = new System.Drawing.Point(13, 3);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(462, 642);
+            this.groupBox13.TabIndex = 140;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "CST Robot";
+            // 
+            // Inter_In_00
+            // 
+            this.Inter_In_00.AutoSize = true;
+            this.Inter_In_00.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_00.Location = new System.Drawing.Point(20, 491);
+            this.Inter_In_00.Name = "Inter_In_00";
+            this.Inter_In_00.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_00.TabIndex = 181;
+            this.Inter_In_00.Text = "■";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(43, 515);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(268, 26);
+            this.label31.TabIndex = 176;
+            this.label31.Text = "FIMS-DC Arm Not Extend (NC)";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(43, 494);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(266, 26);
+            this.label35.TabIndex = 174;
+            this.label35.Text = "FIMS-CC Arm Not Extend (NC)";
+            // 
+            // Inter_In_01
+            // 
+            this.Inter_In_01.AutoSize = true;
+            this.Inter_In_01.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_01.Location = new System.Drawing.Point(20, 513);
+            this.Inter_In_01.Name = "Inter_In_01";
+            this.Inter_In_01.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_01.TabIndex = 175;
+            this.Inter_In_01.Text = "■";
+            // 
+            // Inter_In_02
+            // 
+            this.Inter_In_02.AutoSize = true;
+            this.Inter_In_02.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_02.Location = new System.Drawing.Point(20, 534);
+            this.Inter_In_02.Name = "Inter_In_02";
+            this.Inter_In_02.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_02.TabIndex = 177;
+            this.Inter_In_02.Text = "■";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(43, 536);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(255, 26);
+            this.label59.TabIndex = 178;
+            this.label59.Text = "SMIF-1 Arm Not Extend (NC)";
+            // 
+            // Inter_In_03
+            // 
+            this.Inter_In_03.AutoSize = true;
+            this.Inter_In_03.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_03.Location = new System.Drawing.Point(20, 555);
+            this.Inter_In_03.Name = "Inter_In_03";
+            this.Inter_In_03.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_03.TabIndex = 179;
+            this.Inter_In_03.Text = "■";
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.Location = new System.Drawing.Point(43, 557);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(255, 26);
+            this.label71.TabIndex = 180;
+            this.label71.Text = "SMIF-2 Arm Not Extend (NC)";
+            // 
+            // Inter_00_off_btn
+            // 
+            this.Inter_00_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_00_off_btn.Location = new System.Drawing.Point(402, 32);
+            this.Inter_00_off_btn.Name = "Inter_00_off_btn";
+            this.Inter_00_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_00_off_btn.TabIndex = 173;
+            this.Inter_00_off_btn.Text = "Off";
+            this.Inter_00_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_00_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_00_on_btn
+            // 
+            this.Inter_00_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_00_on_btn.Location = new System.Drawing.Point(350, 32);
+            this.Inter_00_on_btn.Name = "Inter_00_on_btn";
+            this.Inter_00_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_00_on_btn.TabIndex = 172;
+            this.Inter_00_on_btn.Text = "On";
+            this.Inter_00_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_00_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_Sig_0
+            // 
+            this.Inter_Sig_0.AutoSize = true;
+            this.Inter_Sig_0.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_0.Location = new System.Drawing.Point(20, 26);
+            this.Inter_Sig_0.Name = "Inter_Sig_0";
+            this.Inter_Sig_0.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_0.TabIndex = 171;
+            this.Inter_Sig_0.Text = "■";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(43, 345);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(193, 26);
+            this.label13.TabIndex = 170;
+            this.label13.Text = "SMIF-2 POS(Position)";
+            // 
+            // Inter_12_off_btn
+            // 
+            this.Inter_12_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_12_off_btn.Location = new System.Drawing.Point(402, 287);
+            this.Inter_12_off_btn.Name = "Inter_12_off_btn";
+            this.Inter_12_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_12_off_btn.TabIndex = 163;
+            this.Inter_12_off_btn.Text = "Off";
+            this.Inter_12_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_12_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_12_on_btn
+            // 
+            this.Inter_12_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_12_on_btn.Location = new System.Drawing.Point(350, 287);
+            this.Inter_12_on_btn.Name = "Inter_12_on_btn";
+            this.Inter_12_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_12_on_btn.TabIndex = 162;
+            this.Inter_12_on_btn.Text = "On";
+            this.Inter_12_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_12_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_15_off_btn
+            // 
+            this.Inter_15_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_15_off_btn.Location = new System.Drawing.Point(402, 350);
+            this.Inter_15_off_btn.Name = "Inter_15_off_btn";
+            this.Inter_15_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_15_off_btn.TabIndex = 153;
+            this.Inter_15_off_btn.Text = "Off";
+            this.Inter_15_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_15_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_11_off_btn
+            // 
+            this.Inter_11_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_11_off_btn.Location = new System.Drawing.Point(402, 266);
+            this.Inter_11_off_btn.Name = "Inter_11_off_btn";
+            this.Inter_11_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_11_off_btn.TabIndex = 161;
+            this.Inter_11_off_btn.Text = "Off";
+            this.Inter_11_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_11_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_15_on_btn
+            // 
+            this.Inter_15_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_15_on_btn.Location = new System.Drawing.Point(350, 350);
+            this.Inter_15_on_btn.Name = "Inter_15_on_btn";
+            this.Inter_15_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_15_on_btn.TabIndex = 152;
+            this.Inter_15_on_btn.Text = "On";
+            this.Inter_15_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_15_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_11_on_btn
+            // 
+            this.Inter_11_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_11_on_btn.Location = new System.Drawing.Point(350, 266);
+            this.Inter_11_on_btn.Name = "Inter_11_on_btn";
+            this.Inter_11_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_11_on_btn.TabIndex = 160;
+            this.Inter_11_on_btn.Text = "On";
+            this.Inter_11_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_11_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_14_off_btn
+            // 
+            this.Inter_14_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_14_off_btn.Location = new System.Drawing.Point(402, 328);
+            this.Inter_14_off_btn.Name = "Inter_14_off_btn";
+            this.Inter_14_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_14_off_btn.TabIndex = 151;
+            this.Inter_14_off_btn.Text = "Off";
+            this.Inter_14_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_14_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_10_off_btn
+            // 
+            this.Inter_10_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_10_off_btn.Location = new System.Drawing.Point(402, 244);
+            this.Inter_10_off_btn.Name = "Inter_10_off_btn";
+            this.Inter_10_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_10_off_btn.TabIndex = 159;
+            this.Inter_10_off_btn.Text = "Off";
+            this.Inter_10_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_10_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_14_on_btn
+            // 
+            this.Inter_14_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_14_on_btn.Location = new System.Drawing.Point(350, 328);
+            this.Inter_14_on_btn.Name = "Inter_14_on_btn";
+            this.Inter_14_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_14_on_btn.TabIndex = 150;
+            this.Inter_14_on_btn.Text = "On";
+            this.Inter_14_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_14_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_10_on_btn
+            // 
+            this.Inter_10_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_10_on_btn.Location = new System.Drawing.Point(350, 244);
+            this.Inter_10_on_btn.Name = "Inter_10_on_btn";
+            this.Inter_10_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_10_on_btn.TabIndex = 158;
+            this.Inter_10_on_btn.Text = "On";
+            this.Inter_10_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_10_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_13_off_btn
+            // 
+            this.Inter_13_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_13_off_btn.Location = new System.Drawing.Point(402, 307);
+            this.Inter_13_off_btn.Name = "Inter_13_off_btn";
+            this.Inter_13_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_13_off_btn.TabIndex = 149;
+            this.Inter_13_off_btn.Text = "Off";
+            this.Inter_13_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_13_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_13_on_btn
+            // 
+            this.Inter_13_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_13_on_btn.Location = new System.Drawing.Point(350, 307);
+            this.Inter_13_on_btn.Name = "Inter_13_on_btn";
+            this.Inter_13_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_13_on_btn.TabIndex = 148;
+            this.Inter_13_on_btn.Text = "On";
+            this.Inter_13_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_13_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_09_off_btn
+            // 
+            this.Inter_09_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_09_off_btn.Location = new System.Drawing.Point(402, 223);
+            this.Inter_09_off_btn.Name = "Inter_09_off_btn";
+            this.Inter_09_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_09_off_btn.TabIndex = 157;
+            this.Inter_09_off_btn.Text = "Off";
+            this.Inter_09_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_09_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_09_on_btn
+            // 
+            this.Inter_09_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_09_on_btn.Location = new System.Drawing.Point(350, 223);
+            this.Inter_09_on_btn.Name = "Inter_09_on_btn";
+            this.Inter_09_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_09_on_btn.TabIndex = 156;
+            this.Inter_09_on_btn.Text = "On";
+            this.Inter_09_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_09_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_08_off_btn
+            // 
+            this.Inter_08_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_08_off_btn.Location = new System.Drawing.Point(402, 203);
+            this.Inter_08_off_btn.Name = "Inter_08_off_btn";
+            this.Inter_08_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_08_off_btn.TabIndex = 155;
+            this.Inter_08_off_btn.Text = "Off";
+            this.Inter_08_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_08_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_08_on_btn
+            // 
+            this.Inter_08_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_08_on_btn.Location = new System.Drawing.Point(350, 203);
+            this.Inter_08_on_btn.Name = "Inter_08_on_btn";
+            this.Inter_08_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_08_on_btn.TabIndex = 154;
+            this.Inter_08_on_btn.Text = "On";
+            this.Inter_08_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_08_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_07_off_btn
+            // 
+            this.Inter_07_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_07_off_btn.Location = new System.Drawing.Point(402, 182);
+            this.Inter_07_off_btn.Name = "Inter_07_off_btn";
+            this.Inter_07_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_07_off_btn.TabIndex = 153;
+            this.Inter_07_off_btn.Text = "Off";
+            this.Inter_07_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_07_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_07_on_btn
+            // 
+            this.Inter_07_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_07_on_btn.Location = new System.Drawing.Point(350, 182);
+            this.Inter_07_on_btn.Name = "Inter_07_on_btn";
+            this.Inter_07_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_07_on_btn.TabIndex = 152;
+            this.Inter_07_on_btn.Text = "On";
+            this.Inter_07_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_07_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_06_off_btn
+            // 
+            this.Inter_06_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_06_off_btn.Location = new System.Drawing.Point(402, 160);
+            this.Inter_06_off_btn.Name = "Inter_06_off_btn";
+            this.Inter_06_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_06_off_btn.TabIndex = 151;
+            this.Inter_06_off_btn.Text = "Off";
+            this.Inter_06_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_06_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_06_on_btn
+            // 
+            this.Inter_06_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_06_on_btn.Location = new System.Drawing.Point(350, 160);
+            this.Inter_06_on_btn.Name = "Inter_06_on_btn";
+            this.Inter_06_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_06_on_btn.TabIndex = 150;
+            this.Inter_06_on_btn.Text = "On";
+            this.Inter_06_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_06_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_05_off_btn
+            // 
+            this.Inter_05_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_05_off_btn.Location = new System.Drawing.Point(402, 139);
+            this.Inter_05_off_btn.Name = "Inter_05_off_btn";
+            this.Inter_05_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_05_off_btn.TabIndex = 149;
+            this.Inter_05_off_btn.Text = "Off";
+            this.Inter_05_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_05_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_05_on_btn
+            // 
+            this.Inter_05_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_05_on_btn.Location = new System.Drawing.Point(350, 139);
+            this.Inter_05_on_btn.Name = "Inter_05_on_btn";
+            this.Inter_05_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_05_on_btn.TabIndex = 148;
+            this.Inter_05_on_btn.Text = "On";
+            this.Inter_05_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_05_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_04_off_btn
+            // 
+            this.Inter_04_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_04_off_btn.Location = new System.Drawing.Point(402, 117);
+            this.Inter_04_off_btn.Name = "Inter_04_off_btn";
+            this.Inter_04_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_04_off_btn.TabIndex = 147;
+            this.Inter_04_off_btn.Text = "Off";
+            this.Inter_04_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_04_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_04_on_btn
+            // 
+            this.Inter_04_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_04_on_btn.Location = new System.Drawing.Point(350, 117);
+            this.Inter_04_on_btn.Name = "Inter_04_on_btn";
+            this.Inter_04_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_04_on_btn.TabIndex = 146;
+            this.Inter_04_on_btn.Text = "On";
+            this.Inter_04_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_04_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_03_off_btn
+            // 
+            this.Inter_03_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_03_off_btn.Location = new System.Drawing.Point(402, 96);
+            this.Inter_03_off_btn.Name = "Inter_03_off_btn";
+            this.Inter_03_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_03_off_btn.TabIndex = 145;
+            this.Inter_03_off_btn.Text = "Off";
+            this.Inter_03_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_03_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_03_on_btn
+            // 
+            this.Inter_03_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_03_on_btn.Location = new System.Drawing.Point(350, 96);
+            this.Inter_03_on_btn.Name = "Inter_03_on_btn";
+            this.Inter_03_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_03_on_btn.TabIndex = 144;
+            this.Inter_03_on_btn.Text = "On";
+            this.Inter_03_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_03_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_02_off_btn
+            // 
+            this.Inter_02_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_02_off_btn.Location = new System.Drawing.Point(402, 74);
+            this.Inter_02_off_btn.Name = "Inter_02_off_btn";
+            this.Inter_02_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_02_off_btn.TabIndex = 143;
+            this.Inter_02_off_btn.Text = "Off";
+            this.Inter_02_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_02_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_02_on_btn
+            // 
+            this.Inter_02_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_02_on_btn.Location = new System.Drawing.Point(350, 74);
+            this.Inter_02_on_btn.Name = "Inter_02_on_btn";
+            this.Inter_02_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_02_on_btn.TabIndex = 142;
+            this.Inter_02_on_btn.Text = "On";
+            this.Inter_02_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_02_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // Inter_01_off_btn
+            // 
+            this.Inter_01_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_01_off_btn.Location = new System.Drawing.Point(402, 53);
+            this.Inter_01_off_btn.Name = "Inter_01_off_btn";
+            this.Inter_01_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.Inter_01_off_btn.TabIndex = 141;
+            this.Inter_01_off_btn.Text = "Off";
+            this.Inter_01_off_btn.UseVisualStyleBackColor = true;
+            this.Inter_01_off_btn.Click += new System.EventHandler(this.Inter_off_btn_Click);
+            // 
+            // Inter_01_on_btn
+            // 
+            this.Inter_01_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_01_on_btn.Location = new System.Drawing.Point(350, 53);
+            this.Inter_01_on_btn.Name = "Inter_01_on_btn";
+            this.Inter_01_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.Inter_01_on_btn.TabIndex = 140;
+            this.Inter_01_on_btn.Text = "On";
+            this.Inter_01_on_btn.UseVisualStyleBackColor = true;
+            this.Inter_01_on_btn.Click += new System.EventHandler(this.Inter_on_btn_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(43, 50);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(293, 26);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "FIMS-DC Arm Extend Enable (NC)";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(43, 29);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(291, 26);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "FIMS-CC Arm Extend Enable (NC)";
+            // 
+            // Inter_Sig_1
+            // 
+            this.Inter_Sig_1.AutoSize = true;
+            this.Inter_Sig_1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_1.Location = new System.Drawing.Point(20, 48);
+            this.Inter_Sig_1.Name = "Inter_Sig_1";
+            this.Inter_Sig_1.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_1.TabIndex = 1;
+            this.Inter_Sig_1.Text = "■";
+            // 
+            // Inter_Sig_2
+            // 
+            this.Inter_Sig_2.AutoSize = true;
+            this.Inter_Sig_2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_2.Location = new System.Drawing.Point(20, 69);
+            this.Inter_Sig_2.Name = "Inter_Sig_2";
+            this.Inter_Sig_2.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_2.TabIndex = 3;
+            this.Inter_Sig_2.Text = "■";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(43, 71);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(280, 26);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "SMIF-1 Arm Extend Enable (NC)";
+            // 
+            // Inter_Sig_3
+            // 
+            this.Inter_Sig_3.AutoSize = true;
+            this.Inter_Sig_3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_3.Location = new System.Drawing.Point(20, 90);
+            this.Inter_Sig_3.Name = "Inter_Sig_3";
+            this.Inter_Sig_3.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_3.TabIndex = 5;
+            this.Inter_Sig_3.Text = "■";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(43, 92);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(280, 26);
+            this.label21.TabIndex = 6;
+            this.label21.Text = "SMIF-2 Arm Extend Enable (NC)";
+            // 
+            // Inter_Sig_4
+            // 
+            this.Inter_Sig_4.AutoSize = true;
+            this.Inter_Sig_4.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_4.Location = new System.Drawing.Point(20, 111);
+            this.Inter_Sig_4.Name = "Inter_Sig_4";
+            this.Inter_Sig_4.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_4.TabIndex = 7;
+            this.Inter_Sig_4.Text = "■";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(43, 113);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(178, 26);
+            this.label25.TabIndex = 8;
+            this.label25.Text = "Trans. Port R-1(Top)";
+            // 
+            // Inter_Sig_5
+            // 
+            this.Inter_Sig_5.AutoSize = true;
+            this.Inter_Sig_5.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_5.Location = new System.Drawing.Point(20, 132);
+            this.Inter_Sig_5.Name = "Inter_Sig_5";
+            this.Inter_Sig_5.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_5.TabIndex = 9;
+            this.Inter_Sig_5.Text = "■";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(43, 134);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(178, 26);
+            this.label29.TabIndex = 10;
+            this.label29.Text = "Trans. Port R-2(Top)";
+            // 
+            // Inter_Sig_6
+            // 
+            this.Inter_Sig_6.AutoSize = true;
+            this.Inter_Sig_6.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_6.Location = new System.Drawing.Point(20, 153);
+            this.Inter_Sig_6.Name = "Inter_Sig_6";
+            this.Inter_Sig_6.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_6.TabIndex = 11;
+            this.Inter_Sig_6.Text = "■";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(43, 155);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(209, 26);
+            this.label33.TabIndex = 12;
+            this.label33.Text = "Top Cassette GV1 Open";
+            // 
+            // Inter_Sig_7
+            // 
+            this.Inter_Sig_7.AutoSize = true;
+            this.Inter_Sig_7.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_7.Location = new System.Drawing.Point(20, 174);
+            this.Inter_Sig_7.Name = "Inter_Sig_7";
+            this.Inter_Sig_7.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_7.TabIndex = 13;
+            this.Inter_Sig_7.Text = "■";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(43, 176);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(187, 26);
+            this.label37.TabIndex = 14;
+            this.label37.Text = "Trans. Port R-1(BTM)";
+            // 
+            // Inter_Sig_8
+            // 
+            this.Inter_Sig_8.AutoSize = true;
+            this.Inter_Sig_8.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_8.Location = new System.Drawing.Point(20, 195);
+            this.Inter_Sig_8.Name = "Inter_Sig_8";
+            this.Inter_Sig_8.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_8.TabIndex = 15;
+            this.Inter_Sig_8.Text = "■";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(43, 197);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(187, 26);
+            this.label41.TabIndex = 16;
+            this.label41.Text = "Trans. Port R-2(BTM)";
+            // 
+            // Inter_Sig_9
+            // 
+            this.Inter_Sig_9.AutoSize = true;
+            this.Inter_Sig_9.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_9.Location = new System.Drawing.Point(20, 216);
+            this.Inter_Sig_9.Name = "Inter_Sig_9";
+            this.Inter_Sig_9.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_9.TabIndex = 17;
+            this.Inter_Sig_9.Text = "■";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(43, 218);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(218, 26);
+            this.label45.TabIndex = 18;
+            this.label45.Text = "BTM Cassette GV2 Open";
+            // 
+            // Inter_Sig_10
+            // 
+            this.Inter_Sig_10.AutoSize = true;
+            this.Inter_Sig_10.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_10.Location = new System.Drawing.Point(20, 237);
+            this.Inter_Sig_10.Name = "Inter_Sig_10";
+            this.Inter_Sig_10.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_10.TabIndex = 19;
+            this.Inter_Sig_10.Text = "■";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(43, 239);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(246, 26);
+            this.label49.TabIndex = 20;
+            this.label49.Text = "SMIF-1 LLS(Lift Lock Status)";
+            // 
+            // Inter_Sig_11
+            // 
+            this.Inter_Sig_11.AutoSize = true;
+            this.Inter_Sig_11.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_11.Location = new System.Drawing.Point(20, 258);
+            this.Inter_Sig_11.Name = "Inter_Sig_11";
+            this.Inter_Sig_11.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_11.TabIndex = 21;
+            this.Inter_Sig_11.Text = "■";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Location = new System.Drawing.Point(43, 260);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(273, 26);
+            this.label53.TabIndex = 22;
+            this.label53.Text = "SMIF-1 LPS(Lift Present Status)";
+            // 
+            // Inter_Sig_12
+            // 
+            this.Inter_Sig_12.AutoSize = true;
+            this.Inter_Sig_12.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_12.Location = new System.Drawing.Point(20, 279);
+            this.Inter_Sig_12.Name = "Inter_Sig_12";
+            this.Inter_Sig_12.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_12.TabIndex = 23;
+            this.Inter_Sig_12.Text = "■";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Location = new System.Drawing.Point(43, 281);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(193, 26);
+            this.label57.TabIndex = 24;
+            this.label57.Text = "SMIF-1 POS(Position)";
+            // 
+            // Inter_Sig_13
+            // 
+            this.Inter_Sig_13.AutoSize = true;
+            this.Inter_Sig_13.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_13.Location = new System.Drawing.Point(20, 300);
+            this.Inter_Sig_13.Name = "Inter_Sig_13";
+            this.Inter_Sig_13.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_13.TabIndex = 25;
+            this.Inter_Sig_13.Text = "■";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(43, 302);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(246, 26);
+            this.label61.TabIndex = 26;
+            this.label61.Text = "SMIF-2 LLS(Lift Lock Status)";
+            // 
+            // Inter_Sig_14
+            // 
+            this.Inter_Sig_14.AutoSize = true;
+            this.Inter_Sig_14.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_14.Location = new System.Drawing.Point(20, 321);
+            this.Inter_Sig_14.Name = "Inter_Sig_14";
+            this.Inter_Sig_14.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_14.TabIndex = 27;
+            this.Inter_Sig_14.Text = "■";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.Location = new System.Drawing.Point(43, 323);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(273, 26);
+            this.label65.TabIndex = 28;
+            this.label65.Text = "SMIF-2 LPS(Lift Present Status)";
+            // 
+            // Inter_Sig_15
+            // 
+            this.Inter_Sig_15.AutoSize = true;
+            this.Inter_Sig_15.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_Sig_15.Location = new System.Drawing.Point(20, 342);
+            this.Inter_Sig_15.Name = "Inter_Sig_15";
+            this.Inter_Sig_15.Size = new System.Drawing.Size(29, 29);
+            this.Inter_Sig_15.TabIndex = 29;
+            this.Inter_Sig_15.Text = "■";
+            // 
+            // tabVIPInterlock
+            // 
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_10_off_btn);
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_10_on_btn);
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_09_off_btn);
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_09_on_btn);
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_08_off_btn);
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_08_on_btn);
+            this.tabVIPInterlock.Controls.Add(this.label73);
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_Sig_08);
+            this.tabVIPInterlock.Controls.Add(this.label77);
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_Sig_09);
+            this.tabVIPInterlock.Controls.Add(this.label69);
+            this.tabVIPInterlock.Controls.Add(this.VIPInter_Sig_10);
+            this.tabVIPInterlock.Location = new System.Drawing.Point(4, 33);
+            this.tabVIPInterlock.Name = "tabVIPInterlock";
+            this.tabVIPInterlock.Size = new System.Drawing.Size(987, 655);
+            this.tabVIPInterlock.TabIndex = 10;
+            this.tabVIPInterlock.Text = "VIP Robot Interlock";
+            this.tabVIPInterlock.UseVisualStyleBackColor = true;
+            // 
+            // VIPInter_10_off_btn
+            // 
+            this.VIPInter_10_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_10_off_btn.Location = new System.Drawing.Point(403, 68);
+            this.VIPInter_10_off_btn.Name = "VIPInter_10_off_btn";
+            this.VIPInter_10_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.VIPInter_10_off_btn.TabIndex = 181;
+            this.VIPInter_10_off_btn.Text = "Off";
+            this.VIPInter_10_off_btn.UseVisualStyleBackColor = true;
+            this.VIPInter_10_off_btn.Click += new System.EventHandler(this.VIPInter_off_btn_Click);
+            // 
+            // VIPInter_10_on_btn
+            // 
+            this.VIPInter_10_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_10_on_btn.Location = new System.Drawing.Point(351, 68);
+            this.VIPInter_10_on_btn.Name = "VIPInter_10_on_btn";
+            this.VIPInter_10_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.VIPInter_10_on_btn.TabIndex = 180;
+            this.VIPInter_10_on_btn.Text = "On";
+            this.VIPInter_10_on_btn.UseVisualStyleBackColor = true;
+            this.VIPInter_10_on_btn.Click += new System.EventHandler(this.VIPInter_on_btn_Click);
+            // 
+            // VIPInter_09_off_btn
+            // 
+            this.VIPInter_09_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_09_off_btn.Location = new System.Drawing.Point(403, 46);
+            this.VIPInter_09_off_btn.Name = "VIPInter_09_off_btn";
+            this.VIPInter_09_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.VIPInter_09_off_btn.TabIndex = 179;
+            this.VIPInter_09_off_btn.Text = "Off";
+            this.VIPInter_09_off_btn.UseVisualStyleBackColor = true;
+            this.VIPInter_09_off_btn.Click += new System.EventHandler(this.VIPInter_off_btn_Click);
+            // 
+            // VIPInter_09_on_btn
+            // 
+            this.VIPInter_09_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_09_on_btn.Location = new System.Drawing.Point(351, 46);
+            this.VIPInter_09_on_btn.Name = "VIPInter_09_on_btn";
+            this.VIPInter_09_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.VIPInter_09_on_btn.TabIndex = 178;
+            this.VIPInter_09_on_btn.Text = "On";
+            this.VIPInter_09_on_btn.UseVisualStyleBackColor = true;
+            this.VIPInter_09_on_btn.Click += new System.EventHandler(this.VIPInter_on_btn_Click);
+            // 
+            // VIPInter_08_off_btn
+            // 
+            this.VIPInter_08_off_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_08_off_btn.Location = new System.Drawing.Point(403, 25);
+            this.VIPInter_08_off_btn.Name = "VIPInter_08_off_btn";
+            this.VIPInter_08_off_btn.Size = new System.Drawing.Size(45, 21);
+            this.VIPInter_08_off_btn.TabIndex = 177;
+            this.VIPInter_08_off_btn.Text = "Off";
+            this.VIPInter_08_off_btn.UseVisualStyleBackColor = true;
+            this.VIPInter_08_off_btn.Click += new System.EventHandler(this.VIPInter_off_btn_Click);
+            // 
+            // VIPInter_08_on_btn
+            // 
+            this.VIPInter_08_on_btn.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_08_on_btn.Location = new System.Drawing.Point(351, 25);
+            this.VIPInter_08_on_btn.Name = "VIPInter_08_on_btn";
+            this.VIPInter_08_on_btn.Size = new System.Drawing.Size(46, 21);
+            this.VIPInter_08_on_btn.TabIndex = 176;
+            this.VIPInter_08_on_btn.Text = "On";
+            this.VIPInter_08_on_btn.UseVisualStyleBackColor = true;
+            this.VIPInter_08_on_btn.Click += new System.EventHandler(this.VIPInter_on_btn_Click);
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.Location = new System.Drawing.Point(44, 21);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(289, 26);
+            this.label73.TabIndex = 172;
+            this.label73.Text = "FIMS-CL Arm Extend Enable (NC)";
+            // 
+            // VIPInter_Sig_08
+            // 
+            this.VIPInter_Sig_08.AutoSize = true;
+            this.VIPInter_Sig_08.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_Sig_08.Location = new System.Drawing.Point(21, 19);
+            this.VIPInter_Sig_08.Name = "VIPInter_Sig_08";
+            this.VIPInter_Sig_08.Size = new System.Drawing.Size(29, 29);
+            this.VIPInter_Sig_08.TabIndex = 173;
+            this.VIPInter_Sig_08.Text = "■";
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.Location = new System.Drawing.Point(44, 42);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(291, 26);
+            this.label77.TabIndex = 174;
+            this.label77.Text = "FIMS-DL Arm Extend Enable (NC)";
+            // 
+            // VIPInter_Sig_09
+            // 
+            this.VIPInter_Sig_09.AutoSize = true;
+            this.VIPInter_Sig_09.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_Sig_09.Location = new System.Drawing.Point(21, 40);
+            this.VIPInter_Sig_09.Name = "VIPInter_Sig_09";
+            this.VIPInter_Sig_09.Size = new System.Drawing.Size(29, 29);
+            this.VIPInter_Sig_09.TabIndex = 175;
+            this.VIPInter_Sig_09.Text = "■";
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.Location = new System.Drawing.Point(44, 63);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(259, 26);
+            this.label69.TabIndex = 170;
+            this.label69.Text = "Boat Arm Extend Enable (NC)";
+            // 
+            // VIPInter_Sig_10
+            // 
+            this.VIPInter_Sig_10.AutoSize = true;
+            this.VIPInter_Sig_10.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPInter_Sig_10.Location = new System.Drawing.Point(21, 61);
+            this.VIPInter_Sig_10.Name = "VIPInter_Sig_10";
+            this.VIPInter_Sig_10.Size = new System.Drawing.Size(29, 29);
+            this.VIPInter_Sig_10.TabIndex = 171;
+            this.VIPInter_Sig_10.Text = "■";
+            // 
             // timer1
             // 
             this.timer1.Enabled = true;
@@ -3740,8 +4928,6 @@
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.pnlIO.ResumeLayout(false);
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox13.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.tabIO.ResumeLayout(false);
@@ -3763,6 +4949,13 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox48.ResumeLayout(false);
+            this.tabCSTInterlock.ResumeLayout(false);
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            this.tabVIPInterlock.ResumeLayout(false);
+            this.tabVIPInterlock.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3975,13 +5168,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.CheckBox BypassSafetyCheck_ck;
+        private System.Windows.Forms.TabPage tabCSTInterlock;
         private System.Windows.Forms.GroupBox groupBox13;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button Inter_00_off_btn;
+        private System.Windows.Forms.Button Inter_00_on_btn;
+        private System.Windows.Forms.Label Inter_Sig_0;
+        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button Inter_12_off_btn;
         private System.Windows.Forms.Button Inter_12_on_btn;
         private System.Windows.Forms.Button Inter_15_off_btn;
@@ -4012,10 +5204,6 @@
         private System.Windows.Forms.Button Inter_02_on_btn;
         private System.Windows.Forms.Button Inter_01_off_btn;
         private System.Windows.Forms.Button Inter_01_on_btn;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label75;
-        private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Label label79;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label Inter_Sig_1;
@@ -4046,12 +5234,112 @@
         private System.Windows.Forms.Label Inter_Sig_14;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label Inter_Sig_15;
+        private System.Windows.Forms.TabPage tabVIPInterlock;
+        private System.Windows.Forms.Button VIPInter_10_off_btn;
+        private System.Windows.Forms.Button VIPInter_10_on_btn;
+        private System.Windows.Forms.Button VIPInter_09_off_btn;
+        private System.Windows.Forms.Button VIPInter_09_on_btn;
+        private System.Windows.Forms.Button VIPInter_08_off_btn;
+        private System.Windows.Forms.Button VIPInter_08_on_btn;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.Label VIPInter_Sig_08;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Label VIPInter_Sig_09;
         private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label VIPInter_Sig_10;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.Label label103;
+        private System.Windows.Forms.Button ShelfInter_17_off_btn;
+        private System.Windows.Forms.Button ShelfInter_17_on_btn;
+        private System.Windows.Forms.Button ShelfInter_20_off_btn;
+        private System.Windows.Forms.Button ShelfInter_16_off_btn;
+        private System.Windows.Forms.Button ShelfInter_20_on_btn;
+        private System.Windows.Forms.Button ShelfInter_16_on_btn;
+        private System.Windows.Forms.Button ShelfInter_19_off_btn;
+        private System.Windows.Forms.Button ShelfInter_19_on_btn;
+        private System.Windows.Forms.Button ShelfInter_18_off_btn;
+        private System.Windows.Forms.Button ShelfInter_18_on_btn;
+        private System.Windows.Forms.Label ShelfInter_Sig_16;
+        private System.Windows.Forms.Label label105;
+        private System.Windows.Forms.Label ShelfInter_Sig_17;
+        private System.Windows.Forms.Label label107;
+        private System.Windows.Forms.Label ShelfInter_Sig_18;
+        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.Label ShelfInter_Sig_19;
+        private System.Windows.Forms.Label label111;
+        private System.Windows.Forms.Label ShelfInter_Sig_20;
+        private System.Windows.Forms.Button ShelfInter_00_off_btn;
+        private System.Windows.Forms.Button ShelfInter_00_on_btn;
+        private System.Windows.Forms.Label ShelfInter_Sig_0;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button ShelfInter_12_off_btn;
+        private System.Windows.Forms.Button ShelfInter_12_on_btn;
+        private System.Windows.Forms.Button ShelfInter_15_off_btn;
+        private System.Windows.Forms.Button ShelfInter_11_off_btn;
+        private System.Windows.Forms.Button ShelfInter_15_on_btn;
+        private System.Windows.Forms.Button ShelfInter_11_on_btn;
+        private System.Windows.Forms.Button ShelfInter_14_off_btn;
+        private System.Windows.Forms.Button ShelfInter_10_off_btn;
+        private System.Windows.Forms.Button ShelfInter_14_on_btn;
+        private System.Windows.Forms.Button ShelfInter_10_on_btn;
+        private System.Windows.Forms.Button ShelfInter_13_off_btn;
+        private System.Windows.Forms.Button ShelfInter_13_on_btn;
+        private System.Windows.Forms.Button ShelfInter_09_off_btn;
+        private System.Windows.Forms.Button ShelfInter_09_on_btn;
+        private System.Windows.Forms.Button ShelfInter_08_off_btn;
+        private System.Windows.Forms.Button ShelfInter_08_on_btn;
+        private System.Windows.Forms.Button ShelfInter_07_off_btn;
+        private System.Windows.Forms.Button ShelfInter_07_on_btn;
+        private System.Windows.Forms.Button ShelfInter_06_off_btn;
+        private System.Windows.Forms.Button ShelfInter_06_on_btn;
+        private System.Windows.Forms.Button ShelfInter_05_off_btn;
+        private System.Windows.Forms.Button ShelfInter_05_on_btn;
+        private System.Windows.Forms.Button ShelfInter_04_off_btn;
+        private System.Windows.Forms.Button ShelfInter_04_on_btn;
+        private System.Windows.Forms.Button ShelfInter_03_off_btn;
+        private System.Windows.Forms.Button ShelfInter_03_on_btn;
+        private System.Windows.Forms.Button ShelfInter_02_off_btn;
+        private System.Windows.Forms.Button ShelfInter_02_on_btn;
+        private System.Windows.Forms.Button ShelfInter_01_off_btn;
+        private System.Windows.Forms.Button ShelfInter_01_on_btn;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label ShelfInter_Sig_1;
+        private System.Windows.Forms.Label ShelfInter_Sig_2;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label ShelfInter_Sig_3;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label ShelfInter_Sig_4;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label ShelfInter_Sig_5;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label ShelfInter_Sig_6;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.Label ShelfInter_Sig_7;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Label ShelfInter_Sig_8;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.Label ShelfInter_Sig_9;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.Label ShelfInter_Sig_10;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label ShelfInter_Sig_11;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label ShelfInter_Sig_12;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.Label ShelfInter_Sig_13;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.Label ShelfInter_Sig_14;
+        private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.Label ShelfInter_Sig_15;
+        private System.Windows.Forms.Label Inter_In_00;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label Inter_In_01;
+        private System.Windows.Forms.Label Inter_In_02;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label Inter_In_03;
         private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Button Inter_00_off_btn;
-        private System.Windows.Forms.Button Inter_00_on_btn;
-        private System.Windows.Forms.Label Inter_Sig_0;
-        private System.Windows.Forms.Label label13;
     }
 }
 
