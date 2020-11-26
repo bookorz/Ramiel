@@ -773,6 +773,16 @@ namespace Ramiel
                         case 99:
                             FormMainUpdate.Update_IO("Inter_In_03", Target.GetIO("PRESENCE")[Pos] == 1 ? "InterOn" : "InterOff");
                             break;
+                        case 100:
+                            FormMainUpdate.Update_IO("Inter_In_04", Target.GetIO("PRESENCE")[Pos] == 1 ? "InterOn" : "InterOff");
+                            break;
+                        case 102:
+                            FormMainUpdate.Update_IO("Inter_In_06", Target.GetIO("PRESENCE")[Pos] == 1 ? "InterOn" : "InterOff");
+                            break;
+                        case 103:
+                            FormMainUpdate.Update_IO("Inter_In_07", Target.GetIO("PRESENCE")[Pos] == 1 ? "InterOn" : "InterOff");
+                            break;
+
                         case Presence.Shelf_1_1:
                         case Presence.Shelf_1_2:
                             if (Target.GetIO("PRESENCE")[Presence.Shelf_1_1] == 1 && Target.GetIO("PRESENCE")[Presence.Shelf_1_2] == 1)
