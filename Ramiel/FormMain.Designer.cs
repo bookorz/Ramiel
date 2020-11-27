@@ -322,6 +322,12 @@
             this.label101 = new System.Windows.Forms.Label();
             this.ShelfInter_Sig_15 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.Inter_In_07 = new System.Windows.Forms.Label();
+            this.Inter_In_06 = new System.Windows.Forms.Label();
+            this.Inter_In_04 = new System.Windows.Forms.Label();
             this.Inter_In_00 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
@@ -408,12 +414,6 @@
             this.label69 = new System.Windows.Forms.Label();
             this.VIPInter_Sig_10 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Inter_In_04 = new System.Windows.Forms.Label();
-            this.Inter_In_06 = new System.Windows.Forms.Label();
-            this.Inter_In_07 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
             this.groupBox49.SuspendLayout();
             this.groupBox47.SuspendLayout();
             this.groupBox6.SuspendLayout();
@@ -4019,6 +4019,66 @@
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "CST Robot";
             // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Location = new System.Drawing.Point(45, 588);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(115, 26);
+            this.label51.TabIndex = 187;
+            this.label51.Text = "Z axis Home";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(45, 559);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(116, 26);
+            this.label43.TabIndex = 186;
+            this.label43.Text = "X axis Home";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(45, 530);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(116, 26);
+            this.label15.TabIndex = 185;
+            this.label15.Text = "R axis Home";
+            // 
+            // Inter_In_07
+            // 
+            this.Inter_In_07.AutoSize = true;
+            this.Inter_In_07.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_07.Location = new System.Drawing.Point(20, 585);
+            this.Inter_In_07.Name = "Inter_In_07";
+            this.Inter_In_07.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_07.TabIndex = 184;
+            this.Inter_In_07.Text = "■";
+            // 
+            // Inter_In_06
+            // 
+            this.Inter_In_06.AutoSize = true;
+            this.Inter_In_06.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_06.Location = new System.Drawing.Point(20, 556);
+            this.Inter_In_06.Name = "Inter_In_06";
+            this.Inter_In_06.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_06.TabIndex = 183;
+            this.Inter_In_06.Text = "■";
+            // 
+            // Inter_In_04
+            // 
+            this.Inter_In_04.AutoSize = true;
+            this.Inter_In_04.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inter_In_04.Location = new System.Drawing.Point(20, 527);
+            this.Inter_In_04.Name = "Inter_In_04";
+            this.Inter_In_04.Size = new System.Drawing.Size(29, 29);
+            this.Inter_In_04.TabIndex = 182;
+            this.Inter_In_04.Text = "■";
+            // 
             // Inter_In_00
             // 
             this.Inter_In_00.AutoSize = true;
@@ -4924,66 +4984,6 @@
             this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Inter_In_04
-            // 
-            this.Inter_In_04.AutoSize = true;
-            this.Inter_In_04.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_In_04.Location = new System.Drawing.Point(20, 527);
-            this.Inter_In_04.Name = "Inter_In_04";
-            this.Inter_In_04.Size = new System.Drawing.Size(29, 29);
-            this.Inter_In_04.TabIndex = 182;
-            this.Inter_In_04.Text = "■";
-            // 
-            // Inter_In_06
-            // 
-            this.Inter_In_06.AutoSize = true;
-            this.Inter_In_06.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_In_06.Location = new System.Drawing.Point(20, 556);
-            this.Inter_In_06.Name = "Inter_In_06";
-            this.Inter_In_06.Size = new System.Drawing.Size(29, 29);
-            this.Inter_In_06.TabIndex = 183;
-            this.Inter_In_06.Text = "■";
-            // 
-            // Inter_In_07
-            // 
-            this.Inter_In_07.AutoSize = true;
-            this.Inter_In_07.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inter_In_07.Location = new System.Drawing.Point(20, 585);
-            this.Inter_In_07.Name = "Inter_In_07";
-            this.Inter_In_07.Size = new System.Drawing.Size(29, 29);
-            this.Inter_In_07.TabIndex = 184;
-            this.Inter_In_07.Text = "■";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(45, 530);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(116, 26);
-            this.label15.TabIndex = 185;
-            this.label15.Text = "R axis Home";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(45, 559);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(116, 26);
-            this.label43.TabIndex = 186;
-            this.label43.Text = "X axis Home";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(45, 588);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(115, 26);
-            this.label51.TabIndex = 187;
-            this.label51.Text = "Y axis Home";
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -4992,7 +4992,7 @@
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.tabMode);
             this.Name = "FormMain";
-            this.Text = "200mm Oven Tester Ver2.5";
+            this.Text = "200mm Oven Tester Ver2.07";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBox49.ResumeLayout(false);
             this.groupBox47.ResumeLayout(false);
